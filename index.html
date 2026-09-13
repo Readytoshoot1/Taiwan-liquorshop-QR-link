@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+<title>주류상점 QR코드 모음</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <h1>주류상점 QR코드 모음</h1>
+</header>
+
+<nav class="tabs" id="tabs"></nav>
+
+<main class="grid" id="grid"></main>
+
+<p class="empty" id="empty" hidden>해당 지역에 등록된 QR코드가 없습니다.</p>
+
+<div class="modal" id="modal" hidden>
+  <button class="modal-close" id="modalClose" aria-label="닫기">&times;</button>
+  <figure class="modal-content">
+    <img id="modalImg" src="" alt="" />
+    <figcaption id="modalCaption"></figcaption>
+  </figure>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
