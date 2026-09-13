@@ -127,9 +127,15 @@ body {
   font-size: 0.78rem;
 }
 
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+}
+
 .card-link {
   display: inline-block;
-  margin-top: 0.5rem;
   padding: 0.35rem 0.7rem;
   border-radius: 999px;
   background: var(--accent);
@@ -181,6 +187,13 @@ body {
   color: #fff;
   text-align: center;
   font-size: 1rem;
+}
+
+.modal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
 }
 
 .modal-link {

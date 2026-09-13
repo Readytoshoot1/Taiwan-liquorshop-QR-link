@@ -5,7 +5,7 @@ const modalEl = document.getElementById("modal");
 const modalImg = document.getElementById("modalImg");
 const modalCaption = document.getElementById("modalCaption");
 const modalClose = document.getElementById("modalClose");
-const modalLink = document.getElementById("modalLink");
+const modalLinks = document.getElementById("modalLinks");
 
 let items = [];
 let activeRegion = "전체";
@@ -58,15 +58,20 @@ function renderGrid() {
       <div class="card-region">${item.region}</div>
     `;
 
-    if (item.link) {
-      const linkBtn = document.createElement("a");
-      linkBtn.className = "card-link";
-      linkBtn.href = item.link;
-      linkBtn.target = "_blank";
-      linkBtn.rel = "noopener noreferrer";
-      linkBtn.textContent = "링크 바로 열기";
-      linkBtn.addEventListener("click", (e) => e.stopPropagation());
-      info.appendChild(linkBtn);
+    if (item.links && item.links.length) {
+      const linkRow = document.createElement("div");
+      linkRow.className = "card-links";
+      for (const { label, url } of item.links) {
+        const linkBtn = document.createElement("a");
+        linkBtn.className = "card-link";
+        linkBtn.href = url;
+        linkBtn.target = "_blank";
+        linkBtn.rel = "noopener noreferrer";
+        linkBtn.textContent = label;
+        linkBtn.addEventListener("click", (e) => e.stopPropagation());
+        linkRow.appendChild(linkBtn);
+      }
+      info.appendChild(linkRow);
     }
 
     card.appendChild(img);
@@ -80,8 +85,18 @@ function openModal(item) {
   modalImg.src = item.file;
   modalImg.alt = `${item.region} ${item.name} QR코드`;
   modalCaption.textContent = `${item.region} · ${item.name}`;
-  modalLink.hidden = !item.link;
-  if (item.link) modalLink.href = item.link;
+
+  modalLinks.innerHTML = "";
+  for (const { label, url } of item.links || []) {
+    const a = document.createElement("a");
+    a.className = "modal-link";
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = (item.links.length > 1 ? `${label} 바로 열기` : "링크 바로 열기");
+    modalLinks.appendChild(a);
+  }
+
   modalEl.hidden = false;
 }
 

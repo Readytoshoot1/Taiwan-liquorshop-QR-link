@@ -7,7 +7,7 @@
 - `index.html`, `style.css`, `script.js` — 페이지 본체
 - `images/` — QR코드 이미지 (`지역_가게이름.jpg` 형식)
 - `manifest.json` — `images/`를 스캔하고 QR코드를 디코딩해서 자동 생성되는 목록 파일 (직접 수정하지 말 것)
-- `generate_manifest.py` — QR코드 이미지 안의 실제 링크(LINE, Instagram 등)를 읽어 `manifest.json`을 다시 만들어주는 스크립트
+- `generate_manifest.py` — QR코드 이미지 안의 실제 링크(LINE, Instagram 등)를 읽어 `manifest.json`을 다시 만들어주는 스크립트. 한 이미지에 QR코드가 여러 개 있으면 전부 찾아서 `links` 목록에 저장한다.
 
 ## 새 QR코드 이미지 추가하는 법
 
@@ -25,7 +25,7 @@
    python generate_manifest.py
    ```
 
-   콘솔에 "디코딩 실패"로 나오는 파일이 있으면, `manifest.json`을 열어 해당 항목의 `link` 값을 직접 채워 넣는다.
+   콘솔에 "디코딩 실패"로 나오는 파일이 있으면, `manifest.json`을 열어 해당 항목의 `links` 값을 직접 채워 넣는다 (예: `"links": [{"label": "LINE", "url": "https://..."}]`).
 
 4. 변경사항을 GitHub에 반영한다.
 
