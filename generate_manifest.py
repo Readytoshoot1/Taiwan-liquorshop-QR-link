@@ -46,14 +46,21 @@ def decode_qr_all(path: Path) -> list[str]:
     if img is None:
         return []
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
+    enhanced = clahe.apply(gray)
 
     found = []
-    for scale in (1, 1.5, 2, 0.5):
-        resized = cv2.resize(gray, None, fx=scale, fy=scale, interpolation=cv2.INTER_CUBIC)
-        _, decoded_info, _, _ = detector.detectAndDecodeMulti(resized)
-        for data in decoded_info:
-            if data and data not in found:
-                found.append(data)
+    for base in (gray, enhanced):
+        for scale in (1, 1.5, 2, 0.5):
+            resized = cv2.resize(base, None, fx=scale, fy=scale, interpolation=cv2.INTER_CUBIC)
+            _, decoded_info, _, _ = detector.detectAndDecodeMulti(resized)
+            for data in decoded_info:
+                if data and data not in found:
+                    found.append(data)
+            # detectAndDecodeMulti가 종종 놓치는 케이스를 단일 디코더로 보완
+            single_data, _, _ = detector.detectAndDecode(resized)
+            if single_data and single_data not in found:
+                found.append(single_data)
     if found:
         return found
 
