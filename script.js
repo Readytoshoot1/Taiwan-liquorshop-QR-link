@@ -5,6 +5,7 @@ const modalEl = document.getElementById("modal");
 const modalImg = document.getElementById("modalImg");
 const modalCaption = document.getElementById("modalCaption");
 const modalClose = document.getElementById("modalClose");
+const modalLink = document.getElementById("modalLink");
 
 let items = [];
 let activeRegion = "전체";
@@ -57,6 +58,17 @@ function renderGrid() {
       <div class="card-region">${item.region}</div>
     `;
 
+    if (item.link) {
+      const linkBtn = document.createElement("a");
+      linkBtn.className = "card-link";
+      linkBtn.href = item.link;
+      linkBtn.target = "_blank";
+      linkBtn.rel = "noopener noreferrer";
+      linkBtn.textContent = "링크 바로 열기";
+      linkBtn.addEventListener("click", (e) => e.stopPropagation());
+      info.appendChild(linkBtn);
+    }
+
     card.appendChild(img);
     card.appendChild(info);
     card.addEventListener("click", () => openModal(item));
@@ -68,6 +80,8 @@ function openModal(item) {
   modalImg.src = item.file;
   modalImg.alt = `${item.region} ${item.name} QR코드`;
   modalCaption.textContent = `${item.region} · ${item.name}`;
+  modalLink.hidden = !item.link;
+  if (item.link) modalLink.href = item.link;
   modalEl.hidden = false;
 }
 

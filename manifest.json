@@ -1,42 +1,50 @@
 [
   {
-    "region": "불명",
-    "name": "금문영주행",
-    "file": "images/불명_금문영주행.jpg"
-  },
-  {
-    "region": "불명",
-    "name": "금배양주",
-    "file": "images/불명_금배양주.jpg"
-  },
-  {
-    "region": "불명",
+    "region": "타오위안",
     "name": "주원상행",
-    "file": "images/불명_주원상행.jpg"
+    "file": "images/타오위안_주원상행.jpg",
+    "link": "https://line.me/ti/p/5-J3zVtnAH"
   },
   {
-    "region": "불명",
-    "name": "포정",
-    "file": "images/불명_포정.jpg"
+    "region": "타이베이",
+    "name": "금배양주",
+    "file": "images/타이베이_금배양주.jpg",
+    "link": "https://line.me/ti/p/FXd-0Xhx5S"
   },
   {
     "region": "타이베이",
     "name": "안적위양주",
-    "file": "images/타이베이_안적위양주.jpg"
+    "file": "images/타이베이_안적위양주.jpg",
+    "link": "https://line.me/ti/p/aVE-prN091"
   },
   {
     "region": "타이베이",
     "name": "조조위스키",
-    "file": "images/타이베이_조조위스키.jpg"
+    "file": "images/타이베이_조조위스키.jpg",
+    "link": "https://lin.ee/yZh8gg7"
   },
   {
     "region": "타이베이",
     "name": "횡양주방",
-    "file": "images/타이베이_횡양주방.jpg"
+    "file": "images/타이베이_횡양주방.jpg",
+    "link": "https://lin.ee/BuIa7ET"
+  },
+  {
+    "region": "타이중",
+    "name": "금문영주행",
+    "file": "images/타이중_금문영주행.jpg",
+    "link": "https://line.me/ti/p/LwzV0JldDk"
   },
   {
     "region": "타이중",
     "name": "미스터위스키",
-    "file": "images/타이중_미스터위스키.jpg"
+    "file": "images/타이중_미스터위스키.jpg",
+    "link": "https://www.instagram.com/mrwhisky_store?igsh=MWY4eWRscGJma2c0Yw%3D%3D&utm_source=qr"
+  },
+  {
+    "region": "타이중",
+    "name": "포정양주",
+    "file": "images/타이중_포정양주.jpg",
+    "link": "https://lin.ee/qa92xCP"
   }
 ]
