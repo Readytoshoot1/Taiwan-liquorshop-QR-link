@@ -12,34 +12,12 @@
   },
   {
     "region": "불명",
-    "name": "길서주장",
-    "file": "images/불명_길서주장.png",
-    "links": [
-      {
-        "label": "LINE",
-        "url": "https://line.me/R/ti/p/@443qalzd"
-      }
-    ]
-  },
-  {
-    "region": "불명",
     "name": "무풍행양주",
     "file": "images/불명_무풍행양주.jpg",
     "links": [
       {
         "label": "LINE",
         "url": "https://line.me/ti/p/CEzAGubzHq"
-      }
-    ]
-  },
-  {
-    "region": "불명",
-    "name": "안덕위 양주",
-    "file": "images/불명_안덕위 양주.jpg",
-    "links": [
-      {
-        "label": "LINE",
-        "url": "https://line.me/ti/p/jUhfQWHU8L"
       }
     ]
   },
@@ -133,6 +111,28 @@
   },
   {
     "region": "타이베이",
+    "name": "길서주장",
+    "file": "images/타이베이_길서주장.jpg",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://lin.ee/keJSXMz"
+      }
+    ]
+  },
+  {
+    "region": "타이베이",
+    "name": "안덕위 양주",
+    "file": "images/타이베이_안덕위 양주.jpg",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://line.me/ti/p/jUhfQWHU8L"
+      }
+    ]
+  },
+  {
+    "region": "타이베이",
     "name": "안적위양주",
     "file": "images/타이베이_안적위양주.jpg",
     "links": [
@@ -166,8 +166,8 @@
   },
   {
     "region": "타이중",
-    "name": "금문영주행",
-    "file": "images/타이중_금문영주행.jpg",
+    "name": "금문연주행",
+    "file": "images/타이중_금문연주행.jpg",
     "links": [
       {
         "label": "LINE",
