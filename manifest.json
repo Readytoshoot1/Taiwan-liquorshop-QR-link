@@ -34,6 +34,17 @@
   },
   {
     "region": "타오위안",
+    "name": "위안주사",
+    "file": "images/타오위안_위안주사.jpg",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://line.me/ti/p/AOK3RiD2Zy"
+      }
+    ]
+  },
+  {
+    "region": "타오위안",
     "name": "주원상행",
     "file": "images/타오위안_주원상행.jpg",
     "links": [
@@ -128,6 +139,17 @@
       {
         "label": "LINE",
         "url": "https://line.me/ti/p/0u5Xn0nU_u"
+      }
+    ]
+  },
+  {
+    "region": "타이베이",
+    "name": "형구주업",
+    "file": "images/타이베이_형구주업.png",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://line.me/R/ti/p/h7VIX7fIIU"
       }
     ]
   },
