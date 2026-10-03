@@ -310,33 +310,6 @@ body {
   font-size: 0.85rem;
 }
 
-.scope-toggle {
-  display: flex;
-  justify-content: center;
-  gap: 0;
-  margin: 0 auto 0.75rem;
-  width: fit-content;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  overflow: hidden;
-  background: var(--card-bg);
-}
-
-.scope-btn {
-  border: none;
-  background: none;
-  color: var(--text);
-  padding: 0.5rem 1.4rem;
-  font-size: 0.9rem;
-  font-family: inherit;
-  cursor: pointer;
-}
-
-.scope-btn.active {
-  background: var(--accent);
-  color: var(--accent-contrast);
-}
-
 .travel-toolbar {
   max-width: 720px;
   margin: 0.75rem auto 0;

@@ -1,4 +1,3 @@
-const scopeBtns = document.querySelectorAll(".scope-btn");
 const categoryBtns = document.querySelectorAll("#travelCategoryTabs .tab-btn");
 const travelSearch = document.getElementById("travelSearch");
 const travelSort = document.getElementById("travelSort");
@@ -9,7 +8,6 @@ const travelEmpty = document.getElementById("travelEmpty");
 
 let places = [];
 const state = {
-  scope: "국내",
   category: "전체",
   query: "",
   sort: "recent",
@@ -18,16 +16,13 @@ const state = {
 
 function flatten(data) {
   const out = [];
-  for (const scope of ["국내", "해외"]) {
-    for (const [category, arr] of Object.entries(data[scope] || {})) {
-      for (const item of arr) {
-        out.push({ ...item, scope, category: item.category || category });
-      }
+  for (const [category, arr] of Object.entries(data["해외"] || {})) {
+    for (const item of arr) {
+      out.push({ ...item, category: item.category || category });
     }
   }
   for (const item of data["확인되지_않은_링크"] || []) {
     out.push({
-      scope: item.country,
       category: "미확인",
       name: "",
       subcategory: "",
@@ -66,7 +61,6 @@ function matchesQuery(item, query) {
 function applyFilters() {
   const query = state.query.trim().toLowerCase();
   const filtered = places.filter((item) => {
-    if (item.scope !== state.scope) return false;
     if (state.category !== "전체" && item.category !== state.category) return false;
     if (state.reviewOnly && !item.needs_review) return false;
     if (query && !matchesQuery(item, query)) return false;
@@ -120,14 +114,6 @@ function renderList() {
     travelList.appendChild(li);
   }
 }
-
-scopeBtns.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    state.scope = btn.dataset.scope;
-    scopeBtns.forEach((b) => b.classList.toggle("active", b === btn));
-    renderList();
-  });
-});
 
 categoryBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
