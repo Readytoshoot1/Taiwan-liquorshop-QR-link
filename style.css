@@ -274,3 +274,234 @@ body {
   cursor: pointer;
   padding: 0.25rem 0.5rem;
 }
+
+.main-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0 1rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+  max-width: 960px;
+  margin: 0 auto 1rem;
+}
+
+.main-tab {
+  border: none;
+  background: none;
+  color: var(--muted);
+  padding: 0.6rem 0.9rem;
+  font-size: 0.95rem;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.main-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.subtitle {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.scope-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin: 0 auto 0.75rem;
+  width: fit-content;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--card-bg);
+}
+
+.scope-btn {
+  border: none;
+  background: none;
+  color: var(--text);
+  padding: 0.5rem 1.4rem;
+  font-size: 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.scope-btn.active {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.travel-toolbar {
+  max-width: 720px;
+  margin: 0.75rem auto 0;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.travel-toolbar .search-input {
+  padding-left: 1.1rem;
+}
+
+.travel-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.select-input {
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card-bg);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.875rem;
+}
+
+.check-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.travel-count {
+  max-width: 720px;
+  margin: 0.75rem auto 0.25rem;
+  padding: 0 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.travel-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.travel-item {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.8rem 0.95rem;
+}
+
+.ti-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+  margin-bottom: 0.35rem;
+}
+
+.ti-badge,
+.ti-sub,
+.ti-review {
+  font-size: 0.72rem;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+}
+
+.ti-badge {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  font-weight: 600;
+}
+
+.ti-sub {
+  background: var(--bg);
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+
+.ti-review {
+  background: #fff3cd;
+  color: #7a5a00;
+}
+
+@media (prefers-color-scheme: dark) {
+  .ti-review {
+    background: #3a2f10;
+    color: #f0cf7a;
+  }
+}
+
+.ti-name {
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.98rem;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.ti-name:hover {
+  text-decoration: underline;
+}
+
+.ti-meta {
+  color: var(--muted);
+  font-size: 0.78rem;
+  margin-top: 0.25rem;
+}
+
+.ti-note {
+  margin-top: 0.45rem;
+  padding: 0.45rem 0.6rem;
+  background: var(--bg);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  white-space: pre-wrap;
+}
+
+.up-head {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.up-head p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.up-open {
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-contrast);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.up-frame {
+  display: block;
+  width: calc(100% - 2rem);
+  max-width: 960px;
+  height: 75vh;
+  min-height: 480px;
+  margin: 0 auto;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card-bg);
+}

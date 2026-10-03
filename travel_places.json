@@ -1,0 +1,1562 @@
+{
+  "description": "카카오톡 대화(Anjunam_talk)에서 추출한 장소 링크. 해외=Google Maps, 국내=Naver Map",
+  "국내": {
+    "호텔": [],
+    "음식점": [
+      {
+        "category": "음식점",
+        "name": "힛미업 (합정동)",
+        "subcategory": "바",
+        "map_url": "https://map.naver.com/p/entry/place/1195966367",
+        "chat_date": "2026.1.24",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "부산 해운대구 달맞이길62번길 12-2 1층",
+        "subcategory": "",
+        "map_url": "https://map.naver.com/p/entry/place/1846609453",
+        "chat_date": "2026.1.31",
+        "shared_by": "위스키 하는 튜변",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "공간더함",
+        "subcategory": "",
+        "map_url": "https://map.naver.com/p/entry/place/1057791060",
+        "chat_date": "2026.2.17",
+        "shared_by": "안주남",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "서울 강남구 학동로4길 50 1층",
+        "subcategory": "",
+        "map_url": "https://map.naver.com/p/entry/place/1326713568",
+        "chat_date": "2026.2.19",
+        "shared_by": "모바겜할게없다",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "부산 동구 중앙대로214번길 3-8 (뇸뇸)",
+        "subcategory": "",
+        "map_url": "https://map.naver.com/p/entry/place/13485911",
+        "chat_date": "2026.4.2",
+        "shared_by": "뇸뇸",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "웰씨키친 (서울 영등포구 도림로128길 4 3층)",
+        "subcategory": "",
+        "map_url": "https://map.naver.com/p/entry/place/1008265258",
+        "chat_date": "2026.4.17",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "1225바 (경기 고양시 일산동구 일산로463번길 77-7 1층)",
+        "subcategory": "바",
+        "map_url": "https://map.naver.com/p/entry/place/1756538470",
+        "chat_date": "2026.4.27",
+        "shared_by": "나부랭이",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "부산 중구 중구로33번길 45",
+        "subcategory": "",
+        "map_url": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%20%EC%A4%91%EA%B5%AC%20%EC%A4%91%EA%B5%AC%EB%A1%9C33%EB%B2%88%EA%B8%B8%2045",
+        "chat_date": "2026.1.31",
+        "shared_by": "박태건/경기/RG4",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "부산 중구 해관로 19-1",
+        "subcategory": "",
+        "map_url": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%20%EC%A4%91%EA%B5%AC%20%ED%95%B4%EA%B4%80%EB%A1%9C%2019-1",
+        "chat_date": "2026.1.31",
+        "shared_by": "박태건/경기/RG4",
+        "needs_review": true,
+        "note": ""
+      }
+    ],
+    "관광지": [
+      {
+        "category": "관광지",
+        "name": "청주 시엔 파티룸",
+        "subcategory": "파티룸",
+        "map_url": "https://map.naver.com/p/entry/place/1747648518",
+        "chat_date": "2026.8.17",
+        "shared_by": "안주남",
+        "needs_review": true,
+        "note": ""
+      }
+    ]
+  },
+  "해외": {
+    "호텔": [
+      {
+        "category": "호텔",
+        "name": "클릭호텔 타이베이 메인역점",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/100+%EB%8C%80%EB%A7%8C+Taipei+City,+Zhongzheng+District,+%E5%BF%A0%E5%AD%9D%E8%A5%BF%E8%B7%AF%E4%B8%80%E6%AE%B572%E8%99%9F1,+Zhongxiao+West+Road,+Zhongzheng+District,+Taipei+City+%ED%81%B4%EB%A6%AD%ED%98%B8%ED%85%94+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4%EB%A7%A4%EC%9D%B8%EC%97%AD%EC%A0%90+5%E6%A8%93+5F.,+No.+72,+Section",
+        "chat_date": "2026.2.11",
+        "shared_by": "건성",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "苓旅 站前 Lin Inn TMS",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/100+%EB%8C%80%EB%A7%8C+Taipei+City,+Zhongzheng+District,+%E5%BF%A0%E5%AD%9D%E8%A5%BF%E8%B7%AF%E4%B8%80%E6%AE%B572%E8%99%9F%E8%8B%93%E6%97%85-%E7%AB%99%E5%89%8DLin+Inn+TMS4%E6%A8%93",
+        "chat_date": "2026.2.11",
+        "shared_by": "건성",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "포르모사101 타이베이 메인 브랜치 (福爾摩莎北驛旅館)",
+        "subcategory": "호스텔",
+        "map_url": "https://www.google.com/maps/search/?api=1&query=%ED%8F%AC%EB%A5%B4%EB%AA%A8%EC%82%AC101%20%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4%20%EB%A9%94%EC%9D%B8%20%EB%B8%8C%EB%9E%9C%EC%B9%98%20%28%E7%A6%8F%E7%88%BE%E6%91%A9%E8%8E%8E%E5%8C%97%E9%A9%9B%E6%97%85%E9%A4%A8%29",
+        "chat_date": "2026.3.4",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "Hotel Leisure Taichung",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=Hotel+Leisure+Taichung,+No.+180%E8%99%9F,+Jianguo+Rd,+Central+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+400",
+        "chat_date": "2026.3.4",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "NYS 로프트 호텔 (타이베이)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/search/?api=1&query=NYS%20%EB%A1%9C%ED%94%84%ED%8A%B8%20%ED%98%B8%ED%85%94%20%28%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4%29",
+        "chat_date": "2026.3.31",
+        "shared_by": "위스키난봉꾼",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "Y Hotel Taipei (YMCA)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/Y+Hotel+Taipei+(YMCA),+No.+19,+Xuchang+St,+Zhongzheng+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+100",
+        "chat_date": "2026.3.31",
+        "shared_by": "뭉티기",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "아놀드 호텔 YA-NOLD HOT SPRING HOTEL (쟈오시)",
+        "subcategory": "온천호텔",
+        "map_url": "https://www.google.com/maps/place/%EC%95%84%EB%86%80%EB%93%9C+%ED%98%B8%ED%85%94+YA-NOLD+HOT+SPRING+HOTEL+No.+3%E8%99%9F,+Ren'ai+Rd,+Jiaoxi+Township,+Yilan+County,+%EB%8C%80%EB%A7%8C+262",
+        "chat_date": "2026.4.22",
+        "shared_by": "이세웅",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "Mayer Inn (타이베이)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=5F+Mayer+Inn+No.+50%E8%99%9F%E5%BF%A0%E5%AD%9D%E8%A5%BF%E8%B7%AF%E4%B8%80%E6%AE%B5%E4%B8%AD%E6%AD%A3%E5%8D%80+Zhongzheng+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+100",
+        "chat_date": "2026.6.21",
+        "shared_by": "장어먹은소",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "SOTETSU GRAND FRESA Taipei Ximen",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/1%E6%A8%93+SOTETSU+GRAND+FRESA+Taipei+Ximen,+No.+57%E8%99%9F,+Section+1,+Zhonghua+Rd,+Jianguo+Village,+Zhongzheng+District,+Taipei+City,+100",
+        "chat_date": "2026.6.21",
+        "shared_by": "타이중셰리밤",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "타이베이가든호텔",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4%EA%B0%80%EB%93%A0%ED%98%B8%ED%85%94/@25.0364686,121.5069266,1373m",
+        "chat_date": "2026.6.21",
+        "shared_by": "W",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "Norden Ruder Hostel (타이중)",
+        "subcategory": "호스텔",
+        "map_url": "https://www.google.com/maps?q=12%E6%A8%93+Norden+Ruder+Hostel,+No.+123%E8%99%9F,+Jianguo+Rd,+%E4%B8%AD%E5%8D%80+Central+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+400",
+        "chat_date": "2026.6.21",
+        "shared_by": "장어먹은소",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "센터 호텔 (가오슝)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=%EC%84%BC%ED%84%B0+%ED%98%B8%ED%85%94+No.+6%E8%99%9F,+Zhongzheng+4th+Rd,+Mingzhuang+Village,+Sinsing+District,+Kaohsiung+City,+%EB%8C%80%EB%A7%8C+800",
+        "chat_date": "2026.6.21",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "CHO 스테이 캡슐 호텔 (타오위안 에어포트 T2)",
+        "subcategory": "캡슐호텔",
+        "map_url": "https://www.google.com/maps/search/?api=1&query=CHO%20%EC%8A%A4%ED%85%8C%EC%9D%B4%20%EC%BA%A1%EC%8A%90%20%ED%98%B8%ED%85%94%20%28%ED%83%80%EC%98%A4%EC%9C%84%EC%95%88%20%EC%97%90%EC%96%B4%ED%8F%AC%ED%8A%B8%20T2%29",
+        "chat_date": "2026.7.1",
+        "shared_by": "쎄두랄두",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "신시 호텔 (타이베이)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=%EC%8B%A0+%EC%8B%9C+%ED%98%B8%ED%85%94+No.+8%E8%99%9F,+Minsheng+W+Rd,+Min'an+Village,+Zhongshan+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+10491",
+        "chat_date": "2026.7.14",
+        "shared_by": "안민호 (Manofairy-23)",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "Yidear Hotel (신좡)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=Yidear+Hotel,+No.+169%E8%99%9F,+Hougang+1st+Rd,+Fuying+Village,+Xinzhuang+District,+New+Taipei+City,+%EB%8C%80%EB%A7%8C+242",
+        "chat_date": "2026.7.16",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "Hotel Les Champs Hualien (화롄)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/Hotel+Les+Champs+Hualien,+No.+2%E8%99%9F,+Huagang+St,+Minzhu+Village,+Hualien+City,+Hualien+County,+%EB%8C%80%EB%A7%8C+970",
+        "chat_date": "2026.8.25",
+        "shared_by": "철수삼촌",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "53 호텔 (타이중)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=53+%ED%98%B8%ED%85%94+No.+27%E8%99%9F,+Zhongshan+Rd,+L%C3%BCchuan+Village,+Central+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+400",
+        "chat_date": "2026.9.1",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "트윈스타 호텔 (타이중)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=%ED%8A%B8%EC%9C%88%EC%8A%A4%ED%83%80+%ED%98%B8%ED%85%94+No.+158%E8%99%9F,+Section+4,+Fuxing+Rd,+Xinzhuang+Village,+East+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+401",
+        "chat_date": "2026.9.9",
+        "shared_by": "장어먹은소",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "미드타운 리처드슨 호텔",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EB%AF%B8%EB%93%9C%ED%83%80%EC%9A%B4%EB%A6%AC%EC%B2%98%EB%93%9C%EC%8A%A8+%ED%98%B8%ED%85%94+No.+4,+Xiushan+St,+Guangfu+Village,+Zhongzheng+District,+Taipei+City,+100",
+        "chat_date": "2026.9.21",
+        "shared_by": "타이중셰리밤",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "시저 메트로 호텔 타이페이",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%8B%9C%EC%A0%80+%EB%A9%94%ED%8A%B8%EB%A1%9C+%ED%98%B8%ED%85%94+%ED%83%80%EC%9D%B4%ED%8E%98%EC%9D%B4/@25.0334685,121.499823,20z",
+        "chat_date": "2026.10.1",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      }
+    ],
+    "음식점": [
+      {
+        "category": "음식점",
+        "name": "금하동 (金河洞 韓式烤肉)",
+        "subcategory": "한식(고기)",
+        "map_url": "https://www.google.com/maps/place/108+%EB%8C%80%EB%A7%8C+Taipei+City,+Wanhua+District,+Chengdu+Rd,+100%E4%B9%8B1%E8%99%9F+%EA%B8%88%ED%95%98%EB%8F%99(%E9%87%91%E6%B2%B3%E6%B4%9E-%E9%9F%93%E5%BC%8F%E7%83%A4%E8%82%89%E5%B0%88%E9%96%80%E5%BA%97)+1+%E6%A8%93",
+        "chat_date": "2026.2.2",
+        "shared_by": "임동환",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Kao Chi Xinsheng Restaurant (高記 신셩)",
+        "subcategory": "중식",
+        "map_url": "https://www.google.com/maps/place/Kao+Chi+Xinsheng+Restaurant,+No.+167%E8%99%9F,+Section+1,+Xinsheng+S+Rd,+Da%E2%80%99an+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+106",
+        "chat_date": "2026.2.2",
+        "shared_by": "건성",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "點水樓 (Dian Shui Lou)",
+        "subcategory": "중식",
+        "map_url": "https://www.google.com/maps?q=Dian+Shui+Lou,+No.+64%E8%99%9F,+Huaining+St,+Zhongzheng+District,+Taipei+City,+Taiwan+100",
+        "chat_date": "2026.2.2",
+        "shared_by": "Aidendad",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "칭징저훠궈 (타이중)",
+        "subcategory": "훠궈",
+        "map_url": "https://www.google.com/maps?q=%EC%B9%AD%EC%A7%95%EC%A0%80%ED%9B%A0%EA%B6%88+No.+276%E8%99%9F,+Gongyi+Rd,+West+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+403",
+        "chat_date": "2026.2.13",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "401 Taichung 아이스크림집 근처 (주소)",
+        "subcategory": "디저트",
+        "map_url": "https://www.google.com/maps?q=401+%EB%8C%80%EB%A7%8C+Taichung+City,+East+District,+Xinyi+St,+63%E8%99%9F%E5%A4%A9%E6%B4%A5%E8%8B%9F%E4%B8%8D%E7%90%86%E6%B9%AF%E5%8C%85",
+        "chat_date": "2026.2.13",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Sichuan She Xian Beef Noodle Restaurant",
+        "subcategory": "소고기국수",
+        "map_url": "https://www.google.com/maps?q=Sichuan+She+Xian+Beef+Noodle+Restaurant,+No.+181%E8%99%9F,+Section+4,+Fuxing+Rd,+East+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+401",
+        "chat_date": "2026.2.13",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Ke Kou Beef Noodles (可口牛肉麵)",
+        "subcategory": "소고기국수",
+        "map_url": "https://www.google.com/maps?q=Ke+Kou+Beef+Noodles,+No.+911%E8%99%9F,+Dadun+Rd,+Xitun+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+407",
+        "chat_date": "2026.3.2",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "타이중 406 (주소)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=406+%EB%8C%80%EB%A7%8C+Taichung+City,+Beitun+District,+Section+2,+Dongshan+Rd,+1%E8%99%9F%E7%AB%B9%E4%B9%8B%E9%84%89%E9%A2%A8%E5%91%B3%E9%A4%90%E5%BB%B3-%E5%A4%A7%E5%9D%91%E7%BE%8E%E9%A3%9F",
+        "chat_date": "2026.3.2",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "타이중 401 (주소)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=401+%EB%8C%80%EB%A7%8C+Taichung+City,+East+District,+Xinyi+St,+63%E8%99%9F%E5%A4%A9%E6%B4%A5%E8%8B%9F%E4%B8%8D%E7%90%86%E6%B9%AF%E5%8C%85",
+        "chat_date": "2026.3.2",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Chin Chih Yuan (Central)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=Chin+Chih+Yuan+(Central),+No.+170%E8%99%9F,+Chenggong+Rd,+Central+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+400",
+        "chat_date": "2026.3.2",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "타이중육원",
+        "subcategory": "육원",
+        "map_url": "https://www.google.com/maps?q=%ED%83%80%EC%9D%B4%EC%A4%91%EC%9C%A1%EC%9B%90+No.+529%E8%99%9F,+Section+3,+Fuxing+Rd,+South+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+402",
+        "chat_date": "2026.3.2",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "항주소롱탕포 (杭州小籠湯包)",
+        "subcategory": "샤오롱바오",
+        "map_url": "https://www.google.com/maps/place/%ED%95%AD%EC%A3%BC%EC%86%8C%EB%A1%B1%ED%83%95%ED%8F%AC+No.+19,+Section+2,+Hangzhou+S+Rd,+Da%E2%80%99an+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+106",
+        "chat_date": "2026.3.4",
+        "shared_by": "건성",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "태화 전통제과점",
+        "subcategory": "제과",
+        "map_url": "https://www.google.com/maps/place/%ED%83%9C%ED%99%94+%EC%A0%84%ED%86%B5%EC%A0%9C%EA%B3%BC%EC%A0%90+No.+47%E8%99%9F,+Chengdu+Rd,+Wanhua+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+108",
+        "chat_date": "2026.3.6",
+        "shared_by": "킹근육맨/춘천",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "月十二曲",
+        "subcategory": "디저트",
+        "map_url": "https://www.google.com/maps/place/105+%EB%8C%80%EB%A7%8C+Taipei+City,+Songshan+District,+Lane+74,+Section+3,+Bade+Rd,+6%E8%99%9F%E6%9C%88%E5%8D%81%E4%BA%8C%E6%9B%B2",
+        "chat_date": "2026.3.6",
+        "shared_by": "킹근육맨/춘천",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "春水堂 춘수당 버블티 원조집",
+        "subcategory": "디저트·버블티",
+        "map_url": "https://www.google.com/maps?q=%EC%B6%98%EC%88%98%EB%8B%B9+%EB%B2%84%EB%B8%94%ED%8B%B0+%EC%9B%90%EC%A1%B0%EC%A7%91+No.+30%E8%99%9F,+Siwei+St,+West+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+403",
+        "chat_date": "2026.3.17",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "해산어주 (타오위안 따위안구)",
+        "subcategory": "해산물·술",
+        "map_url": "https://www.google.com/maps/place/337+%EB%8C%80%EB%A7%8C+Taoyuan+City,+Dayuan+District,+Xinxing+Rd,+50%E8%99%9F+%ED%95%B4%EC%82%B0%EC%96%B4%EC%A3%BC",
+        "chat_date": "2026.3.31",
+        "shared_by": "스타로드",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Bar BoTa (오타루)",
+        "subcategory": "바",
+        "map_url": "https://www.google.com/maps?q=Bar+BoTa,+1+Chome-11-3+Hanazono,+Otaru,+Hokkaido+047-0024+%EC%9D%BC%EB%B3%B8",
+        "chat_date": "2026.4.15",
+        "shared_by": "시골아재",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "타이중 404 (주소)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=404+%EB%8C%80%EB%A7%8C+Taichung+City,+North+District,+Section+1,+Zhongqing+Rd,+381%E8%99%9F%E9%85%92%E4%BB%99%E8%80%81%E9%85%92%E6%94%B6%E8%B3%BC",
+        "chat_date": "2026.4.18",
+        "shared_by": "튠",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "朝朝暮暮招待所 (타이중 칭수이)",
+        "subcategory": "카페·바",
+        "map_url": "https://www.google.com/maps/place/436+%EB%8C%80%EB%A7%8C+Taichung+City,+Qingshui+District,+%E7%A6%8F%E5%9C%B3%E8%A1%97%E4%B8%80%E6%AE%B5217%E5%B7%B745%E8%99%9F%EF%B8%8F%E6%9C%9D%E6%9C%9D%E6%9A%AE%E6%9A%AE%E6%8B%9B%E5%BE%85%E6%89%80%E3%80%8A%E8%A1%8C%E5%89%8D%E8%AB%8B%E7%9C%8B%E5%81%9C%E8%BB%8A%E8%B3%87%E8%A8%8A%E5%96%94%E2%84%B9%EF%B8%8F%E7%84%A1%E9%A0%90%E7%B4%84%E3%80%81%E7%8F%BE%E9%87%91%E4%BB%98%E6%AC%BE%E3%80%81%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E3%80%81%E4%BA%BA%E7%94%9F%E4%BC%91%E6%81%AF%E7%AB%99%E3%80%8B",
+        "chat_date": "2026.4.19",
+        "shared_by": "팝콘 먹는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일갑자찬음 (타이베이 완화구)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/108+%EB%8C%80%EB%A7%8C+Taipei+City,+Wanhua+District,+Kangding+Rd,+79%E8%99%9F+%EC%9D%BC%EA%B0%91%EC%9E%90%EC%B0%AC%EC%9D%8C",
+        "chat_date": "2026.4.28",
+        "shared_by": "팝콘 먹는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Wang's Broth (타이베이)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=108+%EB%8C%80%EB%A7%8C+Taipei+City,+Wanhua+District,+Huaxi+St,+17%E4%B9%8B4%E8%99%9F%E6%94%A4%E4%BD%8D153%E8%99%9F+Wang%E2%80%99s+Broth",
+        "chat_date": "2026.4.28",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Liang Xi Hao 西園분점 (타이베이)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=Liang+Xi+Hao+Xiyuan+Branch,+No.+194%E8%99%9F,+Section+1,+Xiyuan+Rd,+Wanhua+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+108",
+        "chat_date": "2026.4.28",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "타이베이 중산구 (주소)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/10491,+Taipei+City,+Zhongshan+District,+Zhongyuan+Village,+Changchun+Rd,+112%E8%99%9F%E6%85%B6%E9%86%87+Whisky+112",
+        "chat_date": "2026.5.25",
+        "shared_by": "타이중셰리밤",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "小谷ビル (오사카 히가시신사이바시)",
+        "subcategory": "바",
+        "map_url": "https://www.google.com/maps/place/%EC%9D%BC%EB%B3%B8+%E3%80%92542-0083+Osaka,+Chuo+Ward,+Higashishinsaibashi,+2+Chome%E2%88%922%E2%88%9225-%EF%BC%91%E9%9A%8E+%E6%9D%B1%E5%BF%83%E6%96%8E%E6%A9%8B+%E5%B0%8F%E8%B0%B7%E3%83%93%E3%83%AB+LINXAS%E3%81%8A%E9%85%92%E8%B2%A9%E5%A3%B2%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B5%E3%82%B9%E5%A4%A7%E9%98%AA%E5%BF%83%E6%96%8E%E6%A9%8B%E5%BA%97",
+        "chat_date": "2026.5.28",
+        "shared_by": "모바겜할게없다",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "타이베이 다안구 (주소)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=106070+%EB%8C%80%EB%A7%8C+Taipei+City,+Da%E2%80%99an+District,+Guangwu+Village,+Section+1,+Fuxing+S+Rd,+141%E8%99%9F%E5%A8%81%E5%A3%AB%E5%BF%8C%E5%85%88%E7%94%9F+Mr.Whisky+%E5%8F%B0%E5%8C%97%E5%BE%A9%E8%88%88%E5%BA%97+%E7%B2%BE%E5%93%81%E5%A8%81%E5%A3%AB%E5%BF%8C%E5%B0%88%E8%B3%A31%E6%A8%93",
+        "chat_date": "2026.6.2",
+        "shared_by": "띠디 / 경기",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "위안린 (장화현) 음식점 (주소)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/510+%EB%8C%80%EB%A7%8C+Changhua+County,+Yuanlin+City,+Xidong+Village,+Section+2,+Fuzhen+Rd,+25%E8%99%9F%E5%8D%9A%E9%85%92%E8%90%8A%E6%B4%8B%E9%85%92",
+        "chat_date": "2026.6.16",
+        "shared_by": "안주남",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Nossa (헝춘 컨딩)",
+        "subcategory": "양식",
+        "map_url": "https://www.google.com/maps?q=Nossa,+No.+329%E8%99%9F,+Kending+Rd,+Kending+Village,+Hengchun+Township,+Pingtung+County,+%EB%8C%80%EB%A7%8C+946",
+        "chat_date": "2026.7.8",
+        "shared_by": "데구르르/평택",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "木木木木木呷冰 (타이중)",
+        "subcategory": "빙수",
+        "map_url": "https://www.google.com/maps?q=403+%EB%8C%80%EB%A7%8C+Taichung+City,+West+District,+Sanmin+Village,+Linsen+Rd,+71%E8%99%9F%E6%9C%A8%E6%9C%A8%E6%9C%A8%E6%9C%A8%E6%9C%A8%E5%91%B7%E5%86%B0",
+        "chat_date": "2026.7.30",
+        "shared_by": "뇸뇸",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Yan snow snow ice store (타이중)",
+        "subcategory": "빙수",
+        "map_url": "https://www.google.com/maps/place/Yan+snow+snow+ice+store,+No.+28-1%E8%99%9F,+Xinyi+St,+Yangming+Village,+Fengyuan+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+420",
+        "chat_date": "2026.7.31",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "시먼 망고빙수",
+        "subcategory": "빙수",
+        "map_url": "https://www.google.com/maps/place/%EC%8B%9C%EB%A8%BC%EB%A7%9D%EA%B3%A0%EB%B9%99%EC%88%98+No.+17%E8%99%9F,+Hanzhong+St,+Wanshou+Village,+Wanhua+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+108",
+        "chat_date": "2026.8.4",
+        "shared_by": "CLARET",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "秘方雪人兄弟 永康小分行",
+        "subcategory": "빙수",
+        "map_url": "https://www.google.com/maps/place/106+%EB%8C%80%EB%A7%8C+Taipei+City,+Da%E2%80%99an+District,+Jin'an+Village,+Jinhua+St,+156%E8%99%9F%E7%A7%98%E6%96%B9%E9%9B%AA%E4%BA%BA%E5%85%84%E5%BC%9F+%E6%B0%B8%E5%BA%B7%E5%B0%8F%E5%88%86%E8%A1%8C",
+        "chat_date": "2026.8.4",
+        "shared_by": "CLARET",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Chun Mei Ice Shop",
+        "subcategory": "빙수",
+        "map_url": "https://www.google.com/maps/place/Chun+Mei+Ice+Shop,+No.+54%E8%99%9F,+Lane+120,+Dunhua+N+Rd,+Zhongzheng+Village,+Songshan+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+105",
+        "chat_date": "2026.8.4",
+        "shared_by": "CLARET",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "타이중 Donggang 18 (주소, 핑둥현)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/928+%EB%8C%80%EB%A7%8C+Pingtung+County,+Donggang+Township,+Xinsheng+Village,+Xinsheng+St,+180%E8%99%9F%E8%A3%95%E9%99%9E%E6%B4%8B%E9%85%92%E6%9D%B1%E6%B8%AF%E7%B8%BD%E5%BA%97",
+        "chat_date": "2026.8.7",
+        "shared_by": "냥밤tv",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "紅昌吉豬血湯",
+        "subcategory": "국물요리",
+        "map_url": "https://www.google.com/maps/place/%E7%B4%85%E6%98%8C%E5%90%89%E8%B1%AC%E8%A1%80%E6%B9%AF/@25.0651985,121.5204503,17.5z",
+        "chat_date": "2026.8.11",
+        "shared_by": "이세웅",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Lin's Vegetable Lamb Hot Pot (타이중)",
+        "subcategory": "훠궈",
+        "map_url": "https://www.google.com/maps?q=Lin's+Vegetable+Lamb+Hot+Pot,+No.+327%E8%99%9F,+Jilin+Rd,+Xinfu+Village,+Zhongshan+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+104",
+        "chat_date": "2026.8.11",
+        "shared_by": "데구르르/평택",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "곱창국수",
+        "subcategory": "국수",
+        "map_url": "https://www.google.com/maps/place/%EA%B3%B1%EC%B0%BD%EA%B5%AD%EC%88%98/@25.060169,121.5097518,15.72z",
+        "chat_date": "2026.8.11",
+        "shared_by": "장어먹은소",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Mong Kok Stone Hot Pot",
+        "subcategory": "훠궈",
+        "map_url": "https://www.google.com/maps/place/Mong+Kok+Stone+Hot+Pot/@25.0455196,121.5090007,21z",
+        "chat_date": "2026.8.11",
+        "shared_by": "이세웅",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Shin Yeh Taiwanese Signature (타이중)",
+        "subcategory": "대만요리",
+        "map_url": "https://www.google.com/maps?q=Shin+Yeh+Taiwanese+Signature,+No.+199%E8%99%9F,+Lequn+2nd+Rd,+Jintai+Village,+Zhongshan+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+10491",
+        "chat_date": "2026.8.11",
+        "shared_by": "데구르르/평택",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "福記鮮牛肉湯 (타이중)",
+        "subcategory": "국물요리",
+        "map_url": "https://www.google.com/maps/place/407+%EB%8C%80%EB%A7%8C+Taichung+City,+Xitun+District,+He'an+Village,+Ganzhou+St,+1%E8%99%9F+%E7%A6%8F%E8%A8%98%E9%AE%AE%E7%89%9B%E8%82%89%E6%B9%AF",
+        "chat_date": "2026.8.11",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "月娥鴨肉 (가오슝 계열)",
+        "subcategory": "오리요리",
+        "map_url": "https://www.google.com/maps/place/%E6%9C%88%E5%A8%A5%E9%B4%A8%E8%82%89/@22.6074747,120.2960816,14.83z",
+        "chat_date": "2026.8.12",
+        "shared_by": "이세웅",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "난펑루 러우판",
+        "subcategory": "국물요리",
+        "map_url": "https://www.google.com/maps/place/%EB%82%9C%ED%8E%91%EB%A3%A8%EB%9F%AC%EC%9A%B0%ED%8C%90/@22.6074747,120.2960816,14.83z",
+        "chat_date": "2026.8.12",
+        "shared_by": "이세웅",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "후덕복",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%ED%9B%84%EB%8D%95%EB%B3%B5/@22.61633,120.2995938,17.33z",
+        "chat_date": "2026.8.12",
+        "shared_by": "이세웅",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Gros Bec 法式烤雞專門 (타이베이)",
+        "subcategory": "프렌치 치킨",
+        "map_url": "https://www.google.com/maps/place/Gros+Bec+%E6%B3%95%E5%BC%8F%E7%83%A4%E9%9B%9E%E5%B0%88%E9%96%80,+No.+28-2%E8%99%9F,+Wanquan+St,+Shuanglian+Village,+Datong+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+103",
+        "chat_date": "2026.8.12",
+        "shared_by": "CLARET",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "2F Taoran Ting Restaurant (타이중)",
+        "subcategory": "대만요리",
+        "map_url": "https://www.google.com/maps?q=2F+Taoran+Ting+Restaurant,+No.+86,+Fuxing+N+Rd,+Lixing+Village,+Zhongshan+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+104",
+        "chat_date": "2026.8.16",
+        "shared_by": "데구르르/평택",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "泰順小籠湯包 (이란)",
+        "subcategory": "샤오롱바오",
+        "map_url": "https://www.google.com/maps?q=260+%EB%8C%80%EB%A7%8C+Yilan+County,+Yilan+City,+Daxin+Village,+Xinmin+Rd,+30%E8%99%9F%E6%B3%B0%E9%A0%86%E5%B0%8F%E7%B1%A0%E6%B9%AF%E5%8C%85+(%E6%AF%8F%E9%80%B1%E4%B8%89%E5%85%AC%E4%BC%91%EF%BC%89",
+        "chat_date": "2026.8.26",
+        "shared_by": "쎄두랄두",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "來來牛排 (타이중 사루)",
+        "subcategory": "스테이크",
+        "map_url": "https://www.google.com/maps/place/433%E8%87%BA%E4%B8%AD%E5%B8%82%E6%B2%99%E9%B9%BF%E5%8D%80%E5%B1%85%E4%BB%81%E9%87%8C%E5%92%8C%E5%B9%B3%E8%A1%9738-2%E8%99%9F%E4%BE%86%E4%BE%86%E7%89%9B%E6%8E%92(%E5%8E%9F%E6%B2%99%E9%B9%BF%E5%B8%82%E5%A0%B4%E5%8F%A3)",
+        "chat_date": "2026.8.29",
+        "shared_by": "철수삼촌",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "스타라이트빌 (오사카 히가시신사이바시)",
+        "subcategory": "바",
+        "map_url": "https://www.google.com/maps?q=%EC%9D%BC%EB%B3%B8+%E3%80%92542-0083+Osaka,+Chuo+Ward,+Higashishinsaibashi,+2+Chome%E2%88%923%E2%88%9213+%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88%E3%83%93%E3%83%AB+1%E9%9A%8E1%E5%8F%B7+Whisky+Bar+Aiba+Osaka+Shinsaibashi%E3%80%90%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC%E5%B0%82%E9%96%80%E5%BA%97%E7%9B%B8%E8%91%89+%E5%A4%A7%E9%98%AA%E5%BF%83%E6%96%8E%E6%A9%8B%E3%80%91",
+        "chat_date": "2026.9.8",
+        "shared_by": "리펜",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "附近食堂 (타이중)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/400+%EB%8C%80%EB%A7%8C+Taichung+City,+Central+District,+Gongyuan+Village,+Shifu+Rd,+125%E8%99%9F%E9%99%84%E8%BF%91%E9%A3%9F%E5%A0%82%E3%80%90%E4%B8%8D%E6%8F%90%E4%BE%9B%E8%A8%82%E4%BD%8D%E3%80%911%E6%A8%93",
+        "chat_date": "2026.9.9",
+        "shared_by": "이세웅",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "(신베이 반차오구 주소)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/22066+%EB%8C%80%EB%A7%8C+New+Taipei+City,+Banqiao+District,+Chang'an+Village,+Banxin+Rd,+83%E8%99%9F%E6%B7%B3%E7%BA%95%E6%B4%8B%E9%85%92%E5%B0%88%E8%B3%A3%E5%BA%97",
+        "chat_date": "2026.9.15",
+        "shared_by": "안주남",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Xiang Duck 진산남점 (타이베이)",
+        "subcategory": "오리요리",
+        "map_url": "https://www.google.com/maps?q=2%E6%A8%93+Xiang+Duck+Taipei+Jinshan+South+Branch,+No.+2%E8%99%9F,+Section+2,+Jinshan+S+Rd,+Guangming+Village,+Da%E2%80%99an+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+106",
+        "chat_date": "2026.9.19",
+        "shared_by": "준비된사수",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "황성노마 (타이베이 다안구)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps?q=106+%EB%8C%80%EB%A7%8C+Taipei+City,+Da%E2%80%99an+District,+Huasheng+Village,+Lane+97,+Yanji+St,+5%E8%99%9F+%ED%99%A9%EC%84%B1%EB%85%B8%EB%A7%88",
+        "chat_date": "2026.9.19",
+        "shared_by": "장어먹은소",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "상인수산 (해산물요리, 타이베이)",
+        "subcategory": "해산물",
+        "map_url": "https://www.google.com/maps?q=%EC%83%81%EC%9D%B8%EC%88%98%EC%82%B0(%ED%95%B4%EC%82%B0%EB%AC%BC%EC%9A%94%EB%A6%AC)+No.+18%E8%99%9F,+Alley+2,+Lane+410,+Minzu+E+Rd,+Xingxiao+Village,+Zhongshan+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+10491",
+        "chat_date": "2026.9.19",
+        "shared_by": "장어먹은소",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "雅香石頭火鍋 西門總店 (타이베이)",
+        "subcategory": "훠궈",
+        "map_url": "https://www.google.com/maps?q=10844+%EB%8C%80%EB%A7%8C+Taipei+City,+Wanhua+District,+Ximen+Village,+Chengdu+Rd,+159%E8%99%9F%E9%9B%85%E9%A6%99%E7%9F%B3%E9%A0%AD%E7%81%AB%E9%8D%8B(%E8%A5%BF%E9%96%80%E7%B8%BD%E5%BA%97)",
+        "chat_date": "2026.9.20",
+        "shared_by": "장어먹은소",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "正豪季水餃 忠孝西路店",
+        "subcategory": "만두",
+        "map_url": "https://www.google.com/maps/place/100+%EB%8C%80%EB%A7%8C+Taipei+City,+Zhongzheng+District,+Liming+Village,+Lane+29,+Section+1,+Zhongxiao+W+Rd,+1%E8%99%9F%E6%AD%A3%E8%B1%AA%E5%AD%A3%E6%B0%B4%E9%A4%83%EF%BC%88%E5%BF%A0%E5%AD%9D%E8%A5%BF%E8%B7%AF%E5%BA%97%EF%BC%89",
+        "chat_date": "2026.9.20",
+        "shared_by": "건성",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "king food spicy mala (타이베이)",
+        "subcategory": "마라",
+        "map_url": "https://www.google.com/maps/place/1%E6%A8%93+king+food+spicy+mala,+No.+192%E8%99%9F,+Section+1,+Zhonghua+Rd,+%E8%90%AC%E8%8F%AF%E5%8D%80+Wanhua+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+108",
+        "chat_date": "2026.9.20",
+        "shared_by": "건성",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Yongchuan Beef Noodle Restaurant (타오위안)",
+        "subcategory": "소고기국수",
+        "map_url": "https://www.google.com/maps/place/Yongchuan+Beef+Noodle+Restaurant,+No.+61-1%E8%99%9F,+Minquan+Rd,+Jiuming+Village,+Zhongli+District,+Taoyuan+City,+%EB%8C%80%EB%A7%8C+320",
+        "chat_date": "2026.9.22",
+        "shared_by": "CLARET",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "亞美豆漿大王 (중리)",
+        "subcategory": "아침식사",
+        "map_url": "https://www.google.com/maps/place/320+%EB%8C%80%EB%A7%8C+Taoyuan+City,+Zhongli+District,+Yongguang+Village,+Section+2,+Minquan+Rd,+27%E8%99%9F%E4%BA%9E%E7%BE%8E%E8%B1%86%E6%BC%BF%E5%A4%A7%E7%8E%8B",
+        "chat_date": "2026.9.22",
+        "shared_by": "CLARET",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "里歐歐式早餐 中壢民權店",
+        "subcategory": "아침식사",
+        "map_url": "https://www.google.com/maps/place/320+%EB%8C%80%EB%A7%8C+Taoyuan+City,+Zhongli+District,+Guangming+Village,+Minquan+Rd,+360%E8%99%9F%E9%87%8C%E6%AD%90%E6%AD%90%E5%BC%8F%E6%97%A9%E9%A4%90-%E4%B8%AD%E5%A3%A2%E6%B0%91%E6%AC%8A%E5%BA%97",
+        "chat_date": "2026.9.22",
+        "shared_by": "CLARET",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "바 타마히코 (이케부쿠로)",
+        "subcategory": "바",
+        "map_url": "https://www.google.com/maps/place/%EB%B0%94+%ED%83%80%EB%A7%88%ED%9E%88%EC%BD%94+%EF%BC%B9%EF%BC%AB%E3%83%93%E3%83%AB+%EF%BC%93F+2+Chome-4-2+Ikebukuro,+Toshima+City,+Tokyo+171-0014+%EC%9D%BC%EB%B3%B8",
+        "chat_date": "2026.9.25",
+        "shared_by": "모바겜할게없다",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "金春發牛肉 天水路總店",
+        "subcategory": "소고기",
+        "map_url": "https://www.google.com/maps/place/103+%EB%8C%80%EB%A7%8C+Taipei+City,+Datong+District,+Jiangong+Village,+Tianshui+Rd,+20%E8%99%9F%E9%87%91%E6%98%A5%E7%99%BC%E7%89%9B%E8%82%89%E7%99%BE%E5%B9%B4%E8%80%81%E5%BA%97%E5%A4%A9%E6%B0%B4%E8%B7%AF%E7%B8%BD%E5%BA%97",
+        "chat_date": "2026.9.30",
+        "shared_by": "이세웅",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "碗粿之家 (타이베이)",
+        "subcategory": "대만요리",
+        "map_url": "https://www.google.com/maps/place/103+%EB%8C%80%EB%A7%8C+Taipei+City,+Datong+District,+Jiangong+Village,+Lane+177,+Chang'an+W+Rd,+1%E8%99%9F%E7%A2%97%E7%B2%BF%E4%B9%8B%E5%AE%B6",
+        "chat_date": "2026.9.30",
+        "shared_by": "CLARET",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "(타이난 시 주소)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/700+%EB%8C%80%EB%A7%8C+Tainan+City,+West+Central+District,+Nanchang+Village,+Section+1,+Yonghua+Rd,+70%E8%99%9F%E5%A5%95%E6%AC%A3%E6%B4%8B%E8%A1%8C%E5%8F%B0%E5%8D%97%E6%B0%B8%E8%8F%AF%E5%BA%97%E4%B8%AD%E5%BA%97Yixin+Whisky%26Wine+Yonghua-Store72%E8%99%9F",
+        "chat_date": "2026.10.1",
+        "shared_by": "클넬악귀",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "要吃烤鴨 (중리)",
+        "subcategory": "오리요리",
+        "map_url": "https://www.google.com/maps/place/320+%EB%8C%80%EB%A7%8C+Taoyuan+City,+Zhongli+District,+Zhongzheng+Rd,+270%E8%99%9F%E8%A6%81%E5%90%83%E7%83%A4%E9%B4%A8",
+        "chat_date": "2026.10.1",
+        "shared_by": "이세웅",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "威苑酒舍 (중리)",
+        "subcategory": "주점",
+        "map_url": "https://www.google.com/maps/place/320+%EB%8C%80%EB%A7%8C+Taoyuan+City,+Zhongli+District,+Guangming+Village,+Minquan+Rd,+316%E8%99%9F%E5%A8%81%E8%8B%91%E9%85%92%E8%88%8D",
+        "chat_date": "2026.10.1",
+        "shared_by": "이세웅",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "中壢夜市牛排 (중리)",
+        "subcategory": "스테이크",
+        "map_url": "https://www.google.com/maps/place/320+%EB%8C%80%EB%A7%8C+Taoyuan+City,+Zhongli+District,+Guangming+Village,+Xinming+Rd,+151%E8%99%9F%E4%B8%AD%E5%A3%A2%E5%A4%9C%E5%B8%82%E7%89%9B%E6%8E%92",
+        "chat_date": "2026.10.1",
+        "shared_by": "이세웅",
+        "needs_review": false,
+        "note": ""
+      }
+    ],
+    "관광지": [
+      {
+        "category": "관광지",
+        "name": "화락일베 비노 픽업",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/%ED%99%94%EB%9D%BD%EC%9D%BC%EB%B2%A0+%EB%B9%84%EB%85%B8+%ED%94%BD%EC%97%85/@25.018625,121.5581795,17z",
+        "chat_date": "2026.1.26",
+        "shared_by": "자수씨",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "리쿼샵 (창화시 푸산로 108-2)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/No.+108-2,+Fushan+St,+Changhua+City,+Changhua+County,+%EB%8C%80%EB%A7%8C+500/@24.0821457,120.5687692,20.25z",
+        "chat_date": "2026.1.26",
+        "shared_by": "안주남",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "海珊菸酒 (타오위안)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/%E6%B5%B7%E7%8F%8A%E8%8F%B8%E9%85%92+liquor+stores/@25.0641597,121.213676,14.13z",
+        "chat_date": "2026.1.30",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "生命之水洋酒專賣店",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/%E7%94%9F%E5%91%BD%E4%B9%8B%E6%B0%B4%E6%B4%8B%E9%85%92%E5%B0%88%E8%B3%A3%E5%BA%97/@24.9815211,121.4558092,3a,75y,128.82h,90t",
+        "chat_date": "2026.1.30",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "리쿼샵 (타이중 시툰구 허난로 103)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/407+%EB%8C%80%EB%A7%8C+Taichung+City,+Xitun+District,+Section+4,+Henan+Rd,+103%E8%99%9F+%EB%A6%AC%EC%BF%BC%EC%83%B5",
+        "chat_date": "2026.1.30",
+        "shared_by": "구경꾼",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "타이거손녀 위스키샵 (타오위안)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps?q=320+%EB%8C%80%EB%A7%8C+Taoyuan+City,+Zhongli+District,+Yongtai+Rd,+100%E8%99%9F+%ED%83%80%EC%9D%B4%EA%B1%B0%EC%86%90%EB%85%80+%EC%9C%84%EC%8A%A4%ED%82%A4%EC%83%B5",
+        "chat_date": "2026.2.1",
+        "shared_by": "HYHL",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "奕欣洋行 (타이난)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/700+%EB%8C%80%EB%A7%8C+Tainan+City,+West+Central+District,+Section+1,+Yonghua+Rd,+70%E8%99%9F%E5%A5%95%E6%AC%A3%E6%B4%8B%E8%A1%8C%E5%8F%B0%E5%8D%97%E6%B0%B8%E8%8F%AF%E5%BA%97%E4%B8%AD%E5%BA%97Yixin+Whisky%26Wine+Yonghua-Store72%E8%99%9F",
+        "chat_date": "2026.2.3",
+        "shared_by": "모바겜할게없다",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "가오메이 습지 (Gaomei Wetlands)",
+        "subcategory": "자연·명소",
+        "map_url": "https://www.google.com/maps/place/%EA%B0%80%EC%98%A4%EB%A9%94%EC%9D%B4+%EC%8A%B5%EC%A7%80+Meidi+St,+Qingshui+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+436",
+        "chat_date": "2026.2.17",
+        "shared_by": "매운새우깡",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "타이중 403 리쿼샵 (주소)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps?q=403+%EB%8C%80%EB%A7%8C+Taichung+City,+West+District,+Section+2,+Liuchuan+W+Rd,+186%E8%99%9F%E9%BA%A5%E9%87%91%E9%85%92%E6%B4%8B%E8%A1%8C-%E5%8F%B0%E4%B8%AD%E7%89%B9%E8%89%B2%E9%85%92%E8%8E%8A%7C%E5%B9%B4%E7%AF%80%E9%80%81%E7%A6%AE%7Ciqos%7C%E5%A8%81%E5%A3%AB%E5%BF%8C%E6%8E%A8%E8%96%A6%7C%E5%8F%B0%E4%B8%AD%E8%B2%B7%E9%85%92%7C%E5%B0%88%E6%A5%AD%E9%85%92%E5%95%86%7C%E6%8E%A8%E8%96%A6%E6%B4%8B%E9%85%92%E8%A1%8C%7C%E6%97%A5%E6%9C%AC%E9%85%92%E5%B0%88%E8%B3%A3%7C%ED%83%80%EC%9D%B4%EC%A4%91%EA%B5%AC%EC%9E%85%EC%9C%84%EC%8A%A4%ED%82%A4+%7Ckavalan%7C%EC%88%A0187%E3%80%81188%E8%99%9F",
+        "chat_date": "2026.2.21",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "WHISKY STORE LIQUOR MUSEUM Nishiki (교토)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/WHISKY+STORE+LIQUOR+MUSEUM+Premium+Shop+Nishiki/@35.0039642,135.7605776,18.17z",
+        "chat_date": "2026.2.25",
+        "shared_by": "막스",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "三統漢菓子 伴手禮西門店",
+        "subcategory": "기념품·간식",
+        "map_url": "https://www.google.com/maps/place/108002+%EB%8C%80%EB%A7%8C+Taipei+City,+Wanhua+District,+Section+2,+Wuchang+St,+21%E8%99%9F%E4%B8%89%E7%B5%B1%E6%BC%A2%E8%8F%93%E5%AD%90+%E4%BC%B4%E6%89%8B%E7%A6%AE%E8%A5%BF%E9%96%80%E5%BA%97",
+        "chat_date": "2026.3.6",
+        "shared_by": "킹근육맨/춘천",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "酒水沙龍 (타이중)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/%E9%85%92%E6%B0%B4%E6%B2%99%E9%BE%8D,+No+No.+152,+Huizhong+Rd,+Xitun+District,+Taichung+City,+%EB%8C%80%EB%A7%8C+407",
+        "chat_date": "2026.3.12",
+        "shared_by": "혀가찌릿",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "最佳洋行 (가오슝)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/813+%EB%8C%80%EB%A7%8C+Kaohsiung+City,+Zuoying+District,+Haide+Rd,+15%E8%99%9F%E6%9C%80%E4%BD%B3%E6%B4%8B%E8%A1%8C",
+        "chat_date": "2026.3.15",
+        "shared_by": "막스",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "酒酒專販所 JOJO Whisky (린커우)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/244+%EB%8C%80%EB%A7%8C+New+Taipei+City,+Linkou+District,+Zhongxiao+1st+Rd,+7%E8%99%9F%E9%85%92%E9%85%92%E5%B0%88%E8%B2%A9%E6%89%80+JOJO+Whisky",
+        "chat_date": "2026.3.16",
+        "shared_by": "건성",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "福田一方鳳梨酥",
+        "subcategory": "기념품·간식",
+        "map_url": "https://www.google.com/maps/place/103+%EB%8C%80%EB%A7%8C+Taipei+City,+Datong+District,+Section+2,+Chongqing+N+Rd,+71-1%E8%99%9F%E7%A6%8F%E7%94%B0%E4%B8%80%E6%96%B9%E9%B3%B3%E6%A2%A8%E9%85%A5",
+        "chat_date": "2026.3.21",
+        "shared_by": "건성",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "珍藏家菸酒量販 (타오위안 바덕구)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/334,+Taoyuan+City,+Bade+District,+Fude+1st+Rd,+52%E8%99%9F%E7%8F%8D%E8%97%8F%E5%AE%B6%E8%8F%B8%E9%85%92%E9%87%8F%E8%B2%A9",
+        "chat_date": "2026.3.23",
+        "shared_by": "타이중셰리밤",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "嘉瑝洋酒 (가오슝)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps?q=830+%EB%8C%80%EB%A7%8C+Kaohsiung+City,+Fengshan+District,+Wenlong+E+Rd,+785%E8%99%9F%E5%98%89%E7%91%9D%E6%B4%8B%E9%85%92%EF%BC%8C%E5%A8%81%E5%A3%AB%E5%BF%8C%E3%80%81%E9%9B%AA%E8%8C%84%E3%80%81%E6%B8%85%E9%85%92%E3%80%81%E8%91%A1%E8%90%84%E9%85%92%E5%B0%88%E8%B3%A3%E5%BA%97",
+        "chat_date": "2026.3.24",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "東良煙酒洋行 (가오슝)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps?q=807+%EB%8C%80%EB%A7%8C+Kaohsiung+City,+Sanmin+District,+Beiping+2nd+St,+187%E8%99%9F%E6%9D%B1%E8%89%AF%E7%85%99%E9%85%92%E6%B4%8B%E8%A1%8C",
+        "chat_date": "2026.3.24",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "威享洋行 (가오슝 신싱구)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps?q=800+%EB%8C%80%EB%A7%8C+Kaohsiung+City,+Sinsing+District,+Xinghua+Rd,+59%E8%99%9F%E5%A8%81%E4%BA%AB%E6%B4%8B%E8%A1%8C1%E6%A8%93",
+        "chat_date": "2026.3.24",
+        "shared_by": "축하하는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "全球菸酒 桃園民生店",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps?q=330+%EB%8C%80%EB%A7%8C+Taoyuan+City,+Taoyuan+District,+Minsheng+Rd,+495-8%E8%99%9F%E5%85%A8%E7%90%83%E8%8F%B8%E9%85%92-%E6%A1%83%E5%9C%92%E6%B0%91%E7%94%9F%E5%BA%97",
+        "chat_date": "2026.3.24",
+        "shared_by": "테디테디",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "위륜양주 본점 (타이중 펑위안)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/420,+Taichung+City,+Fengyuan+District,+Chenggong+Rd,+292%E8%99%9F+%EC%9C%84%EB%A5%9C%EC%96%91%EC%A3%BC",
+        "chat_date": "2026.3.25",
+        "shared_by": "타이중셰리밤",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "위륜양주 (타이중 펑위안)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps?q=420+%EB%8C%80%EB%A7%8C+Taichung+City,+Fengyuan+District,+Chenggong+Rd,+292%E8%99%9F+%EC%9C%84%EB%A5%9C%EC%96%91%EC%A3%BC",
+        "chat_date": "2026.3.25",
+        "shared_by": "알라키매니아",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "金品洋酒 (타오위안 관음구)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/328+%EB%8C%80%EB%A7%8C+Taoyuan+City,+Guanyin+District,+Section+2,+Daguan+Rd,+149%E8%99%9F%E9%87%91%E5%93%81%E6%B4%8B%E9%85%92",
+        "chat_date": "2026.3.31",
+        "shared_by": "스타로드",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "Do Do Home Parking (타이중 우르)",
+        "subcategory": "기타",
+        "map_url": "https://www.google.com/maps/place/414%E5%8F%B0%E4%B8%AD%E5%B8%82%E7%83%8F%E6%97%A5%E5%8D%80%E7%AB%99%E5%8D%80%E4%BA%8C%E8%B7%AF8%E8%99%9F+Do+Do+Home+Parking",
+        "chat_date": "2026.4.14",
+        "shared_by": "타이중셰리밤",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "拿破崙洋煙酒 (신베이 슈린)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/238+%EB%8C%80%EB%A7%8C+New+Taipei+City,+Shulin+District,+Section+2,+Bao'an+St,+2-7%E8%99%9F%E6%8B%BF%E7%A0%B4%E5%B4%99%E6%B4%8B%E7%85%99%E9%85%92",
+        "chat_date": "2026.4.14",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "琮茂洋酒 (신베이 루저우)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/247+%EB%8C%80%EB%A7%8C+New+Taipei+City,+Luzhou+District,+Lane+12,+Zhongyuan+Rd,+15%E8%99%9F%E7%90%AE%E8%8C%82%E6%B4%8B%E9%85%92%EF%BC%88%E5%A8%81%E5%A3%AB%E5%BF%8C%E7%B4%85%E9%85%92%E6%B8%85%E9%85%92%E5%90%84%E7%A8%AE%E9%85%92%E9%A1%9E%E5%B0%88%E8%B3%A3%E5%BA%97%EF%BC%89",
+        "chat_date": "2026.4.14",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "老酒仙中部老酒收購中心 (타이중)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/%E8%80%81%E9%85%92%E4%BB%99%E4%B8%AD%E9%83%A8%E8%80%81%E9%85%92%E6%94%B6%E8%B3%BC%E4%B8%AD%E5%BF%83,+No.+219%E8%99%9F,+Wuquan+Rd,+North+District,+Taichung+City,+404",
+        "chat_date": "2026.4.18",
+        "shared_by": "타이중셰리밤",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "酒酒專販所 JOJO Whisky (타이베이)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/%E9%85%92%E9%85%92%E5%B0%88%E8%B2%A9%E6%89%80+JOJO+Whisky/@25.0680671,121.3664897,15.29z",
+        "chat_date": "2026.4.23",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "臻酒仙 金弘笙 시정점 (타이중)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/407,+Taichung+City,+Xitun+District,+Shizheng+Rd,+690%E8%99%9F%E8%87%BB%E9%85%92%E4%BB%99-%E9%87%91%E5%BC%98%E7%AC%99%E5%B8%82%E6%94%BF%E5%BA%97",
+        "chat_date": "2026.4.23",
+        "shared_by": "타이중셰리밤",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "忠佳洋酒 ccwine (타이베이)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/%E5%BF%A0%E4%BD%B3%E6%B4%8B%E9%85%92+ccwine/@25.0372938,121.572174,14z",
+        "chat_date": "2026.5.2",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "麥德理洋酒 土城中央店",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/%E9%BA%A5%E5%BE%B7%E7%90%86%E6%B4%8B%E9%85%92-%E5%9C%9F%E5%9F%8E%E4%B8%AD%E5%A4%AE%E5%BA%97/@24.9637264,121.4450227,14.25z",
+        "chat_date": "2026.5.2",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "KAVALAN 台中新站前展售中心",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/401+%EB%8C%80%EB%A7%8C+Taichung+City,+East+District,+Xinzhuang+Village,+Section+4,+Fuxing+Rd,+218%E4%B9%8B3%E8%99%9FKAVALAN%E5%99%B6%E7%91%AA%E8%98%AD%E5%A8%81%E5%A3%AB%E5%BF%8C+%E5%8F%B0%E4%B8%AD%E6%96%B0%E7%AB%99%E5%89%8D%E5%B1%95%E5%94%AE%E4%B8%AD%E5%BF%83",
+        "chat_date": "2026.5.5",
+        "shared_by": "팝콘 먹는 춘식이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "Lafuente (바르셀로나)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps?q=Lafuente,+Carrer+de+Ferran,+20,+Ciutat+Vella,+08002+Barcelona,+%EC%8A%A4%ED%8E%98%EC%9D%B8",
+        "chat_date": "2026.5.11",
+        "shared_by": "알라키매니아",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "總盈 누가크래커 (타이베이 다퉁구)",
+        "subcategory": "기념품·간식",
+        "map_url": "https://www.google.com/maps/place/103+%EB%8C%80%EB%A7%8C+Taipei+City,+Datong+District,+%E5%A4%A7%E5%90%8C%E5%8D%80+Lane+247,+Section+2,+Yanping+N+Rd,+25%E8%99%9F+%EC%B4%9D%EC%9E%89%EB%88%84%EA%B0%80%ED%81%AC%EB%9E%98%EC%BB%A4",
+        "chat_date": "2026.5.16",
+        "shared_by": "CLARET",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "BRWHISKY 매장 (여러 지점 링크)",
+        "subcategory": "주류샵",
+        "map_url": "https://linktr.ee/BRWHISKY?utm_source=linktree_profile_share",
+        "chat_date": "2026.5.20",
+        "shared_by": "모바겜할게없다",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "Rượu Ngoại Thuỷ Hà (하노이)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps?q=R%C6%B0%E1%BB%A3u+Ngo%E1%BA%A1i+Thu%E1%BB%B7+H%C3%A0,+2B,+Thanh+Ni%C3%AAn/7A+Y%C3%AAn+Ph%E1%BB%A5+C%C5%A9,+T%C3%A2y+H%E1%BB%93,+H%C3%A0+N%E1%BB%99i+10000+%EB%B2%A0%ED%8A%B8%EB%82%A8",
+        "chat_date": "2026.6.17",
+        "shared_by": "준비된사수",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "Longpan Park Prairie (헝춘 룽판공원)",
+        "subcategory": "자연·공원",
+        "map_url": "https://www.google.com/maps/place/Longpan+Park+Prairie,+%E9%8E%AE%E5%8F%B026%E7%B7%9A%E6%81%86%E6%98%A5+Hengchun+Township,+Pingtung+County,+%EB%8C%80%EB%A7%8C+946",
+        "chat_date": "2026.7.8",
+        "shared_by": "타이중셰리밤",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "Huaqiao Fish Market (화차오 어시장)",
+        "subcategory": "시장",
+        "map_url": "https://www.google.com/maps/place/Huaqiao+Fish+Market/@22.4667101,120.4438195,17.25z",
+        "chat_date": "2026.7.8",
+        "shared_by": "냥밤tv",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "英蓋爾精品洋酒 가오슝분점",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/804+%EB%8C%80%EB%A7%8C+Kaohsiung+City,+Gushan+District,+Lixing+Village,+Jiexing+2nd+St,+9%E8%99%9F%E8%8B%B1%E8%93%8B%E7%88%BE%E7%B2%BE%E5%93%81%E6%B4%8B%E9%85%92+%E9%AB%98%E9%9B%84%E5%88%86%E5%85%AC%E5%8F%B81%E6%A8%93",
+        "chat_date": "2026.9.1",
+        "shared_by": "킹근육맨/춘천",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "沐酒酒藏 (타오위안)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps?q=330+%EB%8C%80%EB%A7%8C+Taoyuan+City,+Taoyuan+District,+%E6%A1%83%E5%9C%92%E5%8D%80+Zhongzheng+Rd,+1193%E8%99%9F%E6%B2%90%E9%85%92%E9%85%92%E8%97%8F",
+        "chat_date": "2026.9.2",
+        "shared_by": "ㅇㅇㅇㅇ",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "威海洋酒 (타이중 시툰구)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/407,+Taichung+City,+Xitun+District,+Fuya+Village,+Fu+Ya+Rd,+96%E8%99%9F%E5%A8%81%E6%B5%B7%E6%B4%8B%E9%85%92",
+        "chat_date": "2026.9.15",
+        "shared_by": "타이중셰리밤",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "泰吉洋煙酒 (타이베이 스린구)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/111+%EB%8C%80%EB%A7%8C+Taipei+City,+Shilin+District,+Zhongyi+St,+75%E8%99%9F%E6%B3%B0%E5%90%89%E6%B4%8B%E7%85%99%E9%85%92",
+        "chat_date": "2026.9.16",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "世達洋酒 (타이베이 베이터우구)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/112+%EB%8C%80%EB%A7%8C+Taipei+City,+Beitou+District,+Wenlin+Village,+Wenlin+N+Rd,+176%E8%99%9F%E4%B8%96%E9%81%94%E6%B4%8B%E9%85%92",
+        "chat_date": "2026.9.16",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "康喜 (타이베이 쑹산구)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/105+%EB%8C%80%EB%A7%8C+Taipei+City,+Songshan+District,+Dongshi+Village,+Guangfu+N+Rd,+136%E8%99%9F%E5%BA%B7%E5%96%9C%E5%AE%A2%E9%85%92%E6%A5%AD",
+        "chat_date": "2026.9.16",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "타이베이 다안구 (주소)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/106+%EB%8C%80%EB%A7%8C+Taipei+City,+Da%E2%80%99an+District,+Minhui+Village,+Section+3,+Jinan+Rd,+70%E8%99%9F%E8%80%81%E9%AB%98%E7%B2%B1+%E5%B0%88%E8%B3%A3",
+        "chat_date": "2026.9.16",
+        "shared_by": "안주남",
+        "needs_review": true,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "大新店酒窖 (신덴 신뎬구)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/1%E6%A8%93,+%E5%A4%A7%E6%96%B0%E5%BA%97%E9%85%92%E7%AA%96,+No.+3%E8%99%9F,+Alley+2,+Lane+47,+Zhonghua+Rd,+Xinde+Village,+Xindian+District,+New+Taipei+City,+%EB%8C%80%EB%A7%8C+231005",
+        "chat_date": "2026.9.18",
+        "shared_by": "안주남",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "아프레 리커 (타이베이)",
+        "subcategory": "주류샵",
+        "map_url": "https://www.google.com/maps/place/%EC%95%84%ED%94%84%EB%A0%88+%EB%A6%AC%EC%BB%A4",
+        "chat_date": "2026.9.20",
+        "shared_by": "모바겜할게없다",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "관광지",
+        "name": "Zhong Li Xin Ming Market (중리 신밍 시장)",
+        "subcategory": "시장",
+        "map_url": "https://www.google.com/maps/place/Zhong+Li+Xin+Ming+Market,+No.+60%E8%99%9F,+Mingde+Rd,+Jiuming+Village,+Zhongli+District,+Taoyuan+City,+%EB%8C%80%EB%A7%8C+320",
+        "chat_date": "2026.9.22",
+        "shared_by": "CLARET",
+        "needs_review": false,
+        "note": ""
+      }
+    ]
+  },
+  "확인되지_않은_링크": [
+    {
+      "country": "국내",
+      "chat_date": "2026.1.29",
+      "shared_by": "EROMES",
+      "link": "https://map.naver.com/p/entry/place/2097226703",
+      "reason": "장소명이 대화에 없음",
+      "note": ""
+    },
+    {
+      "country": "국내",
+      "chat_date": "2026.2.28",
+      "shared_by": "후사마3636",
+      "link": "https://map.naver.com/p/entry/place/13370255",
+      "reason": "장소명이 대화에 없음",
+      "note": ""
+    },
+    {
+      "country": "국내",
+      "chat_date": "2026.2.28",
+      "shared_by": "후사마3636",
+      "link": "https://map.naver.com/p/entry/place/1978983864",
+      "reason": "장소명이 대화에 없음",
+      "note": ""
+    },
+    {
+      "country": "국내",
+      "chat_date": "2026.9.8",
+      "shared_by": "안주남",
+      "link": "https://map.naver.com/p/entry/place/1382969641",
+      "reason": "장소명이 대화에 없음",
+      "note": ""
+    },
+    {
+      "country": "해외",
+      "chat_date": "2026.3.17",
+      "shared_by": "철삥",
+      "link": "https://linktr.ee/whiskystylebanqiao",
+      "reason": "여러 지점/도시 불명 링크 - 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "국내",
+      "chat_date": "2026.3.24",
+      "shared_by": "축하하는 춘식이",
+      "link": "https://naver.me/GQGwcZhs",
+      "reason": "네이버 단축 링크 조회 실패(요청 제한) - 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "국내",
+      "chat_date": "2026.3.30",
+      "shared_by": "축하하는 춘식이",
+      "link": "https://naver.me/F4WiwuAi",
+      "reason": "네이버 단축 링크 조회 실패(요청 제한) - 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "국내",
+      "chat_date": "2026.4.12",
+      "shared_by": "축하하는 춘식이",
+      "link": "https://naver.me/xZKDgrak",
+      "reason": "네이버 단축 링크 조회 실패(요청 제한) - 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "해외",
+      "chat_date": "2026.5.20",
+      "shared_by": "모바겜할게없다",
+      "link": "https://linktr.ee/BRWHISKY?utm_source=linktree_profile_share&ltsid=2d632057-bb30-43c4-8797-bfd20d5f60da",
+      "reason": "여러 지점/도시 불명 링크 - 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "국내",
+      "chat_date": "2026.5.23",
+      "shared_by": "무채색",
+      "link": "https://naver.me/5jXBFRbv",
+      "reason": "네이버 단축 링크 조회 실패(요청 제한) - 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "국내",
+      "chat_date": "2026.6.24",
+      "shared_by": "준비된사수",
+      "link": "https://naver.me/FritUYsz",
+      "reason": "네이버 단축 링크 조회 실패(요청 제한) - 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "국내",
+      "chat_date": "2026.7.9",
+      "shared_by": "W",
+      "link": "https://naver.me/xbKbKpJH",
+      "reason": "네이버 단축 링크 조회 실패(요청 제한) - 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "해외",
+      "chat_date": "2026.7.16",
+      "shared_by": "W",
+      "link": "https://www.trip.com/w/zRkaXMCZXV2",
+      "reason": "여러 지점/도시 불명 링크 - 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "해외",
+      "chat_date": "2026.8.21",
+      "shared_by": "광주초짜",
+      "link": "https://linktr.ee/BRWHISKY?utm_source=linktree_profile_share&ltsid=5d83e0d4-bf0a-4694-8de6-183e801175d1",
+      "reason": "여러 지점/도시 불명 링크 - 직접 확인 필요",
+      "note": ""
+    }
+  ]
+}

@@ -124,4 +124,13 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeModal();
 });
 
+const mainTabs = document.querySelectorAll(".main-tab");
+const panels = document.querySelectorAll(".panel");
+mainTabs.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    mainTabs.forEach((b) => b.classList.toggle("active", b === btn));
+    panels.forEach((p) => (p.hidden = p.id !== btn.dataset.target));
+  });
+});
+
 init();

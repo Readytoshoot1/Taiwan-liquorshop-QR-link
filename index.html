@@ -3,29 +3,84 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-<title>주류상점 QR코드 모음</title>
+<title>위스키 정보 모음</title>
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <header class="site-header">
-  <h1>주류상점 QR코드 모음</h1>
+  <h1>위스키 정보 모음</h1>
+  <p class="subtitle">주류상점 · 여행지 · 할인 정보를 한곳에</p>
 </header>
 
-<div class="search-wrap">
-  <label class="search-box">
-    <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="11" cy="11" r="7" />
-      <path d="m20 20-3.5-3.5" />
-    </svg>
-    <input type="search" id="searchInput" class="search-input" placeholder="가게 이름 또는 지역 검색" autocomplete="off" />
-  </label>
-</div>
+<nav class="main-tabs" id="mainTabs">
+  <button class="main-tab active" data-target="qr">주류상점 QR</button>
+  <button class="main-tab" data-target="travel">여행 정보</button>
+  <button class="main-tab" data-target="unionpay">유니온페이 할인</button>
+</nav>
 
-<nav class="tabs" id="tabs"></nav>
+<section class="panel" id="qr">
+  <div class="search-wrap">
+    <label class="search-box">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" />
+        <path d="m20 20-3.5-3.5" />
+      </svg>
+      <input type="search" id="searchInput" class="search-input" placeholder="가게 이름 또는 지역 검색" autocomplete="off" />
+    </label>
+  </div>
 
-<main class="grid" id="grid"></main>
+  <nav class="tabs" id="tabs"></nav>
 
-<p class="empty" id="empty" hidden>해당 지역에 등록된 QR코드가 없습니다.</p>
+  <main class="grid" id="grid"></main>
+
+  <p class="empty" id="empty" hidden>해당 지역에 등록된 QR코드가 없습니다.</p>
+</section>
+
+<section class="panel" id="travel" hidden>
+  <div class="scope-toggle" id="travelScope">
+    <button class="scope-btn active" data-scope="국내">국내</button>
+    <button class="scope-btn" data-scope="해외">해외</button>
+  </div>
+
+  <nav class="tabs" id="travelCategoryTabs">
+    <button class="tab-btn active" data-category="전체">전체</button>
+    <button class="tab-btn" data-category="호텔">호텔</button>
+    <button class="tab-btn" data-category="음식점">음식점</button>
+    <button class="tab-btn" data-category="관광지">관광지</button>
+  </nav>
+
+  <div class="travel-toolbar">
+    <input type="search" id="travelSearch" class="search-input" placeholder="이름, 분류, 비고, 공유자 검색" autocomplete="off" />
+    <div class="travel-options">
+      <select id="travelSort" class="select-input">
+        <option value="recent">최신순</option>
+        <option value="oldest">오래된순</option>
+        <option value="name">이름순</option>
+      </select>
+      <label class="check-label">
+        <input type="checkbox" id="travelReviewOnly" />
+        검토 필요만
+      </label>
+    </div>
+  </div>
+
+  <p class="travel-count" id="travelCount"></p>
+  <ul class="travel-list" id="travelList"></ul>
+  <p class="empty" id="travelEmpty" hidden>조건에 맞는 장소가 없습니다.</p>
+</section>
+
+<section class="panel" id="unionpay" hidden>
+  <div class="up-head">
+    <p>유니온페이 할인 정보</p>
+    <a class="up-open" href="https://marketing.unionpayintl.com/offer-promote/?language=kr&insCode=299990156&countryCode=410#/" target="_blank" rel="noopener noreferrer">새 창에서 열기</a>
+  </div>
+  <iframe
+    class="up-frame"
+    src="https://marketing.unionpayintl.com/offer-promote/?language=kr&insCode=299990156&countryCode=410#/"
+    title="유니온페이 할인 정보"
+    loading="lazy"
+  ></iframe>
+</section>
 
 <div class="modal" id="modal" hidden>
   <button class="modal-close" id="modalClose" aria-label="닫기">&times;</button>
@@ -37,5 +92,6 @@
 </div>
 
 <script src="script.js"></script>
+<script src="travel.js"></script>
 </body>
 </html>
