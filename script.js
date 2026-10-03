@@ -6,9 +6,16 @@ const modalImg = document.getElementById("modalImg");
 const modalCaption = document.getElementById("modalCaption");
 const modalClose = document.getElementById("modalClose");
 const modalLinks = document.getElementById("modalLinks");
+const searchInput = document.getElementById("searchInput");
 
 let items = [];
 let activeRegion = "전체";
+let searchQuery = "";
+
+searchInput.addEventListener("input", (e) => {
+  searchQuery = e.target.value.trim().toLowerCase();
+  renderGrid();
+});
 
 async function init() {
   const res = await fetch("manifest.json");
@@ -34,10 +41,14 @@ function renderTabs() {
 }
 
 function renderGrid() {
-  const filtered =
-    activeRegion === "전체"
-      ? items
-      : items.filter((i) => i.region === activeRegion);
+  const filtered = items.filter((i) => {
+    const matchRegion = activeRegion === "전체" || i.region === activeRegion;
+    const matchQuery =
+      !searchQuery ||
+      i.name.toLowerCase().includes(searchQuery) ||
+      i.region.toLowerCase().includes(searchQuery);
+    return matchRegion && matchQuery;
+  });
 
   gridEl.innerHTML = "";
   emptyEl.hidden = filtered.length > 0;
