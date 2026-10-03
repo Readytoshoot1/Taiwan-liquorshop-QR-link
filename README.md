@@ -25,7 +25,15 @@
    python generate_manifest.py
    ```
 
-   콘솔에 "디코딩 실패"로 나오는 파일이 있으면, `manifest.json`을 열어 해당 항목의 `links` 값을 직접 채워 넣는다 (예: `"links": [{"label": "LINE", "url": "https://..."}]`).
+   콘솔에 "디코딩 실패"로 나오는 파일이 있으면, `link_overrides.json`에 해당 파일을 아래처럼 추가한다. 여기 적은 값이 자동 디코딩보다 우선 적용되며, 송금용 QR 등 제외하고 싶은 코드도 빼고 적으면 된다.
+
+   ```json
+   {
+     "images/지역_가게이름.jpg": [
+       {"label": "LINE", "url": "https://..."}
+     ]
+   }
+   ```
 
 4. 변경사항을 GitHub에 반영한다.
 

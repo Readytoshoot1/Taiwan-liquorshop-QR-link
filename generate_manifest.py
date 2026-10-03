@@ -18,6 +18,7 @@ from pyzbar.pyzbar import decode as zbar_decode
 
 IMAGES_DIR = Path(__file__).parent / "images"
 OUTPUT = Path(__file__).parent / "manifest.json"
+OVERRIDES = Path(__file__).parent / "link_overrides.json"
 
 detector = cv2.QRCodeDetector()
 
@@ -72,7 +73,14 @@ def decode_qr_all(path: Path) -> list[str]:
     return found
 
 
+def load_overrides() -> dict:
+    if not OVERRIDES.exists():
+        return {}
+    return json.loads(OVERRIDES.read_text(encoding="utf-8"))
+
+
 def build_manifest():
+    overrides = load_overrides()
     items = []
     failed = []
     for path in sorted(IMAGES_DIR.iterdir()):
@@ -83,14 +91,19 @@ def build_manifest():
             print(f"건너뜀 (형식 아님, '지역_가게이름' 필요): {path.name}")
             continue
         region, name = stem.split("_", 1)
-        urls = decode_qr_all(path)
-        if not urls:
-            failed.append(path.name)
+        file_key = f"images/{path.name}"
+        if file_key in overrides:
+            links = overrides[file_key]
+        else:
+            urls = decode_qr_all(path)
+            if not urls:
+                failed.append(path.name)
+            links = [{"label": label_for(u), "url": u} for u in urls]
         items.append({
             "region": region,
             "name": name,
-            "file": f"images/{path.name}",
-            "links": [{"label": label_for(u), "url": u} for u in urls],
+            "file": file_key,
+            "links": links,
         })
 
     OUTPUT.write_text(
