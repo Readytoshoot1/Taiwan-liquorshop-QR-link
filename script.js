@@ -6,6 +6,7 @@ const modalImg = document.getElementById("modalImg");
 const modalCaption = document.getElementById("modalCaption");
 const modalClose = document.getElementById("modalClose");
 const modalLinks = document.getElementById("modalLinks");
+const modalNote = document.getElementById("modalNote");
 const searchInput = document.getElementById("searchInput");
 
 let items = [];
@@ -69,6 +70,13 @@ function renderGrid() {
       <div class="card-region">${item.region}</div>
     `;
 
+    if (item.note) {
+      const note = document.createElement("div");
+      note.className = "card-note";
+      note.textContent = item.note;
+      info.appendChild(note);
+    }
+
     if (item.links && item.links.length) {
       const linkRow = document.createElement("div");
       linkRow.className = "card-links";
@@ -96,6 +104,8 @@ function openModal(item) {
   modalImg.src = item.file;
   modalImg.alt = `${item.region} ${item.name} QR코드`;
   modalCaption.textContent = `${item.region} · ${item.name}`;
+  modalNote.hidden = !item.note;
+  modalNote.textContent = item.note || "";
 
   modalLinks.innerHTML = "";
   for (const { label, url } of item.links || []) {

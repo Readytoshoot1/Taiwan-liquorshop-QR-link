@@ -43,18 +43,22 @@
    python generate_manifest.py
    ```
 
-   콘솔에 "디코딩 실패"가 나온 파일이 있으면 `link_overrides.json`에 직접 적는다.
+   콘솔에 "디코딩 실패"가 나온 파일이 있으면 `link_overrides.json`에 직접 적는다. `note`는 생략 가능하다.
 
    ```json
    {
-     "images/지역_가게이름.jpg": [
-       {"label": "LINE", "url": "https://..."}
-     ]
+     "images/지역_가게이름.jpg": {
+       "links": [
+         {"label": "LINE", "url": "https://..."}
+       ],
+       "note": "예약 방법 등 추가 안내"
+     }
    }
    ```
 
    - 여기 적은 값이 자동 디코딩보다 우선 적용된다.
    - 한 이미지에 QR이 여러 개인데 일부만 쓰고 싶으면(예: 송금용 QR 제외) 필요한 것만 적으면 된다.
+   - `note`를 적으면 카드와 확대 화면에 안내 문구로 표시된다.
    - 같은 QR 링크가 파일명만 다르게 두 번 올라온 경우에는 기존 파일을 남기고 새 파일을 지운다.
 
 4. GitHub에 반영한다.

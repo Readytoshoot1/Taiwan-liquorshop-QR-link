@@ -92,19 +92,25 @@ def build_manifest():
             continue
         region, name = stem.split("_", 1)
         file_key = f"images/{path.name}"
+        note = ""
         if file_key in overrides:
-            links = overrides[file_key]
+            override = overrides[file_key]
+            links = override["links"]
+            note = override.get("note", "")
         else:
             urls = decode_qr_all(path)
             if not urls:
                 failed.append(path.name)
             links = [{"label": label_for(u), "url": u} for u in urls]
-        items.append({
+        item = {
             "region": region,
             "name": name,
             "file": file_key,
             "links": links,
-        })
+        }
+        if note:
+            item["note"] = note
+        items.append(item)
 
     OUTPUT.write_text(
         json.dumps(items, ensure_ascii=False, indent=2),
