@@ -196,6 +196,25 @@
   },
   {
     "region": "타이베이",
+    "name": "호와양주",
+    "file": "images/타이베이_호와양주.jpg",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://line.me/ti/p/CVbn9rqK00"
+      },
+      {
+        "label": "INSTAGRAM",
+        "url": "https://www.instagram.com/wowwine360?cplk=MWJzN2xkMmp1cmpkbQ=="
+      },
+      {
+        "label": "지도",
+        "url": "https://maps.app.goo.gl/8Tqv5Rv6qBvvxUsd9?g_st=ac"
+      }
+    ]
+  },
+  {
+    "region": "타이베이",
     "name": "화락일배주",
     "file": "images/타이베이_화락일배주.png",
     "links": [

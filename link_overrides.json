@@ -3,5 +3,10 @@
     {"label": "FACEBOOK", "url": "https://www.facebook.com/share/16A3ea9kmE/?mibextid=wwXIfr"},
     {"label": "INSTAGRAM", "url": "https://www.instagram.com/pinleliquor?igsh=cHV1eGJmcWdidW16&utm_source=qr"},
     {"label": "LINE OA", "url": "https://lin.ee/RMJVXzX"}
+  ],
+  "images/타이베이_호와양주.jpg": [
+    {"label": "LINE", "url": "https://line.me/ti/p/CVbn9rqK00"},
+    {"label": "INSTAGRAM", "url": "https://www.instagram.com/wowwine360?cplk=MWJzN2xkMmp1cmpkbQ=="},
+    {"label": "지도", "url": "https://maps.app.goo.gl/8Tqv5Rv6qBvvxUsd9?g_st=ac"}
   ]
 }
