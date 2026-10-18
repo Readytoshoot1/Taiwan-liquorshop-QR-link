@@ -119,6 +119,17 @@
   },
   {
     "region": "타이베이",
+    "name": "소준연주",
+    "file": "images/타이베이_소준연주.jpg",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://lin.ee/duoC5Kw"
+      }
+    ]
+  },
+  {
+    "region": "타이베이",
     "name": "안덕위 양주",
     "file": "images/타이베이_안덕위 양주.jpg",
     "links": [
@@ -136,6 +147,17 @@
       {
         "label": "LINE",
         "url": "https://line.me/ti/p/aVE-prN091"
+      }
+    ]
+  },
+  {
+    "region": "타이베이",
+    "name": "은반어주",
+    "file": "images/타이베이_은반어주.png",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://lin.ee/5A0WPO9"
       }
     ]
   },
