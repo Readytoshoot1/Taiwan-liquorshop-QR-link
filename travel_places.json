@@ -853,6 +853,46 @@
         "shared_by": "이세웅",
         "needs_review": false,
         "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "신예 (Shin Yeh Main Restaurant)",
+        "subcategory": "대만/광동요리",
+        "map_url": "https://maps.app.goo.gl/L2is1tzhk3WqEfid9",
+        "chat_date": "2026.10.18",
+        "shared_by": "",
+        "needs_review": false,
+        "note": "타이베이에서 가장 유명한 식당. 대만/광동요리 전문점. 가격대는 좀 있지만 음식 쫙 깔아놓고 먹기 매우 좋음"
+      },
+      {
+        "category": "음식점",
+        "name": "아청구스 (A Cheng Goose)",
+        "subcategory": "거위요리",
+        "map_url": "https://maps.app.goo.gl/QQG5NTdVrs8nspku9",
+        "chat_date": "2026.10.18",
+        "shared_by": "",
+        "needs_review": false,
+        "note": "거위요리 파는 집(대만은 거위가 유명함). 막 엄청 맛있다는 아님(물론 매번 감)"
+      },
+      {
+        "category": "음식점",
+        "name": "미스터짐 우육면 (대안점)",
+        "subcategory": "우육면",
+        "map_url": "https://maps.app.goo.gl/VjDtcEH2Kp1JqkUP7",
+        "chat_date": "2026.10.18",
+        "shared_by": "",
+        "needs_review": false,
+        "note": "현 타이베이 20대가 좋아하는 우육면을 먹고 싶다면 갈만함. 기본/토마토/트러플 다 맛있음"
+      },
+      {
+        "category": "음식점",
+        "name": "금춘발우육 (百年老店 天水路總店)",
+        "subcategory": "내장수육/우육",
+        "map_url": "https://maps.app.goo.gl/o7KW3wdSTmNgwyhp7?g_st=ac",
+        "chat_date": "2026.10.18",
+        "shared_by": "",
+        "needs_review": false,
+        "note": "내장수육 맛집 (GOAT)"
       }
     ]
   },
