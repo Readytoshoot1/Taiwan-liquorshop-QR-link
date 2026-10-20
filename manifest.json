@@ -185,6 +185,30 @@
   },
   {
     "region": "타이베이",
+    "name": "풍채양주",
+    "file": "images/타이베이_풍채양주.png",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://lin.ee/q99oI1S"
+      },
+      {
+        "label": "INSTAGRAM",
+        "url": "https://www.instagram.com/brwhiskytw"
+      },
+      {
+        "label": "지도",
+        "url": "https://maps.app.goo.gl/BTZz5d8VBApQFkkU6"
+      },
+      {
+        "label": "BAND",
+        "url": "https://band.us/n/a0a9bdNche9aF"
+      }
+    ],
+    "note": "라인으로 문의/구매 가능, 카드/분할결재 가능, 2회 이상 구매, 취소이력 없을시 밴드초대 가능"
+  },
+  {
+    "region": "타이베이",
     "name": "형구주업",
     "file": "images/타이베이_형구주업.png",
     "links": [
