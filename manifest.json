@@ -33,6 +33,21 @@
     ]
   },
   {
+    "region": "주베이",
+    "name": "욱형양주",
+    "file": "images/주베이_욱형양주.jpg",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://line.me/R/ti/p/@715pfeni"
+      },
+      {
+        "label": "지도",
+        "url": "https://maps.app.goo.gl/LmP1m9KMsvwYamELA?g_st=ic"
+      }
+    ]
+  },
+  {
     "region": "타오위안",
     "name": "위안주사",
     "file": "images/타오위안_위안주사.jpg",
