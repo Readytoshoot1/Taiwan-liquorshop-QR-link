@@ -201,6 +201,36 @@
         "shared_by": "안주남",
         "needs_review": false,
         "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "료칸 여명 ひすいの宿 黎明 2212-35 Yufuincho Kawakami, Yufu, Oita 879-5102 일본",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EB%A3%8C%EC%B9%B8+%EC%97%AC%EB%AA%85+%E3%81%B2%E3%81%99%E3%81%84%E3%81%AE%E5%AE%BF+%E9%BB%8E%E6%98%8E+2212-35+Yufuincho+Kawakami,+Yufu,+Oita+879-5102+%EC%9D%BC%EB%B3%B8/data=!4m2!3m1!1s0x3546ae71048ede0b:0xd47721dd5d4dc1ca!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM3LjUYACDXggMqswEsMTAwODM3NTI5LDk0MjY3NzI3LDk0MjkyMTk1LDk0Mjk5NTMyLDEwMDc5NjQ5OCwxMDA3OTc3NjEsMTAwNzk2NTM1LDk0MjgwNTc2LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE4NjUzLDk0MjI5ODM5LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDgzNTcxMCwxMDA4MjAyMzcsMTAwODIyNDk0LDEwMDgyNzk3NUICS1I%3D&skid=c63c2032-b380-4030-a6fa-72211455a63c&g_st=akt",
+        "chat_date": "2026.9.21",
+        "shared_by": "전영준/시크릿쥬쥬",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "Apartment Hotel 11 Shinsaibashi II 大阪市中央区東, 2 Chome-2-12 Shinsaibashisuji, Chuo Ward, Osaka, 542-0083 일본",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/Apartment+Hotel+11+Shinsaibashi+II+%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9D%B1,+2+Chome-2-12+Shinsaibashisuji,+Chuo+Ward,+Osaka,+542-0083+%EC%9D%BC%EB%B3%B8/data=!4m2!3m1!1s0x6000e7001c85420f:0x983c203085af6580!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjI5LjIYACDXggMqlQEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODE1NjM1LDEwMDgyMDIzN0ICS1I%3D&skid=c8660d52-6ee5-4afa-b2a9-8a286d1d6cad&g_st=akt",
+        "chat_date": "2026.7.28",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "호텔",
+        "name": "칸데오 호텔 오사카 더 타워 1 Chome-1-27 Dojimahama, Kita Ward, Osaka, 530-0004 일본",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%B9%B8%EB%8D%B0%EC%98%A4+%ED%98%B8%ED%85%94+%EC%98%A4%EC%82%AC%EC%B9%B4+%EB%8D%94+%ED%83%80%EC%9B%8C+1+Chome-1-27+Dojimahama,+Kita+Ward,+Osaka,+530-0004+%EC%9D%BC%EB%B3%B8/data=!4m2!3m1!1s0x6000e70005f77b3d:0xeb16c09cd4b614e3!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjMyLjYYACCIJyqpASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDc5NjUzNSwxMDA4MjIxMjksOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODE1NjM1LDEwMDgyMDIzNywxMDA4MjI0OTRCAktS&skid=9701ae69-d068-447e-b2c1-cc627ef0304d&g_st=akt",
+        "chat_date": "2026.8.10",
+        "shared_by": "전영준/시크릿쥬쥬",
+        "needs_review": false,
+        "note": ""
       }
     ],
     "음식점": [
@@ -893,6 +923,576 @@
         "shared_by": "이세웅",
         "needs_review": false,
         "note": "내장수육 맛집 (GOAT)"
+      },
+      {
+        "category": "음식점",
+        "name": "야키니쿠 잠보 하나레 3 Chome-27-9 Hongo, Bunkyo City, Tokyo 113-0033 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%95%BC%ED%82%A4%EB%8B%88%EC%BF%A0+%EC%9E%A0%EB%B3%B4+%ED%95%98%EB%82%98%EB%A0%88+3+Chome-27-9+Hongo,+Bunkyo+City,+Tokyo+113-0033+%EC%9D%BC%EB%B3%B8&ftid=0x60188c3cb38b9a41:0xf42ff072b0cf47ff&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI2LjE5LjIuOTEwMjIxOTUwMBgAIIgnKj8sOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAktS&skid=031e7276-f96b-47f2-abc7-9fbc322e6cfa&g_st=ic",
+        "chat_date": "2026.5.19",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "스시 시마즈 1 Chome-29-13 Shirokane, Minato City, Tokyo 108-0072 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%8A%A4%EC%8B%9C+%EC%8B%9C%EB%A7%88%EC%A6%88+1+Chome-29-13+Shirokane,+Minato+City,+Tokyo+108-0072+%EC%9D%BC%EB%B3%B8&ftid=0x60188b12bd38ec7d:0x67f830f37b985acf&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI2LjE5LjIuOTEwMjIxOTUwMBgAIIgnKj8sOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAktS&skid=293cdecd-329d-4385-9d9a-baa296e5245f&g_st=ic",
+        "chat_date": "2026.5.19",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "딤섬.항주소롱탕포 No. 19, Section 2, Hangzhou S Rd, Guangming Village, Da’an District, Taipei City, 대만 106",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EB%94%A4%EC%84%AC.%ED%95%AD%EC%A3%BC%EC%86%8C%EB%A1%B1%ED%83%95%ED%8F%AC+No.+19,+Section+2,+Hangzhou+S+Rd,+Guangming+Village,+Da%E2%80%99an+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+106/data=!4m2!3m1!1s0x3442a99d10e80d0f:0x439ac9c0d5d53174!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjIwLjEYACCIJyqfASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDc5NjUzNSwxMDA4MTUwMzQsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwNzkyNTY4LDEwMDgxMDQ2MkICS1I%3D&skid=394915bd-fbfc-4eda-92fc-34bd6139b99f&g_st=akt",
+        "chat_date": "2026.5.24",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "10491 대만 Taipei City, Zhongshan District, Zhengde Village, Lane 121, Section 1, Zhongshan N Rd, 13號肥前屋",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=10491+%EB%8C%80%EB%A7%8C+Taipei+City,+Zhongshan+District,+Zhengde+Village,+Lane+121,+Section+1,+Zhongshan+N+Rd,+13%E8%99%9F%E8%82%A5%E5%89%8D%E5%B1%8B&ftid=0x3442a9543881ca09:0xe71c67983cf8d485&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100799872,94286869&g_ep=CAISEjI2LjIwLjQuOTEzODcwMjQ0MBgAINeCAypJLDk0Mjk3Njk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDEwMDc5OTg3Miw5NDI4Njg2OUICS1I%3D&skid=31e63e86-a8a0-48ca-a2a2-94cf4875ce6e&g_st=ic",
+        "chat_date": "2026.5.24",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒530-0011 Osaka, Kita Ward, Ofukacho, 3−1 산토리 위스키 하우스 グランフロント大阪北館 ナレッジキャピタル 2F",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%9D%BC%EB%B3%B8+%E3%80%92530-0011+Osaka,+Kita+Ward,+Ofukacho,+3%E2%88%921+%EC%82%B0%ED%86%A0%EB%A6%AC+%EC%9C%84%EC%8A%A4%ED%82%A4+%ED%95%98%EC%9A%B0%EC%8A%A4+%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E5%A4%A7%E9%98%AA%E5%8C%97%E9%A4%A8+%E3%83%8A%E3%83%AC%E3%83%83%E3%82%B8%E3%82%AD%E3%83%A3%E3%83%94%E3%82%BF%E3%83%AB+2F&ftid=0x6000e68e55df1f63:0x476fd9ba11e6c35d&entry=gps&shh=CAE&lucs=,94297699,100808504,94231188,94280568,47071704,94218641,94282134,100799877,94286869&g_ep=CAISEjI2LjIxLjEuOTE3Mzg1NDY3MBgAINeCAypTLDk0Mjk3Njk5LDEwMDgwODUwNCw5NDIzMTE4OCw5NDI4MDU2OCw0NzA3MTcwNCw5NDIxODY0MSw5NDI4MjEzNCwxMDA3OTk4NzcsOTQyODY4NjlCAktS&skid=79b14339-0cf8-4797-a1d3-2b286cdea80f&g_st=ic",
+        "chat_date": "2026.5.27",
+        "shared_by": "박종혁/준비된사수",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒810-0003 Fukuoka, Chuo Ward, Haruyoshi, 3 Chome−22−12 今村ビル 1F 초라쿠",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%9D%BC%EB%B3%B8+%E3%80%92810-0003+Fukuoka,+Chuo+Ward,+Haruyoshi,+3+Chome%E2%88%9222%E2%88%9212+%E4%BB%8A%E6%9D%91%E3%83%93%E3%83%AB+1F+%EC%B4%88%EB%9D%BC%EC%BF%A0&ftid=0x354191912113f345:0xea05a130b3284ac3&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100835694,94286869,100820247,100822504&g_ep=CAISEjI2LjM3LjIuOTc3MTgxMTk2MBgAIIgnKl0sOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsMTAwODM1Njk0LDk0Mjg2ODY5LDEwMDgyMDI0NywxMDA4MjI1MDRCAktS&skid=78d6fd27-2074-4388-846d-975a5eb40c6b&g_st=ic",
+        "chat_date": "2026.9.17",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒812-0013 Fukuoka, Hakata Ward, Hakataekihigashi, 2 Chome−4−16 7F Luggage storage HAKATA",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%9D%BC%EB%B3%B8+%E3%80%92812-0013+Fukuoka,+Hakata+Ward,+Hakataekihigashi,+2+Chome%E2%88%924%E2%88%9216+7F+Luggage+storage+HAKATA/data=!4m2!3m1!1s0x35419133cbc57a85:0x4870e7d1491c970b!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM3LjUYACDIvAcqqQEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODM1NzA0LDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1QgJLUg%3D%3D&skid=2228bcf1-ef01-4699-a3ec-5ae04e349039&g_st=akt",
+        "chat_date": "2026.9.18",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "부타 매니아동 이나다야 선 Ｂ１ 地下１階 1 Chome-1-1-1 Watanabedori, Chuo Ward, Fukuoka, 810-0004 일본",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EB%B6%80%ED%83%80+%EB%A7%A4%EB%8B%88%EC%95%84%EB%8F%99+%EC%9D%B4%EB%82%98%EB%8B%A4%EC%95%BC+%EC%84%A0+%EF%BC%A2%EF%BC%91+%E5%9C%B0%E4%B8%8B%EF%BC%91%E9%9A%8E+1+Chome-1-1-1+Watanabedori,+Chuo+Ward,+Fukuoka,+810-0004+%EC%9D%BC%EB%B3%B8/data=!4m2!3m1!1s0x35419199a1c27f6f:0x5efcf6326fb3744d!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM3LjUYACCIJyqpASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDc5NjUzNSw5NDI4MDU3Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxODY1Myw5NDIyOTgzOSw5NDI3NTE2OCw5NDI3OTYxOSwxMDA4MzU3MDQsMTAwODIwMjM3LDEwMDgyMjQ5NCwxMDA4Mjc5NzVCAktS&skid=3d5e1f72-16e6-4927-8179-776a09cda1b9&g_st=akt",
+        "chat_date": "2026.9.18",
+        "shared_by": "주정욱/이번만술살게요",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "꼬치카츠 다나카 우메다 DD하우스점 DDハウス B1階 1 Chome-8-1 Shibata, Kita Ward, Osaka, 530-0012 일본",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EA%BC%AC%EC%B9%98%EC%B9%B4%EC%B8%A0+%EB%8B%A4%EB%82%98%EC%B9%B4+%EC%9A%B0%EB%A9%94%EB%8B%A4+DD%ED%95%98%EC%9A%B0%EC%8A%A4%EC%A0%90+DD%E3%83%8F%E3%82%A6%E3%82%B9+B1%E9%9A%8E+1+Chome-8-1+Shibata,+Kita+Ward,+Osaka,+530-0012+%EC%9D%BC%EB%B3%B8/data=!4m2!3m1!1s0x6000e727c86250d7:0x5409d57321611e4d!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM3LjUYACCIJyqzASwxMDA4Mzc1MjksOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODM1NzEwLDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1QgJLUg%3D%3D&skid=f45efa69-c7c7-4a9c-9eab-f51dfcef8123&g_st=akt",
+        "chat_date": "2026.9.20",
+        "shared_by": "전영준/시크릿쥬쥬",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "카메노이 벳소 2633-1 Yufuincho Kawakami, Yufu, Oita 879-5102 일본",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%B9%B4%EB%A9%94%EB%85%B8%EC%9D%B4+%EB%B2%B3%EC%86%8C+2633-1+Yufuincho+Kawakami,+Yufu,+Oita+879-5102+%EC%9D%BC%EB%B3%B8/data=!4m2!3m1!1s0x3546ae7c4a8d9025:0x799ea17016887b6e!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM3LjUYACCIJyqzASwxMDA4Mzc1MjksOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODM1NzEwLDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1QgJLUg%3D%3D&skid=d09b5b16-1025-4de2-9ab8-95dd25b037fc&g_st=akt",
+        "chat_date": "2026.9.21",
+        "shared_by": "전영준/시크릿쥬쥬",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "2樓 Xiang Duck Taipei Zhongxiao E. Branch, No. 128號, Section 4, Zhongxiao E Rd, Ren'ai Village, Da’an District, Taipei City, 대만 106",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=2%E6%A8%93+Xiang+Duck+Taipei+Zhongxiao+E.+Branch,+No.+128%E8%99%9F,+Section+4,+Zhongxiao+E+Rd,+Ren'ai+Village,+Da%E2%80%99an+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+106&ftid=0x3442ab0fbd884a51:0xccd8c9cd0abc13fa&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,100821559,47071704,94218641,94282134,100835694,94286869,100820247,100822504&g_ep=CAISEjI2LjM4LjEuOTgwODE1NDQ1MBgAIIgnKmcsOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsMTAwODIxNTU5LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDEwMDgzNTY5NCw5NDI4Njg2OSwxMDA4MjAyNDcsMTAwODIyNTA0QgJLUg%3D%3D&skid=1d4459b1-2f97-4534-9a18-b20d6246d381&g_st=ic",
+        "chat_date": "2026.9.26",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "상인수산(해산물요리) No. 18號, Alley 2, Lane 410, Minzu E Rd, Xingxiao Village, Zhongshan District, Taipei City, 대만 10491",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%83%81%EC%9D%B8%EC%88%98%EC%82%B0(%ED%95%B4%EC%82%B0%EB%AC%BC%EC%9A%94%EB%A6%AC)+No.+18%E8%99%9F,+Alley+2,+Lane+410,+Minzu+E+Rd,+Xingxiao+Village,+Zhongshan+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+10491/data=!4m2!3m1!1s0x3442abfd700a70ff:0x66353fb1b041e11b!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM4LjEYACCIJyqzASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDc5NjUzNSwxMDA4NDAwNDUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODM1NzA0LDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1QgJLUg%3D%3D&skid=789b1f76-2672-442a-9d59-2793fd1a1c19&g_st=akt",
+        "chat_date": "2026.9.26",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "하오웨이강스 No. 17之3號, Huaining St, Liming Village, Zhongzheng District, Taipei City, 대만 100",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%ED%95%98%EC%98%A4%EC%9B%A8%EC%9D%B4%EA%B0%95%EC%8A%A4+No.+17%E4%B9%8B3%E8%99%9F,+Huaining+St,+Liming+Village,+Zhongzheng+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+100&ftid=0x3442a9732d660a77:0xfbb07194b765bf7c&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,100821559,47071704,94218641,94282134,100835694,94286869,100820247,100822504&g_ep=CAISEjI2LjM4LjEuOTgwODE1NDQ1MBgAIIgnKmcsOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsMTAwODIxNTU5LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDEwMDgzNTY5NCw5NDI4Njg2OSwxMDA4MjAyNDcsMTAwODIyNTA0QgJLUg%3D%3D&skid=a118e8f6-9cd7-4666-8bfc-c49711abb7e3&g_st=ic",
+        "chat_date": "2026.9.26",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "110 대만 Taipei City, Xinyi District, Xicun Village, Songshou Rd, 12號 키키레스토랑 (att 4 fun 지점) 6樓",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/110+%EB%8C%80%EB%A7%8C+Taipei+City,+Xinyi+District,+Xicun+Village,+Songshou+Rd,+12%E8%99%9F+%ED%82%A4%ED%82%A4%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91+(att+4+fun+%EC%A7%80%EC%A0%90)+6%E6%A8%93/data=!4m2!3m1!1s0x3442abc0f5d825c9:0x523ebf0735fce956!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM4LjEYACCIJyqzASwxMDA4Mzc1MjksOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODM1NzEwLDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1QgJLUg%3D%3D&skid=17a8621e-27fc-4486-a420-654fcc6efe70&g_st=akt",
+        "chat_date": "2026.9.26",
+        "shared_by": "전영준/시크릿쥬쥬",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Sixty Years of Dining, No. 79號, Kangding Rd, Xinqi Village, Wanhua District, Taipei City, 대만 108",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/Sixty+Years+of+Dining,+No.+79%E8%99%9F,+Kangding+Rd,+Xinqi+Village,+Wanhua+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+108/data=!4m2!3m1!1s0x3442a9a8056bcd4f:0x8f4c4821513d97e8!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM4LjEYACCIJyrHASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDc5NjUzNSwxMDA4NDAwNDUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODM1NzEwLDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1LDEwMDgzODM1OSwxMjE4MTY0NjFCAktS&skid=7b8f77a6-67b9-4ccc-8a36-7c2df04c06f6&g_st=ac",
+        "chat_date": "2026.9.26",
+        "shared_by": "권오현/세종이안창",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "100 대만 Taipei City, Zhongzheng District, Yonggong Village, Quanzhou St, 32之3號 황지아상창소세지",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/100+%EB%8C%80%EB%A7%8C+Taipei+City,+Zhongzheng+District,+Yonggong+Village,+Quanzhou+St,+32%E4%B9%8B3%E8%99%9F+%ED%99%A9%EC%A7%80%EC%95%84%EC%83%81%EC%B0%BD%EC%86%8C%EC%84%B8%EC%A7%80/data=!4m2!3m1!1s0x3442a9bd6f8a8175:0xebcb6e980dcb3bcb!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM4LjEYACCenQoqswEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsMTAwODQwMDQ1LDk0MjgwNTc2LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE4NjUzLDk0MjI5ODM5LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDgzNTcwNCwxMDA4MjAyMzcsMTAwODIyNDk0LDEwMDgyNzk3NUICS1I%3D&skid=f26c6761-ab87-4271-a988-d69259bde973&g_st=akt",
+        "chat_date": "2026.9.26",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "108 대만 Taipei City, Wanhua District, 萬華區 Lane 25, Kangding Rd, 42之一號真川味（一店）1樓",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/108+%EB%8C%80%EB%A7%8C+Taipei+City,+Wanhua+District,+%E8%90%AC%E8%8F%AF%E5%8D%80+Lane+25,+Kangding+Rd,+42%E4%B9%8B%E4%B8%80%E8%99%9F%E7%9C%9F%E5%B7%9D%E5%91%B3%EF%BC%88%E4%B8%80%E5%BA%97%EF%BC%891%E6%A8%93/data=!4m2!3m1!1s0x3442a9088dbbf9ff:0x19a24e6888685dd2!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM4LjEYACDXggMqxwEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsMTAwODQwMDQ1LDk0MjgwNTc2LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE4NjUzLDk0MjI5ODM5LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDgzNTcxMCwxMDA4MjAyMzcsMTAwODIyNDk0LDEwMDgyNzk3NSwxMDA4MzgzNTksMTIxODE2NDYxQgJLUg%3D%3D&skid=0206dd3c-fb00-4498-9d6e-249f895a37af&g_st=ac",
+        "chat_date": "2026.9.26",
+        "shared_by": "권오현/세종이안창",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "108 대만 Taipei City, Wanhua District, Ximen Village, Xining Rd, 76-3號佳賓餅家 - 西門町店 Jia Vin Bakery - Ximending",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/108+%EB%8C%80%EB%A7%8C+Taipei+City,+Wanhua+District,+Ximen+Village,+Xining+Rd,+76-3%E8%99%9F%E4%BD%B3%E8%B3%93%E9%A4%85%E5%AE%B6+-+%E8%A5%BF%E9%96%80%E7%94%BA%E5%BA%97+Jia+Vin+Bakery+-+Ximending/data=!4m2!3m1!1s0x3442a9c8e188ced3:0xb86bdfcf3c6987ab!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM5LjQYACDXggMqswEsMTAwODM3NTI5LDk0MjY3NzI3LDk0MjkyMTk1LDk0Mjk5NTMyLDEwMDc5NjQ5OCwxMDA3OTc3NjEsMTAwNzk2NTM1LDk0MjgwNTc2LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE4NjUzLDk0MjI5ODM5LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDgzNTcxMCwxMDA4MjAyMzcsMTAwODIyNDk0LDEwMDgyNzk3NUICS1I%3D&skid=660b4ee1-3b5f-461e-8ec6-f68f8cd4d52a&g_st=akt",
+        "chat_date": "2026.9.30",
+        "shared_by": "전영준/시크릿쥬쥬",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒860-0004 Kumamoto, Chuo Ward, Shinmachi, 4 Chome−3−23 view! 福城屋",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%9D%BC%EB%B3%B8+%E3%80%92860-0004+Kumamoto,+Chuo+Ward,+Shinmachi,+4+Chome%E2%88%923%E2%88%9223+view!+%E7%A6%8F%E5%9F%8E%E5%B1%8B/data=!4m2!3m1!1s0x3540f469fe9692cf:0x4da28711886841f!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjQwLjAYACDXggMq0QEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsMTAwODQwMDQ2LDk0MjgwNTc2LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE4NjUzLDk0MjI5ODM5LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDgzNTcwNCwxMDA4NDA2NjIsMTAwODIwMjM3LDEwMDgyMjQ5NCwxMDA4Mjc5NzUsMTAwODM4MzU5LDEyMTgxNjQ2MUICSEs%3D&skid=8aa1c597-2206-441f-935d-deb947e9f467&g_st=ac",
+        "chat_date": "2026.10.16",
+        "shared_by": "윤관식/위스키비기너",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒860-0806 Kumamoto, Chuo Ward, Hanabatacho, 12−8 ２Ｆ 本田Ｂａｒ",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%9D%BC%EB%B3%B8+%E3%80%92860-0806+Kumamoto,+Chuo+Ward,+Hanabatacho,+12%E2%88%928+%EF%BC%92%EF%BC%A6+%E6%9C%AC%E7%94%B0%EF%BC%A2%EF%BD%81%EF%BD%92/data=!4m2!3m1!1s0x3540f569f6b943eb:0x10ed3f22fa7bcdbe!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjQxLjMYACDXggMqxwEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODM1NzA0LDEwMDg0MDY2MiwxMDA4MjAyMzcsMTAwODIyNDk0LDEwMDgyNzk3NSwxMDA4MzgzNTksMTIxODE2NDYxQgJISw%3D%3D&skid=3486f136-0675-4203-97c9-a198a3b778b8&g_st=akt",
+        "chat_date": "2026.10.17",
+        "shared_by": "윤관식/위스키비기너",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "111 대만 Taipei City, Shilin District, Hougang Village, Fugang St, 24號好窩洋酒｜酒外送｜威士忌、獨立裝瓶廠、葡萄酒、清酒專門店｜送禮宴客婚宴酒首選｜可刷卡｜한국인이 인정한 양주 전문점｜門市需要提前預約1樓",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/111+%EB%8C%80%EB%A7%8C+Taipei+City,+Shilin+District,+Hougang+Village,+Fugang+St,+24%E8%99%9F%E5%A5%BD%E7%AA%A9%E6%B4%8B%E9%85%92%EF%BD%9C%E9%85%92%E5%A4%96%E9%80%81%EF%BD%9C%E5%A8%81%E5%A3%AB%E5%BF%8C%E3%80%81%E7%8D%A8%E7%AB%8B%E8%A3%9D%E7%93%B6%E5%BB%A0%E3%80%81%E8%91%A1%E8%90%84%E9%85%92%E3%80%81%E6%B8%85%E9%85%92%E5%B0%88%E9%96%80%E5%BA%97%EF%BD%9C%E9%80%81%E7%A6%AE%E5%AE%B4%E5%AE%A2%E5%A9%9A%E5%AE%B4%E9%85%92%E9%A6%96%E9%81%B8%EF%BD%9C%E5%8F%AF%E5%88%B7%E5%8D%A1%EF%BD%9C%ED%95%9C%EA%B5%AD%EC%9D%B8%EC%9D%B4+%EC%9D%B8%EC%A0%95%ED%95%9C+%EC%96%91%EC%A3%BC+%EC%A0%84%EB%AC%B8%EC%A0%90%EF%BD%9C%E9%96%80%E5%B8%82%E9%9C%80%E8%A6%81%E6%8F%90%E5%89%8D%E9%A0%90%E7%B4%841%E6%A8%93/data=!4m2!3m1!1s0x3442abdc8b138a2b:0xdd8a489f3fadc098!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjQxLjMYACDXggMqxwEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODM1NzA0LDEwMDg0MDY1NiwxMDA4MjAyMzcsMTAwODIyNDk0LDEwMDgyNzk3NSwxMDA4MzgzNTksMTIxODE2NDYxQgJLUg%3D%3D&skid=391aa04e-a467-4b1d-8b33-c9d3faf4248a&g_st=ac",
+        "chat_date": "2026.10.18",
+        "shared_by": "박종혁/준비된사수",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "조조씨푸드 56-58 Trần Bạch Đằng, An Hải, Đà Nẵng 550000 베트남",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%A1%B0%EC%A1%B0%EC%94%A8%ED%91%B8%EB%93%9C+56-58+Tr%E1%BA%A7n+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+An+H%E1%BA%A3i,+%C4%90%C3%A0+N%E1%BA%B5ng+550000+%EB%B2%A0%ED%8A%B8%EB%82%A8/data=!4m2!3m1!1s0x314217006f932e1b:0xdd0fa112e21a5edd!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjIxLjEYACDXggMqnwEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsMTAwODE1MDM0LDk0MjgwNTc2LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE4NjUzLDk0MjI5ODM5LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDc5MjU2OCwxMDA4MTA0NjJCAktS&skid=439ef897-19a9-4238-85c8-04f9889c4c38&g_st=akt",
+        "chat_date": "2026.5.31",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "트라이얼수퍼센터",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%ED%8A%B8%EB%9D%BC%EC%9D%B4%EC%96%BC%EC%88%98%ED%8D%BC%EC%84%BC%ED%84%B0/@33.285496,131.4698741,14.67z/data=!4m6!3m5!1s0x3546a64abb9ba375:0x1653546e1c2d3abc!8m2!3d33.30342!4d131.461807!16s%2Fg%2F1v_z245h?entry=tts&g_ep=EgoyMDI2MDYwMS4wIPu8ASoASAFQAw%3D%3D&skid=2c402aa3-b6a2-4975-927b-60d8c9deaa83",
+        "chat_date": "2026.6.5",
+        "shared_by": "김동용",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "우오이치 쇼쿠도 2 Chome-2-8 Shikitsuhigashi, Naniwa Ward, Osaka, 556-0012 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%9A%B0%EC%98%A4%EC%9D%B4%EC%B9%98+%EC%87%BC%EC%BF%A0%EB%8F%84+2+Chome-2-8+Shikitsuhigashi,+Naniwa+Ward,+Osaka,+556-0012+%EC%9D%BC%EB%B3%B8&ftid=0x6000e76f66af55d1:0xde2b3c473fb41a6e&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,100808654,94282134,100799877,94286869&g_ep=CAISEjI2LjIyLjIuOTIxMTAxNzU3MBgAIIgnKlMsOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsMTAwODA4NjU0LDk0MjgyMTM0LDEwMDc5OTg3Nyw5NDI4Njg2OUICS1I%3D&skid=e3f0de1e-d0c0-429a-af21-9b6470cfc70b&g_st=ic",
+        "chat_date": "2026.6.5",
+        "shared_by": "박종혁/준비된사수",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒530-0002 Osaka, Kita Ward, Sonezakishinchi, 1 Chome−2−32 佐々木ビル 사사키상점",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%9D%BC%EB%B3%B8+%E3%80%92530-0002+Osaka,+Kita+Ward,+Sonezakishinchi,+1+Chome%E2%88%922%E2%88%9232+%E4%BD%90%E3%80%85%E6%9C%A8%E3%83%93%E3%83%AB+%EC%82%AC%EC%82%AC%ED%82%A4%EC%83%81%EC%A0%90&ftid=0x6000e6edcf504bc7:0xf9d9df8329e939d2&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,100808654,94282134,100799877,94286869&g_ep=CAISEjI2LjIyLjIuOTIxMTAxNzU3MBgAIIgnKlMsOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsMTAwODA4NjU0LDk0MjgyMTM0LDEwMDc5OTg3Nyw5NDI4Njg2OUICS1I%3D&skid=87157d8f-5db7-4377-98fc-6260d04d8762&g_st=ic",
+        "chat_date": "2026.6.5",
+        "shared_by": "박종혁/준비된사수",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒662-0047 Hyogo, Nishinomiya, Kotobukicho, 4−32 リカーショップ ミルコート",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%9D%BC%EB%B3%B8+%E3%80%92662-0047+Hyogo,+Nishinomiya,+Kotobukicho,+4%E2%88%9232+%E3%83%AA%E3%82%AB%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97+%E3%83%9F%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%88/data=!4m2!3m1!1s0x6000f2fbbe35b7a1:0xcb45a23953cf03d3!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjIyLjQYACCenQoqlQEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwNzkyNTY4LDEwMDgxMDQ2MkICS1I%3D&skid=76ac3b44-c67f-4235-856d-cadd49ef782d&g_st=akt",
+        "chat_date": "2026.6.6",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "110 대만 Taipei City, Xinyi District, Xicun Village, Songshou Rd, 12號WAVE CLUB Taipei7樓",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/110+%EB%8C%80%EB%A7%8C+Taipei+City,+Xinyi+District,+Xicun+Village,+Songshou+Rd,+12%E8%99%9FWAVE+CLUB+Taipei7%E6%A8%93/data=!4m2!3m1!1s0x3442abb0c85fbaa5:0x466c4b3ca2928143!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjIzLjEYACDXggMqiwEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwNzk2NTgyQgJLUg%3D%3D&skid=c00ca7cc-4c3a-44ad-a5cc-d83fbe538305&g_st=akt",
+        "chat_date": "2026.6.14",
+        "shared_by": "전영준/시크릿쥬쥬",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Sumiyaki Unagi UOI Hanshin Umeda Restaurant, Hanshin Department Store Umeda Main Store, 9階 1 Chome-13-13 Umeda, Kita Ward, Osaka, 530-8224 일본",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/Sumiyaki+Unagi+UOI+Hanshin+Umeda+Restaurant,+Hanshin+Department+Store+Umeda+Main+Store,+9%E9%9A%8E+1+Chome-13-13+Umeda,+Kita+Ward,+Osaka,+530-8224+%EC%9D%BC%EB%B3%B8/data=!4m2!3m1!1s0x6000e788b501ee53:0xf354af5ee6fd2d20!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjIzLjEYACCIJyqLASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDc5NjUzNSw5NDI4MDU3Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxODY1Myw5NDIyOTgzOSw5NDI3NTE2OCw5NDI3OTYxOSwxMDA3OTY1ODJCAktS&skid=69b16d51-4244-4bab-b865-09a543c835a9&g_st=akt",
+        "chat_date": "2026.6.16",
+        "shared_by": "전영준/시크릿쥬쥬",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Tontontei, 大阪駅前第２ビル B２F 1 Chome-2-2 Umeda, Kita Ward, Osaka, 530-0001 일본",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/Tontontei,+%E5%A4%A7%E9%98%AA%E9%A7%85%E5%89%8D%E7%AC%AC%EF%BC%92%E3%83%93%E3%83%AB+B%EF%BC%92F+1+Chome-2-2+Umeda,+Kita+Ward,+Osaka,+530-0001+%EC%9D%BC%EB%B3%B8/data=!4m2!3m1!1s0x6000e6ed0c604bbd:0xedf53765e05b5beb!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjIzLjEYACCIJyqVASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDc5NjUzNSw5NDI4MDU3Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxODY1Myw5NDIyOTgzOSw5NDI3NTE2OCw5NDI3OTYxOSwxMDA4MTU2NDAsMTAwNzk2NTgyQgJLUg%3D%3D&skid=ef73583f-737a-479a-88c8-bde2787d4418&g_st=akt",
+        "chat_date": "2026.6.16",
+        "shared_by": "주정욱/이번만술살게요",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "야타이탄탄멘 타부쨩 山喜登会館 1 Chome-6-1 Sennichimae, Chuo Ward, Osaka, 542-0074 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%95%BC%ED%83%80%EC%9D%B4%ED%83%84%ED%83%84%EB%A9%98+%ED%83%80%EB%B6%80%EC%A8%A9+%E5%B1%B1%E5%96%9C%E7%99%BB%E4%BC%9A%E9%A4%A8+1+Chome-6-1+Sennichimae,+Chuo+Ward,+Osaka,+542-0074+%EC%9D%BC%EB%B3%B8&ftid=0x6000e715356a437f:0x9a74c4d23091e9bd&entry=gps&lucs=,94284499,94224825,94227247,94227248,94231188,94280564,47071704,94266210,47069508,94218641,94282134,94203019,47084304&g_ep=CAISEjI1LjM5LjIuODEwMTI3MDQ4MBgAINeCAyp1LDk0Mjg0NDk5LDk0MjI0ODI1LDk0MjI3MjQ3LDk0MjI3MjQ4LDk0MjMxMTg4LDk0MjgwNTY0LDQ3MDcxNzA0LDk0MjY2MjEwLDQ3MDY5NTA4LDk0MjE4NjQxLDk0MjgyMTM0LDk0MjAzMDE5LDQ3MDg0MzA0QgJLUg%3D%3D&skid=716db45f-6942-4b96-8523-2d24f98a1e49&g_st=ipc",
+        "chat_date": "2026.6.16",
+        "shared_by": "주정욱/이번만술살게요",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "The Halal Guys, 6th Avenue &, W 53rd St, New York, NY 10019 미국",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/The+Halal+Guys,+6th+Avenue+%26,+W+53rd+St,+New+York,+NY+10019+%EB%AF%B8%EA%B5%AD/data=!4m2!3m1!1s0x89c259652b78b7cf:0xc9b18d28cbbde518!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjI3LjEYACCenQoqqQEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTU2MjEsMTAwNzk2NTM1LDk0MjgwNTc2LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE4NjUzLDk0MjI5ODM5LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDgxNTYzNSwxMDA3OTI1NzIsMTAwNzk2NTgyQgJLUg%3D%3D&skid=d1bc1aaa-6c05-42ad-8309-90adf1a96655&g_st=ac",
+        "chat_date": "2026.7.8",
+        "shared_by": "최희준/이번달술안사요",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒812-0026 Fukuoka, Hakata Ward, Kamikawabatamachi, 11−289 川端WHISKY Established in 2023｜博多の酒屋・ウィスキー専門店",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%9D%BC%EB%B3%B8+%E3%80%92812-0026+Fukuoka,+Hakata+Ward,+Kamikawabatamachi,+11%E2%88%92289+%E5%B7%9D%E7%AB%AFWHISKY+Established+in+2023%EF%BD%9C%E5%8D%9A%E5%A4%9A%E3%81%AE%E9%85%92%E5%B1%8B%E3%83%BB%E3%82%A6%E3%82%A3%E3%82%B9%E3%82%AD%E3%83%BC%E5%B0%82%E9%96%80%E5%BA%97&ftid=0x354191c5b3edc7d9:0xfb50bfa02a81cc72&entry=gps&shh=CAE&lucs=,94297699,100795625,94231188,94280568,47071704,100809208,94218641,94282134,100813469,94286869&g_ep=CAISEjI2LjE5LjIuOTEwMjIxOTUwMBgAIIgnKl0sOTQyOTc2OTksMTAwNzk1NjI1LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDEwMDgwOTIwOCw5NDIxODY0MSw5NDI4MjEzNCwxMDA4MTM0NjksOTQyODY4NjlCAktS&skid=031bc774-c1ea-4d47-84db-99ef07a85ae0&g_st=ic",
+        "chat_date": "2026.7.13",
+        "shared_by": "홍동완/어쩌다피트대장",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "야타로 우동 5 Chome-1-18 Watanabedori, Chuo Ward, Fukuoka, 810-0004 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%95%BC%ED%83%80%EB%A1%9C+%EC%9A%B0%EB%8F%99+5+Chome-1-18+Watanabedori,+Chuo+Ward,+Fukuoka,+810-0004+%EC%9D%BC%EB%B3%B8&ftid=0x354191911a53f7ad:0x86f0953ea656a485&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100813464,94286869,100820247,100813009&g_ep=CAISEjI2LjI3LjIuOTM5NTc4NzgwMBgAIIgnKl0sOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsMTAwODEzNDY0LDk0Mjg2ODY5LDEwMDgyMDI0NywxMDA4MTMwMDlCAktS&skid=21ba1b58-27ff-4810-b3f1-24fa5cee31d3&g_st=ic",
+        "chat_date": "2026.7.13",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "히츠마부시 하나오카 サンリツノースビル 2Ｆ 3 Chome-8-115 Sakae, Naka Ward, Nagoya, Aichi 460-0008 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%ED%9E%88%EC%B8%A0%EB%A7%88%EB%B6%80%EC%8B%9C+%ED%95%98%EB%82%98%EC%98%A4%EC%B9%B4+%E3%82%B5%E3%83%B3%E3%83%AA%E3%83%84%E3%83%8E%E3%83%BC%E3%82%B9%E3%83%93%E3%83%AB+2%EF%BC%A6+3+Chome-8-115+Sakae,+Naka+Ward,+Nagoya,+Aichi+460-0008+%EC%9D%BC%EB%B3%B8&ftid=0x600370d373504283:0x6cb9f58dc5df900b&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,100808654,94282134,100813469,94286869,100820247&g_ep=CAISEjI2LjI5LjEuOTQ2NjczNjQzMBgAINeCAypdLDk0Mjk3Njk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDEwMDgwODY1NCw5NDI4MjEzNCwxMDA4MTM0NjksOTQyODY4NjksMTAwODIwMjQ3QgJLUg%3D%3D&skid=0d51e8c0-db4f-4b54-815d-357574107b0d&g_st=ic",
+        "chat_date": "2026.7.22",
+        "shared_by": "박종혁/준비된사수",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Yebisu Beer Bar and the Grill Namba City, なんばCITY南館 1F 5 Chome-1-60 Namba, Chuo Ward, Osaka, 542-0076 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=Yebisu+Beer+Bar+and+the+Grill+Namba+City,+%E3%81%AA%E3%82%93%E3%81%B0CITY%E5%8D%97%E9%A4%A8+1F+5+Chome-1-60+Namba,+Chuo+Ward,+Osaka,+542-0076+%EC%9D%BC%EB%B3%B8&ftid=0x6000e76c7eded7d7:0xe31f34194acfc361&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100813469,94286869,100820247,100813014&g_ep=CAISEjI2LjI5LjEuOTQ2NjczNjQzMBgAIIgnKl0sOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsMTAwODEzNDY5LDk0Mjg2ODY5LDEwMDgyMDI0NywxMDA4MTMwMTRCAktS&skid=8d229ea7-ce87-48b9-ab2b-f9fd755db0aa&g_st=ic",
+        "chat_date": "2026.7.23",
+        "shared_by": "홍성민",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "쥰짱 스시",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%A5%B0%EC%A7%B1+%EC%8A%A4%EC%8B%9C/@34.6682293,135.5018356,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e7152e5f00a3:0x3640b9e09e81e7ce!8m2!3d34.6682249!4d135.5044105!16s%2Fg%2F1tdh3rph?entry=tts&g_ep=EgoyMDI2MDcxOS4wIPu8ASoASAFQAw%3D%3D&skid=a134307d-f262-4b0f-b1fe-d4cc051e0981",
+        "chat_date": "2026.7.23",
+        "shared_by": "권오현/세종이안창",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "243 Beach Rd, #01-01 블랑코 코트 프라운 미 싱가포르 189754",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/243+Beach+Rd,+%2301-01+%EB%B8%94%EB%9E%91%EC%BD%94+%EC%BD%94%ED%8A%B8+%ED%94%84%EB%9D%BC%EC%9A%B4+%EB%AF%B8+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+189754/data=!4m2!3m1!1s0x31da19b1add84125:0xda478694dce01c55!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjMwLjkYACCenQoqqQEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksMTAwODA4NjU0LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDgxNTY0MCwxMDA4MjAyMzcsMTAwODIyNDk0QgJLUg%3D%3D&skid=ac47e24f-3fc0-4a82-9cf4-24286850c48f&g_st=akt",
+        "chat_date": "2026.8.4",
+        "shared_by": "안세식/보쌈족발",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "니쿠젠 2 Chome-12-17 Daimyo, Chuo Ward, Fukuoka, 810-0041 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EB%8B%88%EC%BF%A0%EC%A0%A0+2+Chome-12-17+Daimyo,+Chuo+Ward,+Fukuoka,+810-0041+%EC%9D%BC%EB%B3%B8&ftid=0x3541918786577bfd:0x57719e912ca3853a&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100813464,94286869,100820247,100813009,100822499&g_ep=CAISEjI2LjMxLjUuOTU0MzA2MDQzMBgAIIgnKmcsOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsMTAwODEzNDY0LDk0Mjg2ODY5LDEwMDgyMDI0NywxMDA4MTMwMDksMTAwODIyNDk5QgJLUg%3D%3D&skid=a36f2cd9-852e-4c31-b2a1-076656b60969&g_st=ic",
+        "chat_date": "2026.8.7",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "쇼쿠도 미츠 柳橋連合市場 内 1 Chome-6-1 Haruyoshi, Chuo Ward, Fukuoka, 810-0003 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%87%BC%EC%BF%A0%EB%8F%84+%EB%AF%B8%EC%B8%A0+%E6%9F%B3%E6%A9%8B%E9%80%A3%E5%90%88%E5%B8%82%E5%A0%B4+%E5%86%85+1+Chome-6-1+Haruyoshi,+Chuo+Ward,+Fukuoka,+810-0003+%EC%9D%BC%EB%B3%B8&ftid=0x35419129dc0af835:0x63647d7693b8c86&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100813464,94286869,100820247,100813009,100822499&g_ep=CAISEjI2LjMxLjUuOTU0MzA2MDQzMBgAIIgnKmcsOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsMTAwODEzNDY0LDk0Mjg2ODY5LDEwMDgyMDI0NywxMDA4MTMwMDksMTAwODIyNDk5QgJLUg%3D%3D&skid=0755ea0f-1758-43de-bdf5-b840091d17f4&g_st=ic",
+        "chat_date": "2026.8.7",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Man Tang Guo Nguyễn Trãi, 347 Nguyễn Trãi, Cầu Ông Lãnh, Hồ Chí Minh 700000 베트남",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=Man+Tang+Guo+Nguy%E1%BB%85n+Tr%C3%A3i,+347+Nguy%E1%BB%85n+Tr%C3%A3i,+C%E1%BA%A7u+%C3%94ng+L%C3%A3nh,+H%E1%BB%93+Ch%C3%AD+Minh+700000+%EB%B2%A0%ED%8A%B8%EB%82%A8&ftid=0x31752f3ab1ddd9e1:0x21298d2f1bf6b832&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,100821559,47071704,94218641,94282134,100813464,94286869,100820247,100822499&g_ep=CAISEjI2LjMyLjUuOTU4MDQ3MzAzMBgAIIgnKmcsOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsMTAwODIxNTU5LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDEwMDgxMzQ2NCw5NDI4Njg2OSwxMDA4MjAyNDcsMTAwODIyNDk5QgJLUg%3D%3D&skid=4eade4b6-d0d8-441c-a8ea-718c7acadf47&g_st=com.iwilab.KakaoTalk.Share",
+        "chat_date": "2026.8.14",
+        "shared_by": "강건한/라키라가",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "곱창국수 (가오슝)",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EA%B3%B1%EC%B0%BD%EA%B5%AD%EC%88%98/@22.6330691,120.2924003,17z/data=!3m1!4b1!4m6!3m5!1s0x346e05eb61a158df:0x7ad17cf26c1731b3!8m2!3d22.6330691!4d120.2924003!16s%2Fg%2F11f7bv8x09?entry=tts&g_ep=EgoyMDI2MDgxMS4wIPu8ASoASAFQAw%3D%3D&skid=5a734197-554a-43fe-bded-1d49289929b7",
+        "chat_date": "2026.8.14",
+        "shared_by": "박동규",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "라멘이나다 2 Chome-26-27 Minoshima, Hakata Ward, Fukuoka, 812-0017 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EB%9D%BC%EB%A9%98%EC%9D%B4%EB%82%98%EB%8B%A4+2+Chome-26-27+Minoshima,+Hakata+Ward,+Fukuoka,+812-0017+%EC%9D%BC%EB%B3%B8&ftid=0x354191285a1e52f3:0x483152767a00f65e&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100813464,94286869,100820247,100822499&g_ep=CAISEjI2LjMyLjUuOTU4MDQ3MzAzMBgAIIgnKl0sOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsMTAwODEzNDY0LDk0Mjg2ODY5LDEwMDgyMDI0NywxMDA4MjI0OTlCAktS&skid=afa1e6c2-b0f6-470c-b5b0-e35c910dcd11&g_st=ic",
+        "chat_date": "2026.8.16",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "106 대만 Taipei City, Da’an District, Zhengsheng Village, Lane 280, Guangfu S Rd, 27號小倉屋鰻魚飯 光復本店",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=106+%EB%8C%80%EB%A7%8C+Taipei+City,+Da%E2%80%99an+District,+Zhengsheng+Village,+Lane+280,+Guangfu+S+Rd,+27%E8%99%9F%E5%B0%8F%E5%80%89%E5%B1%8B%E9%B0%BB%E9%AD%9A%E9%A3%AF+%E5%85%89%E5%BE%A9%E6%9C%AC%E5%BA%97&ftid=0x3442abc63a692383:0x70364dd9dfde14cc&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,100821559,47071704,94218641,94282134,100813469,94286869,100820247,100822499&g_ep=CAISEjI2LjMzLjEuOTYxODkxNDMyMBgAIIgnKmcsOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsMTAwODIxNTU5LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDEwMDgxMzQ2OSw5NDI4Njg2OSwxMDA4MjAyNDcsMTAwODIyNDk5QgJLUg%3D%3D&skid=887afb7d-c84b-4716-ac10-09ef334d1da9&g_st=com.iwilab.KakaoTalk.Share",
+        "chat_date": "2026.8.25",
+        "shared_by": "홍성민",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "104 대만 Taipei City, Zhongshan District, Zhengde Village, Linsen N Rd, 156號 이제병가",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=104+%EB%8C%80%EB%A7%8C+Taipei+City,+Zhongshan+District,+Zhengde+Village,+Linsen+N+Rd,+156%E8%99%9F+%EC%9D%B4%EC%A0%9C%EB%B3%91%EA%B0%80&ftid=0x3442a968aeb397cd:0x6041d5643a2fbdb5&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100813464,94286869,100820247,100822499&g_ep=CAISEjI2LjMzLjEuOTYxODkxNDMyMBgAIIgnKl0sOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsMTAwODEzNDY0LDk0Mjg2ODY5LDEwMDgyMDI0NywxMDA4MjI0OTlCAktS&skid=06231e78-5b06-4e3b-a465-550f571fc5ab&g_st=ic",
+        "chat_date": "2026.8.25",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒542-0085 Osaka, Chuo Ward, Shinsaibashisuji, 2 Chome−7−9 乾杯会 Kanpaikai OSAKA Whisky",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%9D%BC%EB%B3%B8+%E3%80%92542-0085+Osaka,+Chuo+Ward,+Shinsaibashisuji,+2+Chome%E2%88%927%E2%88%929+%E4%B9%BE%E6%9D%AF%E4%BC%9A+Kanpaikai+OSAKA+Whisky&ftid=0x6000e76dc51df381:0x643bf075af799f7b&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100813464,94286869,100820247,100822499&g_ep=CAISEjI2LjMzLjEuOTYxODkxNDMyMBgAIIgnKl0sOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsMTAwODEzNDY0LDk0Mjg2ODY5LDEwMDgyMDI0NywxMDA4MjI0OTlCAktS&skid=62c6dc2f-97f8-4d5c-9e2d-351fe538dc4e&g_st=ic",
+        "chat_date": "2026.8.28",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "야키토리 다테다치 2 Chome-4-12 Sennichimae, Chuo Ward, Osaka, 542-0074 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=%EC%95%BC%ED%82%A4%ED%86%A0%EB%A6%AC+%EB%8B%A4%ED%85%8C%EB%8B%A4%EC%B9%98+2+Chome-4-12+Sennichimae,+Chuo+Ward,+Osaka,+542-0074+%EC%9D%BC%EB%B3%B8&ftid=0x6000e783e98e0b29:0x6edb7e5f493ab96f&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100813464,94286869,100820247,100822499&g_ep=CAISEjI2LjMzLjEuOTYxODkxNDMyMBgAIIgnKl0sOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsMTAwODEzNDY0LDk0Mjg2ODY5LDEwMDgyMDI0NywxMDA4MjI0OTlCAktS&skid=7e783ce2-d35b-469e-b563-a8a1ed3f0a23&g_st=ic",
+        "chat_date": "2026.8.28",
+        "shared_by": "이원재/유사길",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒060-0063 Hokkaido, Sapporo, Chuo Ward, Minami 3 Jonishi, 2 Chome−6−2 ＫＴ三条ビル 1F The Whisky Tasting Room 札幌店",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%9D%BC%EB%B3%B8+%E3%80%92060-0063+Hokkaido,+Sapporo,+Chuo+Ward,+Minami+3+Jonishi,+2+Chome%E2%88%926%E2%88%922+%EF%BC%AB%EF%BC%B4%E4%B8%89%E6%9D%A1%E3%83%93%E3%83%AB+1F+The+Whisky+Tasting+Room+%E6%9C%AD%E5%B9%8C%E5%BA%97/data=!4m2!3m1!1s0x5f0b291a8878f67d:0x89587feaf4cf2f91!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM1LjAYACCIJyqfASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDc5NjUzNSw5NDI4MDU3Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxODY1Myw5NDIyOTgzOSw5NDI3NTE2OCw5NDI3OTYxOSwxMDA4MTU2NDAsMTAwODIwMjM3LDEwMDgyMjQ5NEICS1I%3D&skid=7fba7afd-a6c0-4936-aee4-543f57a51444&g_st=ac",
+        "chat_date": "2026.8.29",
+        "shared_by": "김우중 / 늘보집사",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒064-0804 Hokkaido, Sapporo, Chuo Ward, Minami 4 Jonishi, 4 Chome−１ 네모토 리쿼 COCONO SUSUKINO B1F",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%9D%BC%EB%B3%B8+%E3%80%92064-0804+Hokkaido,+Sapporo,+Chuo+Ward,+Minami+4+Jonishi,+4+Chome%E2%88%92%EF%BC%91+%EB%84%A4%EB%AA%A8%ED%86%A0+%EB%A6%AC%EC%BF%BC+COCONO+SUSUKINO+B1F/data=!4m2!3m1!1s0x5f0b293bd016c3ff:0x9b50a6217a7035ec!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM1LjAYACCenQoqnwEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODE1NjQwLDEwMDgyMDIzNywxMDA4MjI0OTRCAktS&skid=ab3b563f-2967-4590-a7e6-5a2efce89464",
+        "chat_date": "2026.8.29",
+        "shared_by": "김우중 / 늘보집사",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "UMBRELLA 晴雨伞, No. 128號, Section 1, Zhonghua Rd, Ximen Village, Wanhua District, Taipei City, 대만 108",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/UMBRELLA+%E6%99%B4%E9%9B%A8%E4%BC%9E,+No.+128%E8%99%9F,+Section+1,+Zhonghua+Rd,+Ximen+Village,+Wanhua+District,+Taipei+City,+%EB%8C%80%EB%A7%8C+108/data=!4m2!3m1!1s0x3442a982509bda73:0xe4ec428216e55450!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM0LjQYACCenQoqswEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTU2MjEsMTAwNzk2NTM1LDk0MjgwNTc2LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE4NjUzLDk0MjI5ODM5LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDgxNTYzNSwxMDA4MjAyMzcsMTAwODIyNDg5LDEwMDgyNzk3MUICS1I%3D&skid=a0425b7e-3a3a-4ef2-9b4e-25842f6552f2&g_st=ac",
+        "chat_date": "2026.9.1",
+        "shared_by": "최희준/이번달술안사요",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "다낭마사지 아지트 멀티플렉스 22 Hùng Vương, Hải Châu, Đà Nẵng 50000 베트남",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EB%8B%A4%EB%82%AD%EB%A7%88%EC%82%AC%EC%A7%80+%EC%95%84%EC%A7%80%ED%8A%B8+%EB%A9%80%ED%8B%B0%ED%94%8C%EB%A0%89%EC%8A%A4+22+H%C3%B9ng+V%C6%B0%C6%A1ng,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+50000+%EB%B2%A0%ED%8A%B8%EB%82%A8/data=!4m2!3m1!1s0x314219cc0971a581:0x926e33db82ef3d15!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM0LjQYACDXggMqnwEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODE1NjM1LDEwMDgyMDIzNywxMDA4MjI0ODlCAktS&skid=ba3e0689-5898-4fb1-a9da-cd3de334d45a&g_st=akt",
+        "chat_date": "2026.9.2",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "일본 〒550-0014 Osaka, Nishi Ward, Kitahorie, 1 Chome−5−2 102 아울리커",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%9D%BC%EB%B3%B8+%E3%80%92550-0014+Osaka,+Nishi+Ward,+Kitahorie,+1+Chome%E2%88%925%E2%88%922+102+%EC%95%84%EC%9A%B8%EB%A6%AC%EC%BB%A4/data=!4m2!3m1!1s0x6000e79037ef25d1:0x9c3146f4a117148!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM0LjQYACDXggMqnwEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODE1NjM1LDEwMDgyMDIzNywxMDA4MjI0ODlCAktS&skid=506d4000-c034-4924-ad73-3f8355143110&g_st=akt",
+        "chat_date": "2026.9.2",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Alice in Fantasy Land, D.D.HOUSE1F 1 Chome-8-1 Shibata, Kita Ward, Osaka, 530-0012 일본",
+        "subcategory": "",
+        "map_url": "https://maps.google.com?q=Alice+in+Fantasy+Land,+D.D.HOUSE1F+1+Chome-8-1+Shibata,+Kita+Ward,+Osaka,+530-0012+%EC%9D%BC%EB%B3%B8&ftid=0x6000e6902d090b79:0x907478504cc0c481&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,100808654,94282134,100813469,94286869,100820247,100822504&g_ep=CAISEjI2LjMzLjEuOTYxODkxNDMyMBgAIIgnKmcsOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsMTAwODA4NjU0LDk0MjgyMTM0LDEwMDgxMzQ2OSw5NDI4Njg2OSwxMDA4MjAyNDcsMTAwODIyNTA0QgJLUg%3D%3D&skid=7553f9cd-a846-417e-8202-a6cfbb17689c&g_st=ic",
+        "chat_date": "2026.9.2",
+        "shared_by": "박종혁/준비된사수",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "코스프레 카페 e-maid",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/%EC%BD%94%EC%8A%A4%ED%94%84%EB%A0%88+%EC%B9%B4%ED%8E%98+e-maid/@34.6624979,135.5036404,21z/data=!4m9!3m8!1s0x6000e769777f2ebd:0x7a80212edcc185eb!5m2!4m1!1i2!8m2!3d34.662561!4d135.503804!16s%2Fg%2F1thw20wm?entry=tts&g_ep=EgoyMDI2MDgzMC4wIPu8ASoASAFQAw%3D%3D&skid=b322d1f7-c823-4154-b7c7-65581e68b490",
+        "chat_date": "2026.9.2",
+        "shared_by": "윤관식/위스키비기너",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "KINGRAM LIQUOR namba COCONAMBA 3F 7-10 Nanbasennichimae, Chuo Ward, Osaka, 542-0075 일본",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/KINGRAM+LIQUOR+namba+COCONAMBA+3F+7-10+Nanbasennichimae,+Chuo+Ward,+Osaka,+542-0075+%EC%9D%BC%EB%B3%B8/data=!4m2!3m1!1s0x6000e7fa9a6d7959:0x171ce55fab50ebb1!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM0LjQYACDXggMqnwEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODE1NjM1LDEwMDgyMDIzNywxMDA4MjI0ODlCAktS&skid=be01bbe2-afe6-48fd-ac34-b936b54a1bb3&g_st=akt",
+        "chat_date": "2026.9.2",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Unit B, 16/F, The Central Whisky, 98 Wellington St, Central, Hong Kong Island, 홍콩",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/Unit+B,+16%2FF,+The+Central+Whisky,+98+Wellington+St,+Central,+Hong+Kong+Island,+%ED%99%8D%EC%BD%A9/data=!4m2!3m1!1s0x3404013f49b5cc13:0x70ee76a31c006ecd!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM1LjMYACCIJyqpASwxMDA4MzM5ODQsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODE1NjM1LDEwMDgyMDIzNywxMDA4MjI0ODlCAktS&skid=54ab8f90-4938-4172-b96b-73759d14e6e2&g_st=akt",
+        "chat_date": "2026.9.3",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "Black Pearl - World Foods 75 Hoàng Kế Viêm, Ngũ Hành Sơn, Đà Nẵng 550000 베트남",
+        "subcategory": "",
+        "map_url": "https://www.google.com/maps/place/Black+Pearl+-+World+Foods+75+Ho%C3%A0ng+K%E1%BA%BF+Vi%C3%AAm,+Ng%C5%A9+H%C3%A0nh+S%C6%A1n,+%C4%90%C3%A0+N%E1%BA%B5ng+550000+%EB%B2%A0%ED%8A%B8%EB%82%A8/data=!4m2!3m1!1s0x3142170036da029b:0x6e5b45e6926015bb!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM1LjMYACDXggMqnwEsMTAwODMzOTg0LDk0MjY3NzI3LDk0MjkyMTk1LDk0Mjk5NTMyLDEwMDc5NjQ5OCwxMDA3OTc3NjEsMTAwNzk2NTM1LDk0MjgwNTc2LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE4NjUzLDk0MjI5ODM5LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDgyMDIzNywxMDA4MjI0ODlCAktS&skid=80cce064-d18b-458f-8ac8-86fa52d76fa1&g_st=akt",
+        "chat_date": "2026.9.5",
+        "shared_by": "박성태/세종초보위린이",
+        "needs_review": false,
+        "note": ""
+      },
+      {
+        "category": "음식점",
+        "name": "그랜드 하얏트 타이베이",
+        "subcategory": "",
+        "map_url": "https://www.google.co.kr/maps/place/%EA%B7%B8%EB%9E%9C%EB%93%9C+%ED%95%98%EC%96%8F%ED%8A%B8+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4/@25.0531784,121.4950832,13.25z/data=!4m9!3m8!1s0x3442abb7a75a2db7:0x44cef53b99be635a!5m2!4m1!1i2!8m2!3d25.0351708!4d121.5628669!16s%2Fm%2F026wkvf?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+        "chat_date": "2026.9.14",
+        "shared_by": "강성호 소방아찌",
+        "needs_review": false,
+        "note": ""
       }
     ]
   },
@@ -927,6 +1527,54 @@
       "shared_by": "광주초짜",
       "link": "https://linktr.ee/BRWHISKY?utm_source=linktree_profile_share&ltsid=5d83e0d4-bf0a-4694-8de6-183e801175d1",
       "reason": "여러 지점/도시 불명 링크 - 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "해외",
+      "chat_date": "2026.6.30",
+      "shared_by": "이원재/유사길",
+      "link": "https://maps.app.goo.gl/L73W3YzbPQj8nEVx5?g_st=i",
+      "reason": "구글 지도 저장 목록(여러 장소 모음) 링크 - 개별 장소 특정 불가, 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "해외",
+      "chat_date": "2026.8.7",
+      "shared_by": "이원재/유사길",
+      "link": "https://maps.app.goo.gl/GAwEXkSY7nAFbHEF9?g_st=i",
+      "reason": "구글 지도 저장 목록(여러 장소 모음) 링크 - 개별 장소 특정 불가, 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "해외",
+      "chat_date": "2026.8.7",
+      "shared_by": "이원재/유사길",
+      "link": "https://maps.app.goo.gl/HVjMRK3YCHu2TS3t9?g_st=i",
+      "reason": "구글 지도 저장 목록(여러 장소 모음) 링크 - 개별 장소 특정 불가, 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "해외",
+      "chat_date": "2026.8.7",
+      "shared_by": "이원재/유사길",
+      "link": "https://maps.app.goo.gl/E47mhmjr5dgwYzzG9?g_st=i",
+      "reason": "구글 지도 저장 목록(여러 장소 모음) 링크 - 개별 장소 특정 불가, 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "해외",
+      "chat_date": "2026.9.5",
+      "shared_by": "이원재/유사길",
+      "link": "https://maps.app.goo.gl/JNVEabxbxwZXCWkG6?g_st=i",
+      "reason": "구글 지도 저장 목록(여러 장소 모음) 링크 - 개별 장소 특정 불가, 직접 확인 필요",
+      "note": ""
+    },
+    {
+      "country": "해외",
+      "chat_date": "2026.9.11",
+      "shared_by": "김동용",
+      "link": "https://maps.app.goo.gl/3aE2QcW9oYWbHnpt7?g_st=ipc",
+      "reason": "장소명 자동 추출 실패 (ftid만 반환됨) - 직접 확인 필요",
       "note": ""
     }
   ]
