@@ -28,5 +28,59 @@
       {"label": "LINE", "url": "https://line.me/R/ti/p/@715pfeni"},
       {"label": "지도", "url": "https://maps.app.goo.gl/LmP1m9KMsvwYamELA?g_st=ic"}
     ]
+  },
+  "images/타오위안_위안주사.jpg": {
+    "links": [
+      {"label": "LINE", "url": "https://line.me/ti/p/AOK3RiD2Zy"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/LSj6hMWHCTdBLZqA9"}
+    ]
+  },
+  "images/타이베이_금배양주.jpg": {
+    "links": [
+      {"label": "LINE", "url": "https://line.me/ti/p/FXd-0Xhx5S"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/CR2orLJAkDM7RUs1A"}
+    ]
+  },
+  "images/타이베이_길서주장.jpg": {
+    "links": [
+      {"label": "LINE", "url": "https://lin.ee/keJSXMz"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/JMvXbdhipdT7YJso6"}
+    ]
+  },
+  "images/타이베이_안덕위 양주.jpg": {
+    "links": [
+      {"label": "LINE", "url": "https://line.me/ti/p/jUhfQWHU8L"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/ipyydFSC7VWBcN7d8"}
+    ]
+  },
+  "images/타이베이_은반어주.png": {
+    "links": [
+      {"label": "LINE", "url": "https://lin.ee/5A0WPO9"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/5M1Ky8pU5RmjFSpK6"}
+    ]
+  },
+  "images/타이베이_조조위스키.jpg": {
+    "links": [
+      {"label": "LINE", "url": "https://lin.ee/yZh8gg7"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/8jYLQNJ4UvtAPmLY6"}
+    ]
+  },
+  "images/타이베이_형구주업.png": {
+    "links": [
+      {"label": "LINE", "url": "https://line.me/R/ti/p/h7VIX7fIIU"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/Tme8PygNwVYA2PLT8"}
+    ]
+  },
+  "images/타이베이_화락일배주.png": {
+    "links": [
+      {"label": "LINE", "url": "https://lin.ee/zTz0ljC"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/uPUFyJtJ8DAni87C9"}
+    ]
+  },
+  "images/타이베이_횡양주방.jpg": {
+    "links": [
+      {"label": "LINE", "url": "https://lin.ee/BuIa7ET"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/uGfRLAfLyicnDAa96"}
+    ]
   }
 }
