@@ -371,6 +371,10 @@
       {
         "label": "YOUTUBE 리뷰",
         "url": "https://www.youtube.com/watch?v=LUC2vPVWBtQ"
+      },
+      {
+        "label": "지도",
+        "url": "https://maps.app.goo.gl/dhJ7rJ7Yj91LwN8b7"
       }
     ]
   },
@@ -382,6 +386,14 @@
       {
         "label": "LINE",
         "url": "https://line.me/ti/p/2MT9IOQovA"
+      },
+      {
+        "label": "YOUTUBE 리뷰",
+        "url": "https://youtu.be/tuu3jZ09Lqk?si=kiDrm3JgfoJd9yqR"
+      },
+      {
+        "label": "지도",
+        "url": "https://maps.app.goo.gl/R5eLcutPyBvPABwj8"
       }
     ]
   },
