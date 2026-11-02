@@ -82,5 +82,11 @@
       {"label": "LINE", "url": "https://lin.ee/BuIa7ET"},
       {"label": "지도", "url": "https://maps.app.goo.gl/uGfRLAfLyicnDAa96"}
     ]
+  },
+  "images/타이중_주선.jpg": {
+    "links": [
+      {"label": "LINE", "url": "https://line.me/ti/p/by7wFJgLfp"},
+      {"label": "YOUTUBE 리뷰", "url": "https://www.youtube.com/watch?v=LUC2vPVWBtQ"}
+    ]
   }
 }

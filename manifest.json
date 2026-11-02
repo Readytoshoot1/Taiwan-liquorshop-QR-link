@@ -361,6 +361,32 @@
   },
   {
     "region": "타이중",
+    "name": "주선",
+    "file": "images/타이중_주선.jpg",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://line.me/ti/p/by7wFJgLfp"
+      },
+      {
+        "label": "YOUTUBE 리뷰",
+        "url": "https://www.youtube.com/watch?v=LUC2vPVWBtQ"
+      }
+    ]
+  },
+  {
+    "region": "타이중",
+    "name": "청태어주",
+    "file": "images/타이중_청태어주.jpg",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://line.me/ti/p/2MT9IOQovA"
+      }
+    ]
+  },
+  {
+    "region": "타이중",
     "name": "포정양주",
     "file": "images/타이중_포정양주.jpg",
     "links": [
