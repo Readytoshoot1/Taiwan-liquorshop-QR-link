@@ -10,7 +10,8 @@
     "links": [
       {"label": "LINE", "url": "https://line.me/ti/p/CVbn9rqK00"},
       {"label": "INSTAGRAM", "url": "https://www.instagram.com/wowwine360?cplk=MWJzN2xkMmp1cmpkbQ=="},
-      {"label": "지도", "url": "https://maps.app.goo.gl/8Tqv5Rv6qBvvxUsd9?g_st=ac"}
+      {"label": "지도", "url": "https://maps.app.goo.gl/8Tqv5Rv6qBvvxUsd9?g_st=ac"},
+      {"label": "YOUTUBE 리뷰", "url": "https://youtu.be/iQsLslXEFm8?si=k9dfJRQAbAO1o1wc"}
     ],
     "note": "무조건 예약방문, 인스타에 제품 목록 확인 후 라인으로 예약"
   },
@@ -18,15 +19,17 @@
     "links": [
       {"label": "LINE", "url": "https://lin.ee/q99oI1S"},
       {"label": "INSTAGRAM", "url": "https://www.instagram.com/brwhiskytw"},
-      {"label": "지도", "url": "https://maps.app.goo.gl/BTZz5d8VBApQFkkU6"},
-      {"label": "BAND", "url": "https://band.us/n/a0a9bdNche9aF"}
+      {"label": "지도", "url": "https://maps.app.goo.gl/UkSFf4KR2rra6rcD9"},
+      {"label": "BAND", "url": "https://band.us/n/a0a9bdNche9aF"},
+      {"label": "YOUTUBE 리뷰", "url": "https://youtu.be/caitfZ1a66E?si=TwfkhOliaJy7Ahbo"}
     ],
     "note": "라인으로 문의/구매 가능, 카드/분할결재 가능, 2회 이상 구매, 취소이력 없을시 밴드초대 가능"
   },
   "images/주베이_욱형양주.jpg": {
     "links": [
       {"label": "LINE", "url": "https://line.me/R/ti/p/@715pfeni"},
-      {"label": "지도", "url": "https://maps.app.goo.gl/LmP1m9KMsvwYamELA?g_st=ic"}
+      {"label": "지도", "url": "https://maps.app.goo.gl/LmP1m9KMsvwYamELA?g_st=ic"},
+      {"label": "YOUTUBE 리뷰", "url": "https://youtu.be/-RFmytvgLRA?si=6dv9xU0ZyGcc71ex"}
     ]
   },
   "images/타오위안_위안주사.jpg": {
@@ -59,10 +62,11 @@
       {"label": "지도", "url": "https://maps.app.goo.gl/5M1Ky8pU5RmjFSpK6"}
     ]
   },
-  "images/타이베이_조조위스키.jpg": {
+  "images/린커우_조조위스키.jpg": {
     "links": [
       {"label": "LINE", "url": "https://lin.ee/yZh8gg7"},
-      {"label": "지도", "url": "https://maps.app.goo.gl/8jYLQNJ4UvtAPmLY6"}
+      {"label": "지도", "url": "https://maps.app.goo.gl/JcxDyWzV4FUqhV8S9"},
+      {"label": "YOUTUBE 리뷰", "url": "https://youtu.be/Bk4N-BxplZA?si=JZW1LjlL4gm5OCyO"}
     ]
   },
   "images/타이베이_형구주업.png": {
@@ -77,10 +81,11 @@
       {"label": "지도", "url": "https://maps.app.goo.gl/uPUFyJtJ8DAni87C9"}
     ]
   },
-  "images/타이베이_횡양주방.jpg": {
+  "images/린커우_횡양주방.jpg": {
     "links": [
       {"label": "LINE", "url": "https://lin.ee/BuIa7ET"},
-      {"label": "지도", "url": "https://maps.app.goo.gl/uGfRLAfLyicnDAa96"}
+      {"label": "지도", "url": "https://maps.app.goo.gl/uGfRLAfLyicnDAa96"},
+      {"label": "YOUTUBE 리뷰", "url": "https://youtu.be/1jV5cgn_FTI?si=eUTsxtTGr9K_9K-H"}
     ]
   },
   "images/타이중_주선.jpg": {
@@ -95,6 +100,41 @@
       {"label": "LINE", "url": "https://line.me/ti/p/2MT9IOQovA"},
       {"label": "YOUTUBE 리뷰", "url": "https://youtu.be/tuu3jZ09Lqk?si=kiDrm3JgfoJd9yqR"},
       {"label": "지도", "url": "https://maps.app.goo.gl/R5eLcutPyBvPABwj8"}
+    ]
+  },
+  "images/타이중_안적양주.jpg": {
+    "links": [
+      {"label": "LINE", "url": "https://line.me/ti/p/aVE-prN091"},
+      {"label": "YOUTUBE 리뷰", "url": "https://youtu.be/VUDF42EkpFM?si=u7hECAMcrNBLwnGO"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/XLSNnFvihfFWzdr76"}
+    ]
+  },
+  "images/타이중_위륜양주.jpg": {
+    "links": [
+      {"label": "LINE", "url": "https://line.me/ti/p/3osXxo2tnN"},
+      {"label": "YOUTUBE 리뷰", "url": "https://youtu.be/dDAE5_EKwgs?si=mobh7dEazLxHdd3j"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/RoHhfBaYH1UaQpca9"}
+    ]
+  },
+  "images/타이중_금문연주행.jpg": {
+    "links": [
+      {"label": "LINE", "url": "https://line.me/ti/p/LwzV0JldDk"},
+      {"label": "YOUTUBE 리뷰", "url": "https://youtu.be/6vcyk8cbPdk?si=KFWd6gl_2AtfyTnG"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/pvb1sU8Ffrtnc9kDA"}
+    ]
+  },
+  "images/타이베이_가품양주.png": {
+    "links": [
+      {"label": "지도", "url": "https://maps.app.goo.gl/M1xisR4Cg1xZnPXx5"},
+      {"label": "YOUTUBE 리뷰", "url": "https://youtu.be/ylTQGpKC71A?si=NvIMocoI9c33e3yI"},
+      {"label": "카카오톡", "url": "https://open.kakao.com/o/gRrju9Di"},
+      {"label": "INSTAGRAM", "url": "https://www.instagram.com/omywhisky/"}
+    ]
+  },
+  "images/타이베이_만화양주.jpg": {
+    "links": [
+      {"label": "지도", "url": "https://maps.app.goo.gl/eHntnnx7CJCqw4sBA"},
+      {"label": "YOUTUBE 리뷰", "url": "https://youtu.be/o-EB7LvFqMc?si=BxKNiefvyWo4IP6N"}
     ]
   }
 }
