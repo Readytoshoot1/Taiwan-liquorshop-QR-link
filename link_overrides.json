@@ -173,5 +173,11 @@
       {"label": "지도", "url": "https://maps.app.goo.gl/eHntnnx7CJCqw4sBA"},
       {"label": "안주남리뷰 (2610)", "url": "https://youtu.be/o-EB7LvFqMc?si=BxKNiefvyWo4IP6N"}
     ]
+  },
+  "images/타이베이_순양어주.png": {
+    "links": [
+      {"label": "지도", "url": "https://maps.app.goo.gl/UVg5oyfRPkuShUP8A"},
+      {"label": "안주남리뷰 (2609)", "url": "https://youtu.be/1GMov_bYDXU?si=dut5oz8PmJRKSwCt"}
+    ]
   }
 }
