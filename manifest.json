@@ -11,6 +11,17 @@
     ]
   },
   {
+    "region": "가오슝",
+    "name": "위스키쉐어링",
+    "file": "images/가오슝_위스키쉐어링.jpg",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://lin.ee/Xw0xmN4"
+      }
+    ]
+  },
+  {
     "region": "뉴타이베이",
     "name": "춘태행",
     "file": "images/뉴타이베이_춘태행.jpg",
