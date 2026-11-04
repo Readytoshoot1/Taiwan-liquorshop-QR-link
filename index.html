@@ -16,6 +16,7 @@
   <button class="main-tab active" data-target="qr">주류상점 QR</button>
   <button class="main-tab" data-target="travel">여행 정보</button>
   <button class="main-tab" data-target="unionpay">유니온페이 할인</button>
+  <button class="main-tab" data-target="taxcalc">세금 계산기</button>
 </nav>
 
 <section class="panel" id="qr">
@@ -76,6 +77,46 @@
   ></iframe>
 </section>
 
+<section class="panel" id="taxcalc" hidden>
+  <div class="tc-intro">
+    <p>해외(영국/유럽 등)에서 위스키를 구매해 대만·일본·한국으로 DHL 발송할 때 드는 세금 + DHL 수수료를 계산합니다.</p>
+    <p class="tc-rate-info" id="tcRateInfo">환율 불러오는 중...</p>
+  </div>
+
+  <div class="tc-card">
+    <div class="tc-row">
+      <label class="tc-field">
+        <span>구매 통화</span>
+        <select id="tcCurrency" class="select-input">
+          <option value="USD">USD ($)</option>
+          <option value="GBP">GBP (£)</option>
+          <option value="EUR">EUR (€)</option>
+        </select>
+      </label>
+      <label class="tc-field">
+        <span>DHL 국제 배송비</span>
+        <input type="number" id="tcShipping" class="select-input" min="0" step="0.01" value="50" />
+      </label>
+    </div>
+    <details class="tc-rate-edit">
+      <summary>환율 직접 수정</summary>
+      <div class="tc-rate-grid" id="tcRateGrid"></div>
+    </details>
+  </div>
+
+  <div class="tc-card">
+    <div class="tc-cart-head">
+      <h3>위스키 목록</h3>
+      <button type="button" class="tc-add-btn" id="tcAddBottle">+ 위스키 추가</button>
+    </div>
+    <div id="tcBottleList" class="tc-bottle-list"></div>
+  </div>
+
+  <p class="tc-summary" id="tcCartSummary"></p>
+
+  <div class="tc-results" id="tcResults"></div>
+</section>
+
 <div class="modal" id="modal" hidden>
   <button class="modal-close" id="modalClose" aria-label="닫기">&times;</button>
   <figure class="modal-content">
@@ -88,6 +129,7 @@
 
 <script src="script.js"></script>
 <script src="travel.js"></script>
+<script src="tax-calculator.js"></script>
 <script data-goatcounter="https://abc12341.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

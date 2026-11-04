@@ -499,3 +499,259 @@ body {
   border-radius: 12px;
   background: var(--card-bg);
 }
+
+.tc-intro {
+  max-width: 720px;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.tc-intro p {
+  margin: 0.2rem 0;
+}
+
+.tc-rate-info {
+  font-size: 0.78rem;
+}
+
+.tc-card {
+  max-width: 720px;
+  margin: 0 auto 1rem;
+  padding: 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.tc-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tc-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  flex: 1 1 140px;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.tc-field input {
+  width: 100%;
+}
+
+.tc-w-label {
+  flex: 1 1 180px;
+}
+
+.tc-rate-edit {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+}
+
+.tc-rate-edit summary {
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.tc-rate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+}
+
+.tc-rate-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.tc-cart-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.tc-cart-head h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.tc-add-btn {
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  border: none;
+  background: var(--accent);
+  color: var(--accent-contrast);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tc-bottle-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tc-bottle-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: flex-end;
+  padding: 0.75rem;
+  background: var(--bg);
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.tc-del-btn {
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--muted);
+  font-size: 0.78rem;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.tc-summary {
+  max-width: 720px;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.tc-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem 1rem;
+}
+
+.tc-result-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.tc-result-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.tc-result-head h4 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.tc-flag {
+  font-size: 0.68rem;
+  padding: 0.18rem 0.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.tc-flag-red {
+  background: #fde2e1;
+  color: #a3271f;
+}
+
+.tc-flag-yellow {
+  background: #fff3cd;
+  color: #7a5a00;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tc-flag-red {
+    background: #3a1a18;
+    color: #f5a39c;
+  }
+  .tc-flag-yellow {
+    background: #3a2f10;
+    color: #f0cf7a;
+  }
+}
+
+.tc-result-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.tc-result-line {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.tc-result-line b {
+  color: var(--text);
+}
+
+.tc-result-main {
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.92rem;
+}
+
+.tc-result-main b {
+  font-size: 1.05rem;
+}
+
+.tc-result-final b {
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+
+.tc-accordion {
+  margin-top: 0.7rem;
+  font-size: 0.8rem;
+}
+
+.tc-accordion summary {
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.tc-detail-body {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.tc-detail-line {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.tc-detail-sep {
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+  border-top: 1px dashed var(--border);
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 600;
+}
