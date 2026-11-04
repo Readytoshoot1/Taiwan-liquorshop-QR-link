@@ -179,5 +179,14 @@
       {"label": "지도", "url": "https://maps.app.goo.gl/UVg5oyfRPkuShUP8A"},
       {"label": "안주남리뷰 (2609)", "url": "https://youtu.be/1GMov_bYDXU?si=dut5oz8PmJRKSwCt"}
     ]
+  },
+  "images/가오슝_위스키쉐어링.jpg": {
+    "links": [
+      {"label": "LINE", "url": "https://lin.ee/Xw0xmN4"},
+      {"label": "INSTAGRAM", "url": "https://www.instagram.com/whiskysharing2019?igsh=cjc0aGRuNnZibm9q"},
+      {"label": "FACEBOOK", "url": "https://www.facebook.com/WhiskySharing?mibextid=wwXIfr&rdid=PvhIgLLVM1NYiyOA&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15g1Q1NyXF%2F%3Fmibextid%3DwwXIfr#"},
+      {"label": "홈페이지", "url": "https://www.whiskysharing.com"},
+      {"label": "지도", "url": "https://maps.app.goo.gl/MWmtiHmX674hQqhh6"}
+    ]
   }
 }
