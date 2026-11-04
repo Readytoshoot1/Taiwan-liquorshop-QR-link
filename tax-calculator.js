@@ -188,11 +188,14 @@ function tcCalcTaiwan(productTotal, shipping, bottles) {
   const taxSub = liquorTax + vat;
   const totalVolumeL = bottles.reduce((s, b) => s + ((b.volume || 0) / 1000) * (b.qty || 0), 0);
   let dhlFee = Math.max(420, taxSub * 0.02);
-  if (cifTwd > 50000) dhlFee += 1000;
+  const isFormal = cifTwd > 50000;
+  if (isFormal) dhlFee += 1000;
   const flags = [];
   if (totalVolumeL > 5) flags.push({ level: "red", text: "개인 통관 한도(5L) 초과: 반입 불가 (수입업 면허 필요)" });
-  if (cifTwd > 50000) flags.push({ level: "yellow", text: "정식 수입신고(G1) 대상 (서면 위임장 + 관세사 수수료 추가)" });
-  return { currency: "TWD", cif: cifTwd, items, lines: [["담배·주류세", liquorTax], ["영업세(5%)", vat]], taxSub, dhlFee, flags };
+  const clearance = isFormal
+    ? { type: "formal", label: "정식통관 (G1)", note: "CIF NT$50,000 초과 — 서면 위임장 + 관세사 수수료 NT$1,000 추가" }
+    : { type: "simple", label: "간이통관", note: "CIF NT$50,000 이하 — 서류 없이 DHL이 대납·통관" };
+  return { currency: "TWD", cif: cifTwd, items, lines: [["담배·주류세", liquorTax], ["영업세(5%)", vat]], taxSub, dhlFee, flags, clearance };
 }
 
 function tcCalcJapan(productTotal, shipping, bottles) {
@@ -211,10 +214,13 @@ function tcCalcJapan(productTotal, shipping, bottles) {
   const taxSub = liquorTax + consumptionTax;
   const totalVolumeL = bottles.reduce((s, b) => s + ((b.volume || 0) / 1000) * (b.qty || 0), 0);
   const dhlFee = Math.max(1100, taxSub * 0.02);
+  const isFormal = cifJpy > 200000;
   const flags = [];
   if (totalVolumeL > 10) flags.push({ level: "red", text: "개인 자가사용 한도 초과 주의 (후생성 식품위생법 대상 우려)" });
-  if (cifJpy > 200000) flags.push({ level: "yellow", text: "일반 정식 수입신고 대상" });
-  return { currency: "JPY", cif: cifJpy, items, lines: [["주세", liquorTax], ["소비세(10%)", consumptionTax]], taxSub, dhlFee, flags };
+  const clearance = isFormal
+    ? { type: "formal", label: "정식통관", note: "CIF 20만 엔 초과 — 일반 정식 수입신고 대상" }
+    : { type: "simple", label: "간이통관", note: "CIF 20만 엔 이하 — 간이신고로 DHL이 대납·통관" };
+  return { currency: "JPY", cif: cifJpy, items, lines: [["주세", liquorTax], ["소비세(10%)", consumptionTax]], taxSub, dhlFee, flags, clearance };
 }
 
 function tcCalcKorea(productTotal, shipping, bottles, totalBottles) {
@@ -227,6 +233,11 @@ function tcCalcKorea(productTotal, shipping, bottles, totalBottles) {
   const dhlFee = Math.max(18700, taxSub * 0.02);
   const flags = [];
   if (totalBottles > 1) flags.push({ level: "yellow", text: "복수 보틀 전액 합산 과세" });
+  const clearance = {
+    type: "formal",
+    label: "정식통관",
+    note: "주류는 금액과 무관하게 목록통관(간이면세) 제외 — 항상 정식 수입신고 대상",
+  };
   return {
     currency: "KRW",
     cif: cifKrw,
@@ -235,6 +246,7 @@ function tcCalcKorea(productTotal, shipping, bottles, totalBottles) {
     taxSub,
     dhlFee,
     flags,
+    clearance,
   };
 }
 
@@ -251,6 +263,10 @@ function tcRenderResultCard(countryName, result, productTotal, shipping) {
   const head = document.createElement("div");
   head.className = "tc-result-head";
   head.innerHTML = `<h4>${countryName}</h4>`;
+  const clearanceBadge = document.createElement("span");
+  clearanceBadge.className = "tc-flag tc-clearance-" + result.clearance.type;
+  clearanceBadge.textContent = result.clearance.label;
+  head.appendChild(clearanceBadge);
   for (const f of result.flags) {
     const badge = document.createElement("span");
     badge.className = "tc-flag tc-flag-" + f.level;
@@ -258,6 +274,11 @@ function tcRenderResultCard(countryName, result, productTotal, shipping) {
     head.appendChild(badge);
   }
   card.appendChild(head);
+
+  const clearanceNote = document.createElement("p");
+  clearanceNote.className = "tc-clearance-note";
+  clearanceNote.textContent = result.clearance.note;
+  card.appendChild(clearanceNote);
 
   const body = document.createElement("div");
   body.className = "tc-result-body";

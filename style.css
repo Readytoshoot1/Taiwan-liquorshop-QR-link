@@ -755,3 +755,30 @@ body {
   color: var(--muted);
   font-weight: 600;
 }
+
+.tc-clearance-simple {
+  background: #d7f0e3;
+  color: #1a6e45;
+}
+
+.tc-clearance-formal {
+  background: #ffe3d1;
+  color: #a85300;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tc-clearance-simple {
+    background: #15342490;
+    color: #8fe0b8;
+  }
+  .tc-clearance-formal {
+    background: #3a2510;
+    color: #f5b97a;
+  }
+}
+
+.tc-clearance-note {
+  margin: 0 0 0.6rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+}
