@@ -17,6 +17,7 @@
   <button class="main-tab" data-target="travel">여행 정보</button>
   <button class="main-tab" data-target="unionpay">유니온페이 할인</button>
   <button class="main-tab" data-target="taxcalc">세금 계산기</button>
+  <button class="main-tab" data-target="whisky">위스키 가격표</button>
 </nav>
 
 <section class="panel" id="qr">
@@ -115,6 +116,19 @@
   <p class="tc-summary" id="tcCartSummary"></p>
 
   <div class="tc-results" id="tcResults"></div>
+</section>
+
+<section class="panel" id="whisky" hidden>
+  <div class="up-head">
+    <p>대만 주류상점 22곳 · 위스키 5,997병 가격·WB점수 조회</p>
+    <a class="up-open" href="whisky/index.html" target="_blank" rel="noopener noreferrer">새 창에서 열기</a>
+  </div>
+  <iframe
+    class="up-frame whisky-frame"
+    src="whisky/index.html"
+    title="대만 위스키 가격표"
+    loading="lazy"
+  ></iframe>
 </section>
 
 <div class="modal" id="modal" hidden>

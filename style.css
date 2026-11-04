@@ -500,6 +500,12 @@ body {
   background: var(--card-bg);
 }
 
+.whisky-frame {
+  max-width: 1100px;
+  height: 85vh;
+  min-height: 600px;
+}
+
 .tc-intro {
   max-width: 720px;
   margin: 0 auto 1rem;
