@@ -99,6 +99,21 @@
     ]
   },
   {
+    "region": "신베이",
+    "name": "주팔팔구양주",
+    "file": "images/신베이_주팔팔구양주.jpg",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://line.me/ti/p/t8vC3B7KiM"
+      },
+      {
+        "label": "지도",
+        "url": "https://maps.app.goo.gl/ePvB6CkjtYmtigyi8"
+      }
+    ]
+  },
+  {
     "region": "신주시",
     "name": "무풍행양주",
     "file": "images/신주시_무풍행양주.jpg",
@@ -347,6 +362,25 @@
       {
         "label": "안주남리뷰 (2609)",
         "url": "https://youtu.be/iXKtG9TIB6I?si=OgYnHfUHPDP22IGu"
+      }
+    ]
+  },
+  {
+    "region": "타이베이",
+    "name": "위스키트레져리(오시리스)",
+    "file": "images/타이베이_위스키트레져리(오시리스).png",
+    "links": [
+      {
+        "label": "LINE",
+        "url": "https://line.me/R/ti/p/@909mikoc"
+      },
+      {
+        "label": "지도",
+        "url": "https://maps.app.goo.gl/JsfAxNgrnTSEbHEw6"
+      },
+      {
+        "label": "안주남리뷰 (2511)",
+        "url": "https://youtu.be/sxR52pGjFQE?si=02btrb8LqKxo7yxC"
       }
     ]
   },
