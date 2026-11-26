@@ -24,6 +24,7 @@ async function init() {
   items = await res.json();
   photoIndex = await fetch("photos.json")
     .then((r) => (r.ok ? r.json() : {}))
+    .then((data) => data.shops || {})
     .catch(() => ({}));
   renderTabs();
   renderGrid();
@@ -144,11 +145,11 @@ function createPhotoButtons(item, className) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = className;
-    button.textContent = `매장사진(${month})`;
+    button.textContent = `🔒 매장사진(${month})`;
     button.addEventListener("click", (e) => {
       e.stopPropagation();
       closeModal();
-      openGallery(shop, month, photoIndex[shop][month], item.name);
+      openGallery(shop, month, item.name);
     });
     row.appendChild(button);
   }

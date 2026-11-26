@@ -20,10 +20,13 @@
 
 ## 매장 사진 갤러리
 
-주류상점 카드와 확대 화면의 `매장사진(YYMM)` 버튼을 누르면 그 달에 찍은 사진 목록이 열리고, 한 장을 누르면 크게 보며 다시 누르면 원본 크기로 확대된다. `YYMM`은 촬영월(예: 2611 = 2026년 11월).
+주류상점 카드와 확대 화면의 `🔒 매장사진(YYMM)` 버튼을 누르고 암호를 입력하면(같은 탭에서는 한 번만) 그 달에 찍은 사진 목록이 열리고, 한 장을 누르면 크게 보며 다시 누르면 원본 크기로 확대된다. `YYMM`은 촬영월(예: 2611 = 2026년 11월).
 새 사진 반영 절차는 `CLAUDE.md`의 "정책 B"를 따른다 (`python build_shop_photos.py`).
 
+사진은 암호화되어 올라간다. 암호 변경 방법과 한계는 `CLAUDE.md`의 "정책 C" 참고.
+
 - `Shop_photos/`: 원본 zip/폴더 (git 제외)
+- `photo_password.txt`, `photo_keys.json`: 암호와 파일 열쇠 (git 제외, 이 PC에만 있음)
 - `build_shop_photos.py`: 웹용 변환 + `photos.json` 생성
 - `photos/<가게이름>/<YYMM>/`, `photos.json`: 변환 결과 (자동 생성)
 - `photo_exclude.json`: 올리지 않을 사진 목록

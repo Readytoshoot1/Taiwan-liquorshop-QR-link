@@ -919,3 +919,51 @@ body.no-scroll {
   max-height: none;
   cursor: zoom-out;
 }
+
+.lock {
+  position: fixed;
+  inset: 0;
+  z-index: 130;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.lock[hidden] {
+  display: none;
+}
+
+.lock-box {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1.2rem;
+  border-radius: 12px;
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.lock-box p {
+  margin: 0;
+}
+
+.lock-error {
+  min-height: 1.2em;
+  color: var(--accent);
+  font-size: 0.8rem;
+}
+
+.lock-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.gallery-thumb {
+  aspect-ratio: 4 / 3;
+}

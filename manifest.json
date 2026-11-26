@@ -74,8 +74,8 @@
         "url": "https://maps.app.goo.gl/JcxDyWzV4FUqhV8S9"
       },
       {
-        "label": "안주남리뷰 (2610)",
-        "url": "https://youtu.be/Bk4N-BxplZA?si=JZW1LjlL4gm5OCyO"
+        "label": "안주남리뷰 (2611)",
+        "url": "https://youtu.be/MtckVgbIROM?si=BUPLOV3q8mNnd3N5"
       }
     ],
     "note": "온라인카드결재 가능, 수수료 5% 붙고, 결재시 무료보관, 1만이상 타이베이 지역 무료택배"
@@ -100,12 +100,6 @@
     ]
   },
   {
-    "region": "불명",
-    "name": "주전어주",
-    "file": "images/불명_주전어주.jpg",
-    "links": []
-  },
-  {
     "region": "신베이",
     "name": "팔팔구양주",
     "file": "images/신베이_팔팔구양주.jpg",
@@ -117,6 +111,10 @@
       {
         "label": "지도",
         "url": "https://maps.app.goo.gl/ePvB6CkjtYmtigyi8"
+      },
+      {
+        "label": "안주남리뷰 (2611)",
+        "url": "https://youtu.be/GKdKy6CeWRY?si=QGWv8y2QB6e-H77V"
       }
     ]
   },
@@ -128,6 +126,21 @@
       {
         "label": "LINE",
         "url": "https://line.me/ti/p/CEzAGubzHq"
+      }
+    ]
+  },
+  {
+    "region": "이란현",
+    "name": "주전어주",
+    "file": "images/이란현_주전어주.png",
+    "links": [
+      {
+        "label": "지도",
+        "url": "https://maps.app.goo.gl/pjD6Z7YfKuXnkSvAA"
+      },
+      {
+        "label": "안주남리뷰 (2510)",
+        "url": "https://www.youtube.com/watch?v=gdg8bCMFCWY"
       }
     ]
   },
@@ -250,8 +263,8 @@
         "url": "https://maps.app.goo.gl/M1xisR4Cg1xZnPXx5"
       },
       {
-        "label": "안주남리뷰 (2610)",
-        "url": "https://youtu.be/ylTQGpKC71A?si=NvIMocoI9c33e3yI"
+        "label": "안주남리뷰 (2611)",
+        "url": "https://youtu.be/VXA3r6b-AVE?si=fRaVGvIe3dNQgekT"
       },
       {
         "label": "카카오톡",
@@ -260,6 +273,21 @@
       {
         "label": "INSTAGRAM",
         "url": "https://www.instagram.com/omywhisky/"
+      }
+    ]
+  },
+  {
+    "region": "타이베이",
+    "name": "강희객주업",
+    "file": "images/타이베이_강희객주업.png",
+    "links": [
+      {
+        "label": "지도",
+        "url": "https://maps.app.goo.gl/2eRMrC3CmTcd3jww8"
+      },
+      {
+        "label": "안주남리뷰 (2610)",
+        "url": "https://youtu.be/fHYOv6ELvrk?si=kNKInya9kDWGWaVd"
       }
     ]
   },
@@ -451,8 +479,8 @@
         "url": "https://band.us/n/a0a9bdNche9aF"
       },
       {
-        "label": "안주남리뷰 (2610)",
-        "url": "https://youtu.be/caitfZ1a66E?si=TwfkhOliaJy7Ahbo"
+        "label": "안주남리뷰 (2611)",
+        "url": "https://youtu.be/j6SRk0gjLtI?si=_LnaMRzNZMMfvMSa"
       }
     ],
     "note": "라인으로 문의/구매 가능, 카드/분할결재 가능, 2회 이상 구매, 취소이력 없을시 밴드초대 가능"
@@ -542,6 +570,21 @@
       {
         "label": "LINE",
         "url": "https://lin.ee/R6A9KoL"
+      }
+    ]
+  },
+  {
+    "region": "타이중",
+    "name": "스피릿살롱",
+    "file": "images/타이중_스피릿살롱.png",
+    "links": [
+      {
+        "label": "지도",
+        "url": "https://maps.app.goo.gl/1BPbLeqDXeNfRGfp9"
+      },
+      {
+        "label": "안주남리뷰 (2611)",
+        "url": "https://youtu.be/WnpPK7UiVZ4?si=sTKtE-9RKlmRywyq"
       }
     ]
   },

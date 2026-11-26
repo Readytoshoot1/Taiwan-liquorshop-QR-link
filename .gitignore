@@ -1,3 +1,8 @@
 # 매장 사진 원본 (수백 MB, GitHub 업로드 불가)
 Shop_photos/
 __pycache__/
+# 매장사진 암호와 열쇠 (절대 올리지 않음)
+photo_password.txt
+photo_keys.json
+# 보류 중인 이미지
+images_hold/
