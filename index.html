@@ -143,6 +143,31 @@
   </figure>
 </div>
 
+<div class="gallery" id="gallery" hidden>
+  <div class="gallery-head">
+    <h2 id="galleryTitle"></h2>
+    <button type="button" id="galleryClose" aria-label="닫기">&times;</button>
+  </div>
+  <div class="gallery-grid" id="galleryGrid"></div>
+</div>
+
+<div class="viewer" id="viewer" hidden>
+  <div class="viewer-bar">
+    <span id="viewerCount"></span>
+    <a id="viewerOpen" href="#" target="_blank" rel="noopener noreferrer">원본 열기</a>
+    <button type="button" id="viewerClose" aria-label="닫기">&times;</button>
+  </div>
+  <div class="viewer-stage" id="viewerStage">
+    <img id="viewerImg" alt="매장사진" />
+  </div>
+  <div class="viewer-nav">
+    <button type="button" id="viewerPrev">&#8249; 이전</button>
+    <span>사진을 누르면 확대/축소</span>
+    <button type="button" id="viewerNext">다음 &#8250;</button>
+  </div>
+</div>
+
+<script src="gallery.js"></script>
 <script src="script.js"></script>
 <script src="travel.js"></script>
 <script src="tax-calculator.js"></script>

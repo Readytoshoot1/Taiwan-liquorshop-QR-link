@@ -77,7 +77,8 @@
         "label": "안주남리뷰 (2610)",
         "url": "https://youtu.be/Bk4N-BxplZA?si=JZW1LjlL4gm5OCyO"
       }
-    ]
+    ],
+    "note": "온라인카드결재 가능, 수수료 5% 붙고, 결재시 무료보관, 1만이상 타이베이 지역 무료택배"
   },
   {
     "region": "린커우",
@@ -97,6 +98,12 @@
         "url": "https://youtu.be/1jV5cgn_FTI?si=eUTsxtTGr9K_9K-H"
       }
     ]
+  },
+  {
+    "region": "불명",
+    "name": "주전어주",
+    "file": "images/불명_주전어주.jpg",
+    "links": []
   },
   {
     "region": "신베이",

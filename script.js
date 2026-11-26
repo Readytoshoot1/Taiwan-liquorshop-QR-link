@@ -10,6 +10,7 @@ const modalNote = document.getElementById("modalNote");
 const searchInput = document.getElementById("searchInput");
 
 let items = [];
+let photoIndex = {};
 let activeRegion = "전체";
 let searchQuery = "";
 
@@ -21,6 +22,9 @@ searchInput.addEventListener("input", (e) => {
 async function init() {
   const res = await fetch("manifest.json");
   items = await res.json();
+  photoIndex = await fetch("photos.json")
+    .then((r) => (r.ok ? r.json() : {}))
+    .catch(() => ({}));
   renderTabs();
   renderGrid();
 }
@@ -77,6 +81,12 @@ function renderGrid() {
       info.appendChild(note);
     }
 
+    const photoRow = createPhotoButtons(item, "card-link photo-btn");
+    if (photoRow) {
+      photoRow.className = "card-links";
+      info.appendChild(photoRow);
+    }
+
     if (item.links && item.links.length) {
       const linkRow = document.createElement("div");
       linkRow.className = "card-links";
@@ -118,7 +128,31 @@ function openModal(item) {
     modalLinks.appendChild(a);
   }
 
+  const photoRow = createPhotoButtons(item, "modal-link photo-btn");
+  if (photoRow) modalLinks.append(...photoRow.children);
+
   modalEl.hidden = false;
+}
+
+// 촬영월별 "매장사진(YYMM)" 버튼. 사진 폴더 이름은 띄어쓰기 없이 맞춰 본다.
+function createPhotoButtons(item, className) {
+  const squash = (s) => s.replace(/\s/g, "");
+  const shop = Object.keys(photoIndex).find((k) => squash(k) === squash(item.name));
+  if (!shop) return null;
+  const row = document.createElement("div");
+  for (const month of Object.keys(photoIndex[shop]).sort().reverse()) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = className;
+    button.textContent = `매장사진(${month})`;
+    button.addEventListener("click", (e) => {
+      e.stopPropagation();
+      closeModal();
+      openGallery(shop, month, photoIndex[shop][month], item.name);
+    });
+    row.appendChild(button);
+  }
+  return row;
 }
 
 function closeModal() {

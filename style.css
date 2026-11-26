@@ -788,3 +788,134 @@ body {
   font-size: 0.72rem;
   color: var(--muted);
 }
+
+.photo-btn {
+  border: 1px solid var(--accent);
+  background: var(--card-bg);
+  color: var(--accent);
+  font-family: inherit;
+  cursor: pointer;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+.gallery,
+.viewer {
+  position: fixed;
+  inset: 0;
+  color: #fff;
+  background: #111;
+}
+
+.gallery[hidden],
+.viewer[hidden] {
+  display: none;
+}
+
+.gallery {
+  z-index: 110;
+  overflow-y: auto;
+}
+
+.gallery-head {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  background: #111;
+}
+
+.gallery-head h2 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.gallery-head button,
+.viewer button {
+  border: none;
+  background: none;
+  color: #fff;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0.4rem 0.7rem;
+}
+
+.gallery-head button,
+#viewerClose {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 4px;
+  padding: 0 4px 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.gallery-thumb {
+  border: none;
+  padding: 0;
+  background: #222;
+  cursor: pointer;
+}
+
+.gallery-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.viewer {
+  z-index: 120;
+  display: flex;
+  flex-direction: column;
+}
+
+.viewer-bar,
+.viewer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+.viewer-bar a {
+  color: #fff;
+}
+
+.viewer-nav span {
+  color: #aaa;
+  font-size: 0.75rem;
+}
+
+.viewer-stage {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  overflow: auto;
+}
+
+.viewer-stage img {
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  cursor: zoom-in;
+}
+
+.viewer-stage.zoomed img {
+  max-width: none;
+  max-height: none;
+  cursor: zoom-out;
+}

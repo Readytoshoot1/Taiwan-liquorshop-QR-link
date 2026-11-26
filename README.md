@@ -18,6 +18,18 @@
 4. **세금 계산기** (`tax-calculator.js`) — 해외(USD/GBP/EUR/JPY)에서 위스키를 구매해 DHL로 대만·일본·한국에 보낼 때 드는 세금 + DHL 수수료를 계산한다. 위스키를 여러 병 담으면 국가별 세금·간이통관/정식통관 구분·통관 경고(5L/10L 한도 등)를 자동으로 보여준다. 환율은 `open.er-api.com`에서 자동으로 불러오고, 필요하면 직접 수정할 수 있다. 입력값은 `localStorage`에 저장된다.
 5. **위스키 가격표** (`whisky/index.html` + `whisky/data.json`) — 대만 주류상점 22곳, 위스키 5,997병의 가격·WhiskyBase(WB) 점수 등을 조회하는 별도 서브 페이지를 iframe으로 띄운다. `data.json`이 8MB대로 커서 로딩이 느릴 수 있다. 이 탭의 생성 스크립트/파이프라인은 이 저장소에 없고(다른 작업에서 만들어진 결과물을 그대로 올린 것), 내부 구조를 깊이 알아야 하면 `whisky/index.html`을 직접 열어서 확인해야 한다. `Whisky_compact/whisky_compact_20261104.xlsx`는 아마 그 원본 엑셀로 보이는 로컬 파일이며, git에는 올리지 않았고 사이트에서 쓰지도 않는다.
 
+## 매장 사진 갤러리
+
+주류상점 카드와 확대 화면의 `매장사진(YYMM)` 버튼을 누르면 그 달에 찍은 사진 목록이 열리고, 한 장을 누르면 크게 보며 다시 누르면 원본 크기로 확대된다. `YYMM`은 촬영월(예: 2611 = 2026년 11월).
+새 사진 반영 절차는 `CLAUDE.md`의 "정책 B"를 따른다 (`python build_shop_photos.py`).
+
+- `Shop_photos/`: 원본 zip/폴더 (git 제외)
+- `build_shop_photos.py`: 웹용 변환 + `photos.json` 생성
+- `photos/<가게이름>/<YYMM>/`, `photos.json`: 변환 결과 (자동 생성)
+- `photo_exclude.json`: 올리지 않을 사진 목록
+- `gallery.js`: 갤러리 화면
+- `CLAUDE.md`: 새 대화에서 따를 작업 정책
+
 ## 파일 구조
 
 | 파일/폴더 | 설명 |
@@ -57,10 +69,7 @@
 10. push가 `remote: fatal error in commit_refs` 등으로 실패하면 GitHub 쪽 일시적 오류일 수 있으니 `git push`를 한 번 더 재시도한다.
 11. 배포 반영은 `curl`로 `manifest.json`(또는 바뀐 파일)에 새 내용이 보일 때까지 백그라운드 polling 후 사용자에게 보고한다.
 
-커밋 메시지 마지막 줄에는 항상 아래를 붙인다 (하네스 요구사항):
-```
-Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>
-```
+커밋 메시지 마지막의 `Co-Authored-By` 줄은 그 대화에서 Claude Code가 안내하는 최신 문구를 따른다.
 
 ## 주류상점 QR: 이미지 추가하는 법 (수동으로 할 경우)
 
