@@ -19,6 +19,7 @@ from pyzbar.pyzbar import decode as zbar_decode
 IMAGES_DIR = Path(__file__).parent / "images"
 OUTPUT = Path(__file__).parent / "manifest.json"
 OVERRIDES = Path(__file__).parent / "link_overrides.json"
+SHOP_INFO = Path(__file__).parent / "Linkshop_information.md"
 
 detector = cv2.QRCodeDetector()
 
@@ -79,8 +80,37 @@ def load_overrides() -> dict:
     return json.loads(OVERRIDES.read_text(encoding="utf-8"))
 
 
+def squash(name: str) -> str:
+    return name.replace(" ", "")
+
+
+def load_notes() -> dict:
+    """Linkshop_information.md의 '비고:' 줄을 {가게이름: 설명}으로 읽는다.
+
+    파일이 없는 PC에서는 기존 manifest.json의 설명을 그대로 유지한다.
+    """
+    if not SHOP_INFO.exists():
+        print("Linkshop_information.md가 없어 기존 비고를 유지합니다.")
+        old = json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else []
+        return {squash(i["name"]): i["note"] for i in old if i.get("note")}
+
+    notes, shop = {}, None
+    for line in SHOP_INFO.read_text(encoding="utf-8-sig").splitlines():
+        if not line.strip():
+            continue
+        if not line[0].isspace():
+            # 제목 줄: '지역 가게이름'
+            shop = squash(line.split(" ", 1)[-1])
+            continue
+        key, _, value = line.strip().replace("：", ":").partition(":")
+        if shop and key.strip() == "비고" and value.strip():
+            notes[shop] = chr(10).join(filter(None, [notes.get(shop), value.strip()]))
+    return notes
+
+
 def build_manifest():
     overrides = load_overrides()
+    notes = load_notes()
     items = []
     failed = []
     for path in sorted(IMAGES_DIR.iterdir()):
@@ -92,11 +122,9 @@ def build_manifest():
             continue
         region, name = stem.split("_", 1)
         file_key = f"images/{path.name}"
-        note = ""
         if file_key in overrides:
             override = overrides[file_key]
             links = override["links"]
-            note = override.get("note", "")
         else:
             urls = decode_qr_all(path)
             if not urls:
@@ -108,6 +136,7 @@ def build_manifest():
             "file": file_key,
             "links": links,
         }
+        note = notes.pop(squash(name), "")
         if note:
             item["note"] = note
         items.append(item)
@@ -117,6 +146,8 @@ def build_manifest():
         encoding="utf-8",
     )
     print(f"{len(items)}개 항목을 manifest.json에 저장했습니다.")
+    for name in notes:
+        print(f"비고를 붙일 매장을 찾지 못함 (이름 확인 필요): {name}")
     if failed:
         print("QR코드 디코딩 실패 (수동으로 manifest.json의 links 값을 채워주세요):")
         for name in failed:
