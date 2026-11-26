@@ -164,6 +164,21 @@
     ]
   },
   {
+    "region": "중리시",
+    "name": "쿠바위스키",
+    "file": "images/중리시_쿠바위스키.png",
+    "links": [
+      {
+        "label": "지도",
+        "url": "https://maps.app.goo.gl/zFae8becS2AEdS5u7"
+      },
+      {
+        "label": "안주남리뷰 (2606)",
+        "url": "https://youtu.be/fYUeho5Bj7o?si=GzW2-sYJJopZHgL3"
+      }
+    ]
+  },
+  {
     "region": "타오위안",
     "name": "위안주사",
     "file": "images/타오위안_위안주사.jpg",

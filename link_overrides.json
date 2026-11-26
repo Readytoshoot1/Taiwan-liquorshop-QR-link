@@ -221,5 +221,11 @@
       {"label": "지도", "url": "https://maps.app.goo.gl/2eRMrC3CmTcd3jww8"},
       {"label": "안주남리뷰 (2610)", "url": "https://youtu.be/fHYOv6ELvrk?si=kNKInya9kDWGWaVd"}
     ]
+  },
+  "images/중리시_쿠바위스키.png": {
+    "links": [
+      {"label": "지도", "url": "https://maps.app.goo.gl/zFae8becS2AEdS5u7"},
+      {"label": "안주남리뷰 (2606)", "url": "https://youtu.be/fYUeho5Bj7o?si=GzW2-sYJJopZHgL3"}
+    ]
   }
 }
