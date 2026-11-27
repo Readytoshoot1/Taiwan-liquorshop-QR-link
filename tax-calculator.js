@@ -198,9 +198,14 @@ function tcCalcTaiwan(productTotal, shipping, bottles) {
   return { currency: "TWD", cif: cifTwd, items, lines: [["담배·주류세", liquorTax], ["영업세(5%)", vat]], taxSub, dhlFee, flags, clearance };
 }
 
+// 개인 사용 수입의 과세가격은 (배송비가 따로 적혀 있으면 뺀) 상품가 × 60%.
+// 과세가격 1만 엔 이하면 관세·소비세는 면제되고 주세는 부과된다 (일본 세관 안내).
+const TC_JP_EXEMPT_JPY = 10000;
+
 function tcCalcJapan(productTotal, shipping, bottles) {
-  const cifJpy = (productTotal + shipping) * tcCrossRate(tcState.currency, "JPY");
-  const base = cifJpy * 0.6;
+  const jpyRate = tcCrossRate(tcState.currency, "JPY");
+  const cifJpy = (productTotal + shipping) * jpyRate;
+  const base = productTotal * jpyRate * 0.6;
   let liquorTax = 0;
   const items = bottles.map((b) => {
     const volL = (b.volume || 0) / 1000;
@@ -210,17 +215,29 @@ function tcCalcJapan(productTotal, shipping, bottles) {
     liquorTax += t;
     return { label: b.label || "(이름 없음)", tax: t };
   });
-  const consumptionTax = (base + liquorTax) * 0.1;
+  const exempt = base > 0 && base <= TC_JP_EXEMPT_JPY + 1e-6;
+  const consumptionTax = exempt ? 0 : (base + liquorTax) * 0.1;
   const taxSub = liquorTax + consumptionTax;
   const totalVolumeL = bottles.reduce((s, b) => s + ((b.volume || 0) / 1000) * (b.qty || 0), 0);
   const dhlFee = Math.max(1100, taxSub * 0.02);
-  const isFormal = cifJpy > 200000;
+  const isFormal = base > 200000;
   const flags = [];
+  if (exempt) flags.push({ level: "green", text: "소액면세: 소비세 면제 (주세는 부과)" });
   if (totalVolumeL > 10) flags.push({ level: "red", text: "개인 자가사용 한도 초과 주의 (후생성 식품위생법 대상 우려)" });
+  const baseText = `과세가격 ¥${tcFormat(base)} (상품가×60%, 배송비 제외)`;
   const clearance = isFormal
-    ? { type: "formal", label: "정식통관", note: "CIF 20만 엔 초과 — 일반 정식 수입신고 대상" }
-    : { type: "simple", label: "간이통관", note: "CIF 20만 엔 이하 — 간이신고로 DHL이 대납·통관" };
-  return { currency: "JPY", cif: cifJpy, items, lines: [["주세", liquorTax], ["소비세(10%)", consumptionTax]], taxSub, dhlFee, flags, clearance };
+    ? { type: "formal", label: "정식통관", note: `${baseText} · 20만 엔 초과 — 일반 정식 수입신고 대상` }
+    : { type: "simple", label: "간이통관", note: `${baseText} · 20만 엔 이하 — 간이신고 · 소액면세 기준 1만 엔 이하` };
+  return {
+    currency: "JPY",
+    cif: cifJpy,
+    items,
+    lines: [["주세", liquorTax], [exempt ? "소비세(면제)" : "소비세(10%)", consumptionTax]],
+    taxSub,
+    dhlFee,
+    flags,
+    clearance,
+  };
 }
 
 // 주류 소액면세: 물품가격(국제배송비 제외) US$150 이하 + 1병 + 1L 이하이면
