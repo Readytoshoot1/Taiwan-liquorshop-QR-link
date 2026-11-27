@@ -223,26 +223,44 @@ function tcCalcJapan(productTotal, shipping, bottles) {
   return { currency: "JPY", cif: cifJpy, items, lines: [["주세", liquorTax], ["소비세(10%)", consumptionTax]], taxSub, dhlFee, flags, clearance };
 }
 
-function tcCalcKorea(productTotal, shipping, bottles, totalBottles) {
+// 주류 소액면세: 물품가격(국제배송비 제외) US$150 이하 + 1병 + 1L 이하이면
+// 관세·부가세만 면제되고 주세·교육세는 부과된다 (관세청 해외직구 안내).
+const TC_KR_EXEMPT_USD = 150;
+
+function tcCalcKorea(productTotal, shipping, totalBottles, totalVolumeL) {
   const cifKrw = (productTotal + shipping) * tcCrossRate(tcState.currency, "KRW");
-  const duty = cifKrw * 0.2;
+  const productUsd = productTotal * tcCrossRate(tcState.currency, "USD");
+  const reasons = [];
+  if (productUsd > TC_KR_EXEMPT_USD + 1e-9) reasons.push("물품가격 US$150 초과");
+  if (totalBottles > 1) reasons.push("2병 이상");
+  if (totalVolumeL > 1) reasons.push("1L 초과");
+  const exempt = totalBottles === 1 && reasons.length === 0;
+
+  const duty = exempt ? 0 : cifKrw * 0.2;
   const liquorTax = (cifKrw + duty) * 0.72;
   const eduTax = liquorTax * 0.3;
-  const vat = (cifKrw + duty + liquorTax + eduTax) * 0.1;
+  const vat = exempt ? 0 : (cifKrw + duty + liquorTax + eduTax) * 0.1;
   const taxSub = duty + liquorTax + eduTax + vat;
   const dhlFee = Math.max(18700, taxSub * 0.02);
+
   const flags = [];
-  if (totalBottles > 1) flags.push({ level: "yellow", text: "복수 보틀 전액 합산 과세" });
+  if (exempt) flags.push({ level: "green", text: "소액면세: 관세·부가세 면제 (주세·교육세는 부과)" });
+  else if (reasons.length) flags.push({ level: "yellow", text: `소액면세 제외(${reasons.join(", ")}): 전액 과세` });
   const clearance = {
     type: "formal",
     label: "정식통관",
-    note: "주류는 금액과 무관하게 목록통관(간이면세) 제외 — 항상 정식 수입신고 대상",
+    note: `주류는 금액과 무관하게 수입신고 대상 · 면세 판단 물품가격 US$${productUsd.toFixed(2)} (국제배송비 제외, 기준 US$150 · 1병 · 1L 이하)`,
   };
   return {
     currency: "KRW",
     cif: cifKrw,
     items: [],
-    lines: [["관세(20%)", duty], ["주세(72%)", liquorTax], ["교육세(30%)", eduTax], ["부가세(10%)", vat]],
+    lines: [
+      [exempt ? "관세(면제)" : "관세(20%)", duty],
+      ["주세(72%)", liquorTax],
+      ["교육세(30%)", eduTax],
+      [exempt ? "부가세(면제)" : "부가세(10%)", vat],
+    ],
     taxSub,
     dhlFee,
     flags,
@@ -328,7 +346,7 @@ function tcCalcAll() {
 
   const tw = tcCalcTaiwan(productTotal, tcState.shipping, tcState.bottles);
   const jp = tcCalcJapan(productTotal, tcState.shipping, tcState.bottles);
-  const kr = tcCalcKorea(productTotal, tcState.shipping, tcState.bottles, totalBottles);
+  const kr = tcCalcKorea(productTotal, tcState.shipping, totalBottles, totalVolumeL);
 
   tcResults.innerHTML = "";
   tcResults.appendChild(tcRenderResultCard("🇹🇼 대만", tw, productTotal, tcState.shipping));

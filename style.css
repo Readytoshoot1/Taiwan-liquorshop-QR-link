@@ -967,3 +967,15 @@ body.no-scroll {
 .gallery-thumb {
   aspect-ratio: 4 / 3;
 }
+
+.tc-flag-green {
+  background: #d7f0e3;
+  color: #1a6e45;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tc-flag-green {
+    background: #153424;
+    color: #8fe0b8;
+  }
+}
