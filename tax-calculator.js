@@ -4,6 +4,7 @@ const TC_STORAGE_KEY = "taxCalcState_v1";
 const tcRateInfo = document.getElementById("tcRateInfo");
 const tcCurrency = document.getElementById("tcCurrency");
 const tcShipping = document.getElementById("tcShipping");
+const tcDiscount = document.getElementById("tcDiscount");
 const tcRateGrid = document.getElementById("tcRateGrid");
 const tcAddBottle = document.getElementById("tcAddBottle");
 const tcBottleList = document.getElementById("tcBottleList");
@@ -15,6 +16,7 @@ let tcState = {
   rateDate: "",
   currency: "USD",
   shipping: 50,
+  discount: 0,
   bottles: [
     { id: 1, label: "", price: 100, volume: 700, abv: 50, qty: 1 },
   ],
@@ -28,6 +30,7 @@ function tcLoadState() {
     const saved = JSON.parse(raw);
     if (saved.currency) tcState.currency = saved.currency;
     if (typeof saved.shipping === "number") tcState.shipping = saved.shipping;
+    if (typeof saved.discount === "number") tcState.discount = saved.discount;
     if (Array.isArray(saved.bottles) && saved.bottles.length) {
       tcState.bottles = saved.bottles;
       tcNextId = Math.max(...saved.bottles.map((b) => b.id)) + 1;
@@ -45,6 +48,7 @@ function tcSaveState() {
       JSON.stringify({
         currency: tcState.currency,
         shipping: tcState.shipping,
+        discount: tcState.discount,
         bottles: tcState.bottles,
         rates: tcState.rates,
       })
@@ -358,8 +362,16 @@ function tcDetailLine(label, value) {
 }
 
 function tcCalcAll() {
-  const { totalBottles, totalVolumeL, productTotal } = tcCartTotals();
-  tcCartSummary.textContent = `총 ${totalBottles}병 · ${totalVolumeL.toFixed(2)}L · 상품 총액 ${TC_CURRENCY_SYMBOL[tcState.currency]}${tcFormat(productTotal)} · CIF ${TC_CURRENCY_SYMBOL[tcState.currency]}${tcFormat(productTotal + tcState.shipping)}`;
+  const { totalBottles, totalVolumeL, productTotal: listTotal } = tcCartTotals();
+  // 쿠폰은 상품가에만 적용한다. 세금·면세 판단은 할인 후 실제 결제하는 가격 기준.
+  const discountAmount = (listTotal * tcState.discount) / 100;
+  const productTotal = listTotal - discountAmount;
+  const sym = TC_CURRENCY_SYMBOL[tcState.currency];
+  const money = (n) => sym + tcFormat(n, Number.isInteger(n) ? 0 : 2);
+  const priceText = discountAmount > 0
+    ? `상품 총액 ${money(listTotal)} − 쿠폰 ${tcState.discount}%(${money(discountAmount)}) = ${money(productTotal)}`
+    : `상품 총액 ${money(listTotal)}`;
+  tcCartSummary.textContent = `총 ${totalBottles}병 · ${totalVolumeL.toFixed(2)}L · ${priceText} · 배송비 포함 ${money(productTotal + tcState.shipping)}`;
 
   const tw = tcCalcTaiwan(productTotal, tcState.shipping, tcState.bottles);
   const jp = tcCalcJapan(productTotal, tcState.shipping, tcState.bottles);
@@ -384,6 +396,14 @@ tcShipping.addEventListener("input", (e) => {
   tcCalcAll();
 });
 
+tcDiscount.addEventListener("input", (e) => {
+  const value = Math.min(100, Math.max(0, parseFloat(e.target.value) || 0));
+  if (e.target.value !== "" && value !== parseFloat(e.target.value)) e.target.value = value;
+  tcState.discount = value;
+  tcSaveState();
+  tcCalcAll();
+});
+
 tcAddBottle.addEventListener("click", () => {
   tcState.bottles.push({ id: tcNextId++, label: "", price: 0, volume: 700, abv: 50, qty: 1 });
   tcSaveState();
@@ -395,6 +415,7 @@ function tcInit() {
   tcLoadState();
   tcCurrency.value = tcState.currency;
   tcShipping.value = tcState.shipping;
+  tcDiscount.value = tcState.discount || "";
   tcRenderRateGrid();
   tcRenderBottleList();
   tcCalcAll();
